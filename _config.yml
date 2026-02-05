@@ -1,6 +1,5 @@
 title: iScript
-description: iOS를 위한 완벽한 스크립트 작성 도구
-theme: jekyll-theme-slate
+description:
 baseurl: ""
 url: "https://fbfenf.github.io"
 markdown: kramdown
