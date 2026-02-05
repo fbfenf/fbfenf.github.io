@@ -8,6 +8,7 @@ permalink: /privacy/
 
 **iScript Lab**은 사용자의 개인정보를 소중히 다루며, 관련 법규를 준수합니다.
 
+
 ### 1. 수집하는 개인정보 항목
 **iScript** 앱은 사용자의 어떠한 개인정보(이름, 이메일, 연락처 등)도 자체 서버로 전송하거나 수집하지 않습니다.
 단, 광고 서비스(Google AdMob) 제공을 위해 다음과 같은 기기 식별 정보가 수집될 수 있습니다.
@@ -30,4 +31,6 @@ AI 분석 및 음성 재생(TTS) 기능을 위해 텍스트 데이터가 **Googl
 
 ### 6. 문의사항
 문의사항이 있으시면 고객 지원 페이지를 통해 연락주시기 바랍니다.
-*   이메일: [ryullee@gmail.com](mailto:ryullee@gmail.com)
+
+
+© 2026 iScript Lab. All rights reserved.
