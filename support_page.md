@@ -1,4 +1,11 @@
+---
+layout: default
+title: 고객 지원
+permalink: /support-detail/
+---
+
 # 고객 지원 (Customer Support)
+
 
 iScript를 이용해주셔서 감사합니다. 사용 중 궁금한 점이나 문제가 있으시면 언제든 연락 주세요.
 

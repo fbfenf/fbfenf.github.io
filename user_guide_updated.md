@@ -1,4 +1,11 @@
+---
+layout: default
+title: iScript 사용자 가이드
+permalink: /user-guide/
+---
+
 # iScript 사용자 가이드
+
 
 **intelligent Script for U&i** - AI 기반 iOS 언어 학습 앱
 
