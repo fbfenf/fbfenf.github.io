@@ -1,5 +1,6 @@
 title: iScript
-description:
+description: 
+theme: jekyll-theme-slate
 baseurl: ""
 url: "https://fbfenf.github.io"
 markdown: kramdown
