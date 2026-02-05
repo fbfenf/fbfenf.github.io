@@ -30,7 +30,7 @@ iScript를 이용해주셔서 감사합니다. 사용 중 궁금한 점이나 �
 ## 📚 도움말 및 가이드
 
 ### 사용자 가이드
-- 📖 [iScript 사용자 가이드](https://fbfenf.github.io/guide/)
+- 📖 [iScript 사용자 가이드](https://fbfenf.github.io/index/)
 - 📺 [3분 사용법 영상](https://youtu.be/xUybFtc4g14)
 - 📺 [대본 만드는 법](https://youtu.be/3XBsYnaatcw)
 
