@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 고객 지원
-permalink: /support-detail/
+permalink: /support/
 ---
 
 # 고객 지원 (Customer Support)

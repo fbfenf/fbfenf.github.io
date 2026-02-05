@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 개인정보처리방침 (상세)
-permalink: /privacy-policy/
+title: 개인정보처리방침
+permalink: /privacy/
 ---
 
 # 개인정보처리방침 (Privacy Policy)

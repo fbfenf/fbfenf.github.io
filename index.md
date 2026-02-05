@@ -1,11 +1,19 @@
 ---
 layout: default
-title: iScript 사용자 가이드
-permalink: /user-guide/
+title: iScript
 ---
 
-# iScript 사용자 가이드
+# **Brand Identity**
 
+**iScript: intelligent Script for U&i**는 단순한 어학 도구를 넘어, 기술과 사람의 유기적인 성장을 지향합니다.
+
+- **U (User)**: 학습의 주체인 당신
+- **& (Connection)**: 서로 소통하며 성장하는 연결
+- **i (Intelligence/Individual)**: 최신 AI 기술과 개별 기록의 조화---
+
+
+---
+# iScript 사용자 가이드
 
 **intelligent Script for U&i** - AI 기반 iOS 언어 학습 앱
 
