@@ -4,7 +4,7 @@ title: 개인정보처리방침
 permalink: /privacy/
 ---
 
-# 개인정보처리방침 (Privacy Policy)
+# **개인정보처리방침 (Privacy Policy)**
 
 **iScript Lab**은 사용자의 개인정보를 소중히 다루며, 관련 법규를 준수합니다.
 
@@ -31,4 +31,3 @@ AI 분석 및 음성 재생(TTS) 기능을 위해 텍스트 데이터가 **Googl
 ### 6. 문의사항
 문의사항이 있으시면 고객 지원 페이지를 통해 연락주시기 바랍니다.
 *   이메일: [ryullee@gmail.com](mailto:ryullee@gmail.com)
-*   [고객지원 페이지 바로가기](/support/)
