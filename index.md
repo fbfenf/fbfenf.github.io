@@ -11,7 +11,7 @@ title: iScript
 - **& (Connection)**: 서로 소통하며 성장하는 연결
 - **i (Intelligence/Individual)**: 최신 AI 기술과 개별 기록의 조화---
 
-
+<br>
 ---
 # iScript 사용자 가이드
 
