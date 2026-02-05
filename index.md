@@ -3,8 +3,7 @@ layout: default
 title: iScript
 ---
 
-# **Brand Identity**
-
+**Brand Identity**
 **iScript: intelligent Script for U&i**는 단순한 어학 도구를 넘어, 기술과 사람의 유기적인 성장을 지향합니다.
 
 - **U (User)**: 학습의 주체인 당신
