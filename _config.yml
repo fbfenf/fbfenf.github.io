@@ -1,0 +1,7 @@
+title: iScript
+description: iOS를 위한 완벽한 스크립트 작성 도구
+theme: minima
+baseurl: ""
+url: "https://fbfenf.github.io"
+markdown: kramdown
+show_downloads: false
