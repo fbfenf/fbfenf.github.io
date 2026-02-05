@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 개인정보처리방침
-permalink: /privacy/
 ---
 
 # **개인정보처리방침 (Privacy Policy)**

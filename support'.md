@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 고객지원 및 가이드
-permalink: /support/
 ---
 
 # **Customer Support** 
