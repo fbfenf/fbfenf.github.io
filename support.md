@@ -36,7 +36,6 @@ iScript를 이용해주셔서 감사합니다. 사용 중 궁금한 점이나 �
 
 ### 개인정보 및 약관
 - 🔒 [개인정보처리방침](https://fbfenf.github.io/privacy/)
-- 📜 서비스 이용약관 (앱 내 설정에서 확인)
 
 ---
 
@@ -194,7 +193,7 @@ iScript를 이용해주셔서 감사합니다. 사용 중 궁금한 점이나 �
 
 ## 🔗 유용한 링크
 
-- 📖 [사용자 가이드](https://fbfenf.github.io/index/)
+- 📖 [사용자 가이드](https://fbfenf.github.io)
 - 🔒 [개인정보처리방침](https://fbfenf.github.io/privacy/)
 - 🔑 [Google AI Studio (API 키 발급)](https://aistudio.google.com/app/apikey)
 
