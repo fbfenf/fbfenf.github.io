@@ -4,6 +4,10 @@ title: 고객 지원
 permalink: /support/
 ---
 
+[🇰🇷 **한국어**](/support) | [🇺🇸 English](/support-en) | [🇯🇵 日本語](/support-ja) | [🇨🇳 中文](/support-zh)
+
+---
+
 # 고객 지원 (Customer Support)
 
 > iScript를 이용해주셔서 감사합니다!  
