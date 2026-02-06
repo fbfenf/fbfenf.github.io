@@ -3,7 +3,7 @@ layout: default
 title: iScript
 ---
 
-[🇰🇷 한국어](/) | [🇺🇸 English](/index-en) | [🇯🇵 日本語](/index-ja) | [🇨🇳 **中文**](/index-zh)
+[한국어](/) | [English](/index-en) | [日本語](/index-ja) | [**中文**](/index-zh)
 
 ---
 
