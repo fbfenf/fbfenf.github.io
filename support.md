@@ -194,8 +194,7 @@ iScript를 이용해주셔서 감사합니다. 사용 중 궁금한 점이나 �
 
 ## 🔗 유용한 링크
 
-- 🏠 [홈페이지](https://fbfenf.github.io/)
-- 📖 [사용자 가이드](https://fbfenf.github.io/guide/)
+- 📖 [사용자 가이드](https://fbfenf.github.io/index/)
 - 🔒 [개인정보처리방침](https://fbfenf.github.io/privacy/)
 - 🔑 [Google AI Studio (API 키 발급)](https://aistudio.google.com/app/apikey)
 
