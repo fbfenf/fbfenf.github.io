@@ -241,7 +241,7 @@ A: 대본 보기는 오프라인에서도 가능하나, AI 분석과 TTS 기능�
 ---
 
 **플랫폼**: iOS (iPhone, iPad)  
-**버전**: 1.0.6  
+**버전**: 1.1.5  
 **최종 업데이트**: 2026년 2월 5일
 
 © 2026 iScript Lab. All rights reserved.
