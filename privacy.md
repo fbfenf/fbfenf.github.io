@@ -4,7 +4,7 @@ title: 개인정보처리방침
 permalink: /privacy/
 ---
 
-[**한국어**](/privacy) | [English](/privacy-en) | [日本語](/privacy-ja) | [中文](/privacy-zh)
+[**한국어**](/privacy) · [English](/privacy-en) · [日本語](/privacy-ja) · [中文](/privacy-zh)
 
 ---
 

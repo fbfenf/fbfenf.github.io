@@ -4,7 +4,7 @@ title: 고객 지원
 permalink: /support/
 ---
 
-[**한국어**](/support) | [English](/support-en) | [日本語](/support-ja) | [中文](/support-zh)
+[**한국어**](/support) · [English](/support-en) · [日本語](/support-ja) · [中文](/support-zh)
 
 ---
 

@@ -4,7 +4,7 @@ title: 隐私政策
 permalink: /privacy-zh/
 ---
 
-[한국어](/privacy) | [English](/privacy-en) | [日本語](/privacy-ja) | [**中文**](/privacy-zh)
+[한국어](/privacy) · [English](/privacy-en) · [日本語](/privacy-ja) · [**中文**](/privacy-zh)
 
 ---
 
