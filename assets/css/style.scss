@@ -1,0 +1,53 @@
+--- --- @import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap');
+
+/* Custom readability improvements */
+body {
+    font-family: 'Inter', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans SC', sans-serif;
+    line-height: 1.8;
+    /* 줄 간격 넓게 */
+    color: #333;
+}
+
+p {
+    margin-bottom: 1.5em;
+    /* 문단 사이 간격 넉넉하게 */
+}
+
+ul,
+ol {
+    margin-bottom: 1.5em;
+    /* 리스트 사이 간격도 확보 */
+}
+
+li {
+    margin-bottom: 0.5em;
+    /* 리스트 항목끼리도 살짝 띄우기 */
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 2em;
+    /* 제목 위쪽 여백 시원하게 */
+    margin-bottom: 1em;
+    /* 제목 아래쪽 여백 */
+    line-height: 1.4;
+}
+
+blockquote {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-left: 5px solid #ddd;
+}
+
+/* 모바일 가독성 최적화 */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        /* 글자 크기 적절하게 */
+        line-height: 1.7;
+    }
+}
