@@ -6,3 +6,6 @@ url: "https://fbfenf.github.io"
 markdown: kramdown
 show_downloads: false
 
+exclude:
+  - "*-legacy.md"
+
