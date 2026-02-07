@@ -19,7 +19,7 @@ permalink: /support-zh/
 
 ### 邮件支持
 
-**📮 ryullee@gmail.com**
+**📮 hello@iscript.dev**
 
 请包含以下信息以便更快回复:
 
@@ -37,12 +37,12 @@ permalink: /support-zh/
 ## 📚 帮助与指南
 
 ### 用户指南
-- 📖 [iScript用户指南](https://fbfenf.github.io/index-zh)
+- 📖 [iScript用户指南](https://iscript.dev/index-zh)
 - 📺 [3分钟使用指南](https://youtu.be/xUybFtc4g14)
 - 📺 [如何创建脚本](https://youtu.be/3XBsYnaatcw)
 
 ### 隐私与条款
-- 🔒 [隐私政策](https://fbfenf.github.io/privacy-zh)
+- 🔒 [隐私政策](https://iscript.dev/privacy-zh)
 
 ---
 
@@ -203,7 +203,7 @@ permalink: /support-zh/
 
 想建议新功能吗？
 
-**发送邮件至ryullee@gmail.com**，包含:
+**发送邮件至hello@iscript.dev**，包含:
 - 建议功能的说明
 - 为什么需要
 - 如何使用
@@ -223,8 +223,8 @@ permalink: /support-zh/
 
 ## 🔗 有用链接
 
-- 📖 [用户指南](https://fbfenf.github.io/index-zh)
-- 🔒 [隐私政策](https://fbfenf.github.io/privacy-zh)
+- 📖 [用户指南](https://iscript.dev/index-zh)
+- 🔒 [隐私政策](https://iscript.dev/privacy-zh)
 - 🔑 [Google AI Studio (获取API密钥)](https://aistudio.google.com/app/apikey)
 
 ---
@@ -237,12 +237,12 @@ permalink: /support-zh/
 ### 隐私保护
 - 不收集姓名、电子邮件等个人信息
 - 仅向Google AdMob提供广告标识符(IDFA)
-- 详情请参阅[隐私政策](https://fbfenf.github.io/privacy-zh)
+- 详情请参阅[隐私政策](https://iscript.dev/privacy-zh)
 
 ---
 
 **运营**: iScript Lab  
-**邮箱**: ryullee@gmail.com  
+**邮箱**: hello@iscript.dev  
 **最后更新**: 2026年2月5日
 
 © 2026 iScript Lab. All rights reserved.

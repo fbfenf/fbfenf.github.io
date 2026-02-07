@@ -19,7 +19,7 @@ permalink: /support-ja/
 
 ### メールサポート
 
-**📮 ryullee@gmail.com**
+**📮 hello@iscript.dev**
 
 迅速な対応のため、以下の情報を含めてお送りください:
 
@@ -37,12 +37,12 @@ permalink: /support-ja/
 ## 📚 ヘルプ & ガイド
 
 ### ユーザーガイド
-- 📖 [iScriptユーザーガイド](https://fbfenf.github.io/index-ja)
+- 📖 [iScriptユーザーガイド](https://iscript.dev/index-ja)
 - 📺 [3分使い方ガイド](https://youtu.be/xUybFtc4g14)
 - 📺 [スクリプトの作り方](https://youtu.be/3XBsYnaatcw)
 
 ### プライバシー & 規約
-- 🔒 [プライバシーポリシー](https://fbfenf.github.io/privacy-ja)
+- 🔒 [プライバシーポリシー](https://iscript.dev/privacy-ja)
 
 ---
 
@@ -203,7 +203,7 @@ permalink: /support-ja/
 
 新しい機能を提案されたいですか?
 
-**ryullee@gmail.com** までお送りください:
+**hello@iscript.dev** までお送りください:
 - 提案する機能の説明
 - なぜ必要か
 - どう使用するか
@@ -223,8 +223,8 @@ permalink: /support-ja/
 
 ## 🔗 便利なリンク
 
-- 📖 [ユーザーガイド](https://fbfenf.github.io/index-ja)
-- 🔒 [プライバシーポリシー](https://fbfenf.github.io/privacy-ja)
+- 📖 [ユーザーガイド](https://iscript.dev/index-ja)
+- 🔒 [プライバシーポリシー](https://iscript.dev/privacy-ja)
 - 🔑 [Google AI Studio (APIキー取得)](https://aistudio.google.com/app/apikey)
 
 ---
@@ -237,12 +237,12 @@ permalink: /support-ja/
 ### プライバシー保護
 - 氏名、メールなどの個人情報収集なし
 - 広告識別子(IDFA)のみGoogle AdMobに提供
-- 詳細は [プライバシーポリシー](https://fbfenf.github.io/privacy-ja) を参照
+- 詳細は [プライバシーポリシー](https://iscript.dev/privacy-ja) を参照
 
 ---
 
 **運営**: iScript Lab  
-**メール**: ryullee@gmail.com  
+**メール**: hello@iscript.dev  
 **最終更新**: 2026年2月5日
 
 © 2026 iScript Lab. All rights reserved.

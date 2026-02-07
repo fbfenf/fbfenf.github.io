@@ -119,8 +119,8 @@ AI 분석 및 음성 재생(TTS) 기능을 위해 텍스트 데이터가 **외�
 
 개인정보 처리와 관련한 문의사항이 있으시면 아래로 연락주시기 바랍니다:
 
-- **이메일**: ryullee@gmail.com
-- **고객 지원**: https://fbfenf.github.io/support/
+- **이메일**: hello@iscript.dev
+- **고객 지원**: https://iscript.dev/support/
 
 ---
 

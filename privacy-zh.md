@@ -118,8 +118,8 @@ iScript应用不会向自己的服务器传输或收集任何个人信息(姓名
 
 有关个人信息处理的咨询，请联系:
 
-- **邮箱**: ryullee@gmail.com
-- **客户支持**: https://fbfenf.github.io/support-zh
+- **邮箱**: hello@iscript.dev
+- **客户支持**: https://iscript.dev/support-zh
 
 ---
 

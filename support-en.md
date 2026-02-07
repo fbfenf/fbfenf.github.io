@@ -19,7 +19,7 @@ permalink: /support-en/
 
 ### Email Support
 
-**📮 ryullee@gmail.com**
+**📮 hello@iscript.dev**
 
 Please include the following information for faster response:
 
@@ -37,12 +37,12 @@ Please include the following information for faster response:
 ## 📚 Help & Guides
 
 ### User Guides
-- 📖 [iScript User Guide](https://fbfenf.github.io/index-en)
+- 📖 [iScript User Guide](https://iscript.dev/index-en)
 - 📺 [3-Minute Tutorial](https://youtu.be/xUybFtc4g14)
 - 📺 [How to Create Scripts](https://youtu.be/3XBsYnaatcw)
 
 ### Privacy & Terms
-- 🔒 [Privacy Policy](https://fbfenf.github.io/privacy-en)
+- 🔒 [Privacy Policy](https://iscript.dev/privacy-en)
 
 ---
 
@@ -203,7 +203,7 @@ Found a bug? Please email us with the following information:
 
 Want to suggest a new feature?
 
-**Email ryullee@gmail.com** with:
+**Email hello@iscript.dev** with:
 - Description of suggested feature
 - Why it's needed
 - How you would use it
@@ -223,8 +223,8 @@ Your feedback makes iScript better! 🚀
 
 ## 🔗 Useful Links
 
-- 📖 [User Guide](https://fbfenf.github.io/index-en)
-- 🔒 [Privacy Policy](https://fbfenf.github.io/privacy-en)
+- 📖 [User Guide](https://iscript.dev/index-en)
+- 🔒 [Privacy Policy](https://iscript.dev/privacy-en)
 - 🔑 [Google AI Studio (Get API Key)](https://aistudio.google.com/app/apikey)
 
 ---
@@ -237,12 +237,12 @@ All data is stored locally on user's device, and iScript respects user's **data 
 ### Privacy Protection
 - No collection of personal information (name, email, etc.)
 - Only advertising identifier (IDFA) provided to Google AdMob
-- See [Privacy Policy](https://fbfenf.github.io/privacy-en) for details
+- See [Privacy Policy](https://iscript.dev/privacy-en) for details
 
 ---
 
 **Operated by**: iScript Lab  
-**Email**: ryullee@gmail.com  
+**Email**: hello@iscript.dev  
 **Last Updated**: February 5, 2026
 
 © 2026 iScript Lab. All rights reserved.

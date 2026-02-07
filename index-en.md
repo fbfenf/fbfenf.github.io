@@ -184,7 +184,7 @@ iScript is an **AI-powered learning tool** that helps you effectively learn fore
 - **Google AdMob**: Only advertising identifier (IDFA)
 - **AI Service**: User's own API Key for sentence analysis (BYOK method)
 
-For details, see [Privacy Policy](https://fbfenf.github.io/privacy-en)
+For details, see [Privacy Policy](https://iscript.dev/privacy-en)
 
 ---
 
@@ -228,8 +228,8 @@ For details, see [Privacy Policy](https://fbfenf.github.io/privacy-en)
 ## 📞 Customer Support
 
 ### Contact
-- **Email**: ryullee@gmail.com
-- **Support**: https://fbfenf.github.io/support-en
+- **Email**: hello@iscript.dev
+- **Support**: https://iscript.dev/support-en
 
 ### FAQ
 

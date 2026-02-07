@@ -184,7 +184,7 @@ iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국�
 - **Google AdMob**: 광고 식별자(IDFA)만 제공
 - **AI 서비스**: 사용자 본인의 API Key로 문장 분석 (BYOK 방식)
 
-자세한 내용은 [개인정보처리방침](https://fbfenf.github.io/privacy/)을 참조하세요.
+자세한 내용은 [개인정보처리방침](https://iscript.dev/privacy/)을 참조하세요.
 
 ---
 
@@ -228,8 +228,8 @@ iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국�
 ## 📞 고객 지원
 
 ### 문의하기
-- **이메일**: ryullee@gmail.com
-- **고객 지원**: https://fbfenf.github.io/support/
+- **이메일**: hello@iscript.dev
+- **고객 지원**: https://iscript.dev/support/
 
 ### 자주 묻는 질문 (FAQ)
 

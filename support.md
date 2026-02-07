@@ -19,7 +19,7 @@ permalink: /support/
 
 ### 이메일 지원
 
-**📮 ryullee@gmail.com**
+**📮 hello@iscript.dev**
 
 다음 정보를 포함하여 보내주시면 더 빠른 답변이 가능합니다:
 
@@ -37,12 +37,12 @@ permalink: /support/
 ## 📚 도움말 및 가이드
 
 ### 사용자 가이드
-- 📖 [iScript 사용자 가이드](https://fbfenf.github.io)
+- 📖 [iScript 사용자 가이드](https://iscript.dev)
 - 📺 [3분 사용법 영상](https://youtu.be/xUybFtc4g14)
 - 📺 [대본 만드는 법](https://youtu.be/3XBsYnaatcw)
 
 ### 개인정보 및 약관
-- 🔒 [개인정보처리방침](https://fbfenf.github.io/privacy/)
+- 🔒 [개인정보처리방침](https://iscript.dev/privacy/)
 
 ---
 
@@ -194,7 +194,7 @@ permalink: /support/
 
 새로운 기능을 제안하고 싶으신가요?
 
-**ryullee@gmail.com**으로 보내주세요:
+**hello@iscript.dev**으로 보내주세요:
 - 제안하는 기능 설명
 - 왜 필요한지
 - 어떻게 사용할 것인지
@@ -214,8 +214,8 @@ permalink: /support/
 
 ## 🔗 유용한 링크
 
-- 📖 [사용자 가이드](https://fbfenf.github.io)
-- 🔒 [개인정보처리방침](https://fbfenf.github.io/privacy/)
+- 📖 [사용자 가이드](https://iscript.dev)
+- 🔒 [개인정보처리방침](https://iscript.dev/privacy/)
 - 🔑 [Google AI Studio (API 키 발급)](https://aistudio.google.com/app/apikey)
 
 ---
@@ -228,12 +228,12 @@ permalink: /support/
 ### 개인정보 보호
 - 이름, 이메일 등 개인정보 수집 없음
 - 광고 식별자(IDFA)만 Google AdMob에 제공
-- 자세한 내용은 [개인정보처리방침](https://fbfenf.github.io/privacy/) 참조
+- 자세한 내용은 [개인정보처리방침](https://iscript.dev/privacy/) 참조
 
 ---
 
 **운영**: iScript Lab  
-**이메일**: ryullee@gmail.com  
+**이메일**: hello@iscript.dev  
 **최종 업데이트**: 2026년 2월 5일
 
 © 2026 iScript Lab. All rights reserved.

@@ -184,7 +184,7 @@ iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活
 - **Google AdMob**: 広告識別子(IDFA)のみ提供
 - **AIサービス**: ユーザー自身のAPI Keyで文章分析 (BYOK方式)
 
-詳細は [プライバシーポリシー](https://fbfenf.github.io/privacy-ja) を参照してください。
+詳細は [プライバシーポリシー](https://iscript.dev/privacy-ja) を参照してください。
 
 ---
 
@@ -228,8 +228,8 @@ iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活
 ## 📞 カスタマーサポート
 
 ### お問い合わせ
-- **メール**: ryullee@gmail.com
-- **サポート**: https://fbfenf.github.io/support-ja
+- **メール**: hello@iscript.dev
+- **サポート**: https://iscript.dev/support-ja
 
 ### よくある質問 (FAQ)
 

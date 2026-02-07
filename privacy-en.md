@@ -120,8 +120,8 @@ This policy may be revised according to laws or service changes, and users will 
 
 For questions regarding privacy processing, please contact:
 
-- **Email**: ryullee@gmail.com
-- **Customer Support**: https://fbfenf.github.io/support-en
+- **Email**: hello@iscript.dev
+- **Customer Support**: https://iscript.dev/support-en
 
 ---
 

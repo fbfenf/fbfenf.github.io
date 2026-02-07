@@ -184,7 +184,7 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 - **Google AdMob**: 仅提供广告标识符(IDFA)
 - **AI服务**: 使用用户自己的API密钥进行句子分析 (BYOK方式)
 
-详情请参阅 [隐私政策](https://fbfenf.github.io/privacy-zh)
+详情请参阅 [隐私政策](https://iscript.dev/privacy-zh)
 
 ---
 
@@ -228,8 +228,8 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 ## 📞 客户支持
 
 ### 联系方式
-- **邮箱**: ryullee@gmail.com
-- **支持**: https://fbfenf.github.io/support-zh
+- **邮箱**: hello@iscript.dev
+- **支持**: https://iscript.dev/support-zh
 
 ### 常见问题 (FAQ)
 
