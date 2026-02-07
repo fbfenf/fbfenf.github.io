@@ -7,7 +7,7 @@ title: iScript
 
 ---
 
-## 🎯 品牌标识
+# 🎯 品牌标识
 
 > **iScript: intelligent Script for U&i**  
 > 超越简单的语言工具，追求技术与人的有机成长。

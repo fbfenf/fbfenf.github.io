@@ -7,7 +7,7 @@ title: iScript
 
 ---
 
-## 🎯 Brand Identity
+# 🎯 Brand Identity
 
 > **iScript: intelligent Script for U&i**  
 > 단순한 어학 도구를 넘어, 기술과 사람의 유기적인 성장을 지향합니다.
