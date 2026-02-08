@@ -119,7 +119,7 @@ AI分析及び音声再生(TTS)機能のために、テキストデータが **�
 個人情報処理に関するお問い合わせは、下記までご連絡ください:
 
 - **メール**: hello@iscript.dev
-- **カスタマーサポート**: https://iscript.dev/support-ja
+- **カスタマーサポート**: [/support-ja](/support-ja)
 
 ---
 
