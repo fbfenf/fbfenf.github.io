@@ -21,7 +21,6 @@ Think of it as **"your personal ticket"** to use AI services.
 
 - **It's not personal info**: It has nothing to do with your name, phone number, or address.
 - **It's safe**: iScript doesn't have a server. Your key is **stored only on your device** and is never shared outside.
-- **It's free**: The key you get through this guide is free for personal learning and **won't cost you anything.**
 
 ---
 
