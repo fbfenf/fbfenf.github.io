@@ -23,7 +23,7 @@ Download free sample scripts below to experience potential of iScript right away
 
 ---
 
-## 🎬 Drama/Movie Scripts (Examples)
+## 📚 All Sample Files
 
 ### 1. [Basic] Daily Life Expressions
 Essential conversational phrases frequently used in K-Dramas.
@@ -39,9 +39,7 @@ Learn formal expressions and business terms used by office worker characters.
 - **Key Points**: Meetings, Phone calls, Emails
 - [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
----
 
-## 📝 Vocabulary Examples
 
 ### 3. [Beginner] Top 100 Essential Verbs
 Learn the most frequently used 100 Korean verbs with examples.
