@@ -8,9 +8,9 @@ permalink: /api-ja/
 
 ---
 
-# 🔑 Google Gemini API Key 取得ガイド
+# 🔑 AI API Key 取得ガイド
 
-iScriptの強力なAI機能（発音リスニング、文章分析など）を使用するには、**Google Gemini APIキー**が必要です。
+iScriptの強力なAI機能（発音リスニング、文章分析など）を使用するには、無料の**AI API Key**が必要です。
 Googleアカウントがあれば、誰でも**無料**で簡単かつ迅速に取得できます。
 
 ---

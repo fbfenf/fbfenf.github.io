@@ -8,9 +8,9 @@ permalink: /api-zh/
 
 ---
 
-# 🔑 Google Gemini API Key 指南
+# 🔑 AI API Key 指南
 
-要使用 iScript 強大的 AI 功能（如发音、句子分析等），您需要 **Google Gemini API Key**。
+要使用 iScript 強大的 AI 功能（如发音、句子分析等），您需要免费的 **AI API Key**。
 只要有 Google 帐号，任何人都可以**免费**且快速地获取。
 
 ---
