@@ -125,7 +125,7 @@ For questions regarding privacy processing, please contact:
 
 ---
 
-**Last Updated**: February 5, 2026  
-**Effective Date**: February 5, 2026
+**Last Updated**: February 8, 2026  
+**Effective Date**: February 8, 2026
 
 © 2026 iScript Lab. All rights reserved.
