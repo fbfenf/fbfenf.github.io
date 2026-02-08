@@ -28,14 +28,14 @@ permalink: /resources-zh/
 ### 1. [基础] 日常生活表达 (Basic Korean)
 收集了韩剧中经常出现的基础会话表达。
 - **难度**: ⭐⭐
-- **句数**: 100句
+- **句数**: 30句
 - **学习重点**: 问候、自我介绍、情感表达
 - [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [中级] 商务职场会话
 学习职场主角们使用的礼貌表达和商务术语。
 - **难度**: ⭐⭐⭐
-- **句数**: 100句
+- **句数**: 30句
 - **学习重点**: 会议、电话应对、邮件撰写
 - [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
@@ -43,13 +43,14 @@ permalink: /resources-zh/
 
 ## 📝 单词本示例 (Vocabulary)
 
-### 3. [初级] 必备动词100选
-通过例句学习最常用的100个韩语动词。
+### 3. [初级] 必备动词30选
+通过例句学习最常用的30个韩语动词。
 - **构成**: 单词 + 意思
 - [📥 **Download (.xlsx)**](/assets/files/samples/korean_verbs_100.xlsx)
 
 ### 4. [旅行] 旅游韩语
 韩国旅行时100%能用得上的生存表达。
+- **句数**: 20句
 - **构成**: 情景必备表达 (机场、餐厅、购物)
 - [📥 **Download (.xlsx)**](/assets/files/samples/travel_korean.xlsx)
 

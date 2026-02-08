@@ -28,14 +28,14 @@ Download free sample scripts below to experience potential of iScript right away
 ### 1. [Basic] Daily Life Expressions
 Essential conversational phrases frequently used in K-Dramas.
 - **Difficulty**: ⭐⭐
-- **Sentences**: 100
+- **Sentences**: 30
 - **Key Points**: Greetings, Self-intro, Feelings
 - [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [Intermediate] Office Business Talk
 Learn formal expressions and business terms used by office worker characters.
 - **Difficulty**: ⭐⭐⭐
-- **Sentences**: 100
+- **Sentences**: 30
 - **Key Points**: Meetings, Phone calls, Emails
 - [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
@@ -43,13 +43,14 @@ Learn formal expressions and business terms used by office worker characters.
 
 ## 📝 Vocabulary Examples
 
-### 3. [Beginner] Top 100 Essential Verbs
-Learn the most frequently used 100 Korean verbs with examples.
+### 3. [Beginner] Top 30 Essential Verbs
+Learn the most frequently used 30 Korean verbs with examples.
 - **Format**: Word + Meaning
 - [📥 **Download (.xlsx)**](/assets/files/samples/korean_verbs_100.xlsx)
 
 ### 4. [Travel] Survival Travel Korean
 Survival phrases you can use 100% when traveling in Korea.
+- **Sentences**: 20
 - **Format**: Situational phrases (Airport, Restaurant, Shopping)
 - [📥 **Download (.xlsx)**](/assets/files/samples/travel_korean.xlsx)
 
