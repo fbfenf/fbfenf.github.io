@@ -247,7 +247,7 @@ See **Terms of Service** in the app for details.
 ---
 
 **Platform**: iOS (iPhone, iPad)  
-**Version**: 1.1.7  
-**Last Updated**: February 5, 2026
+**Version**: 1.1.8  
+**Last Updated**: February 8, 2026
 
 © 2026 iScript Lab. All rights reserved.

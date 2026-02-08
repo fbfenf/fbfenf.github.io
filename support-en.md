@@ -215,7 +215,7 @@ Your feedback makes iScript better! 🚀
 ## 📱 App Information
 
 - **Platform**: iOS (iPhone, iPad)
-- **Current Version**: 1.1.5
+- **Current Version**: 1.1.8
 - **Minimum Requirements**: iOS 15.0 or later
 - **Price**: Free (Ad-supported)
 
@@ -243,6 +243,6 @@ All data is stored locally on user's device, and iScript respects user's **data 
 
 **Operated by**: iScript Lab  
 **Email**: hello@iscript.dev  
-**Last Updated**: February 5, 2026
+**Last Updated**: February 8, 2026
 
 © 2026 iScript Lab. All rights reserved.
