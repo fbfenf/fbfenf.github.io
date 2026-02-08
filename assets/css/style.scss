@@ -53,3 +53,24 @@ blockquote {
         line-height: 1.7;
     }
 }
+
+/* 헤더 공간 절약 */
+#header_wrap {
+    padding: 20px 0;
+    /* 헤더 위아래 여백 대폭 축소 */
+}
+
+#header_wrap .inner {
+    padding: 0 20px;
+}
+
+#project_title {
+    margin: 0;
+    font-size: 2.2em;
+    /* 제목 크기 살짝 조정 */
+}
+
+#project_tagline {
+    display: none;
+    /* 설명란 공간 제거 */
+}
