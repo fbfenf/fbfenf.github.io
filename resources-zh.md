@@ -28,14 +28,14 @@ permalink: /resources-zh/
 ### 1. [基础] 日常生活表达 (Basic Korean)
 收集了韩剧中经常出现的基础会话表达。
 - **难度**: ⭐⭐
-- **句数**: 30句
+- **句数**: 100句
 - **学习重点**: 问候、自我介绍、情感表达
 - [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [中级] 商务职场会话
 学习职场主角们使用的礼貌表达和商务术语。
 - **难度**: ⭐⭐⭐
-- **句数**: 50句
+- **句数**: 100句
 - **学习重点**: 会议、电话应对、邮件撰写
 - [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 

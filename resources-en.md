@@ -28,14 +28,14 @@ Download free sample scripts below to experience potential of iScript right away
 ### 1. [Basic] Daily Life Expressions
 Essential conversational phrases frequently used in K-Dramas.
 - **Difficulty**: ⭐⭐
-- **Sentences**: 30
+- **Sentences**: 100
 - **Key Points**: Greetings, Self-intro, Feelings
 - [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [Intermediate] Office Business Talk
 Learn formal expressions and business terms used by office worker characters.
 - **Difficulty**: ⭐⭐⭐
-- **Sentences**: 50
+- **Sentences**: 100
 - **Key Points**: Meetings, Phone calls, Emails
 - [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
