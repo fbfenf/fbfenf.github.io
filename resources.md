@@ -53,6 +53,24 @@ iScript 앱을 처음 설치하셨나요?
 
 ---
 
+## 🇰🇷 한국인을 위한 외국어 학습 (For Koreans)
+
+한국어로 다른 언어를 배우고 싶으신가요? 아래 자료를 활용해보세요!
+
+### 5. [영어] 네이티브 회화 패턴 (English)
+미드나 영화에 자주 나오는 생생한 구어체 패턴 30선.
+- [📥 **Download (.xlsx)**](/assets/files/samples/english_pattern.xlsx)
+
+### 6. [일본어] 여행 & 문화 (Japanese)
+일본 여행 시 꼭 필요한 필수 회화와 리액션 표현.
+- [📥 **Download (.xlsx)**](/assets/files/samples/japanese_travel.xlsx)
+
+### 7. [중국어] 기초 생활 표현 (Chinese)
+인사부터 쇼핑까지, 중국어 입문을 위한 핵심 문장.
+- [📥 **Download (.xlsx)**](/assets/files/samples/chinese_basic.xlsx)
+
+---
+
 ## 💡 나만의 대본 만들기
 
 직접 대본을 만들고 싶으신가요? 엑셀 파일만 있으면 됩니다!
