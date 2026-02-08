@@ -59,7 +59,7 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 
 > 💡 **提示**: 使用AI功能需要免费的API密钥！
 
-1. **获取免费API密钥**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+1. **获取免费API密钥**: [获取指南](/api-zh)
 2. **应用设置** → "API Key" → 输入获取的密钥
 3. ✅ AI分析和TTS功能已激活
 
@@ -182,7 +182,7 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 
 ### 第三方服务
 - **Google AdMob**: 仅提供广告标识符(IDFA)
-- **AI服务**: 使用用户自己的API密钥进行句子分析 (BYOK方式)
+- **AI服务**: 使用用户自己的 API 密钥进行句子分析 (BYOK方式)
 
 详情请参阅 [隐私政策](https://iscript.dev/privacy-zh)
 
@@ -193,7 +193,7 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 ### 📚 掌握一个句子
 
 1. **设置API密钥**  
-   学习前先连接[免费API密钥](https://aistudio.google.com/app/apikey)
+   学习前先连接[免费API密钥指南](/api-zh)
 
 2. **听并跟读**  
    播放TTS 5-10次并大声跟读

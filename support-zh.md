@@ -85,7 +85,7 @@ permalink: /support-zh/
    - 设置 → 检查API Key
 2. 是否连接到互联网？
 3. API密钥是否有效？
-   - 在[Google AI Studio](https://aistudio.google.com/app/apikey)重新确认
+   - 在[API密钥指南](/api-zh)重新确认
 
 #### Q: TTS(发音)功能不起作用
 
@@ -170,7 +170,7 @@ permalink: /support-zh/
 #### 🔑 设置API密钥
 
 - 利用AI分析和TTS功能
-- [获取免费密钥](https://aistudio.google.com/app/apikey)
+- [获取免费密钥指南](/api-zh)
 
 #### 👁️ 使用模糊聚焦
 
@@ -225,7 +225,7 @@ permalink: /support-zh/
 
 - 📖 [用户指南](https://iscript.dev/index-zh)
 - 🔒 [隐私政策](https://iscript.dev/privacy-zh)
-- 🔑 [Google AI Studio (获取API密钥)](https://aistudio.google.com/app/apikey)
+- 🔑 [Google AI Studio (API密钥指南)](/api-zh)
 
 ---
 

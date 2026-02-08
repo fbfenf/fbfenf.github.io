@@ -85,7 +85,7 @@ permalink: /support-ja/
    - 設定 → API Keyを確認
 2. インターネットに接続されていますか?
 3. APIキーは有効ですか?
-   - [Google AI Studio](https://aistudio.google.com/app/apikey)で再確認
+   - [APIキー取得ガイド](/api-ja)で再確認
 
 #### Q: TTS(発音)機能が動作しません
 
@@ -170,7 +170,7 @@ permalink: /support-ja/
 #### 🔑 APIキーを設定
 
 - AI分析及びTTS機能を活用
-- [無料キー取得](https://aistudio.google.com/app/apikey)
+- [無料キー取得ガイド](/api-ja)
 
 #### 👁️ ブラーフォーカスを活用
 
@@ -225,7 +225,7 @@ permalink: /support-ja/
 
 - 📖 [ユーザーガイド](https://iscript.dev/index-ja)
 - 🔒 [プライバシーポリシー](https://iscript.dev/privacy-ja)
-- 🔑 [Google AI Studio (APIキー取得)](https://aistudio.google.com/app/apikey)
+- 🔑 [Google AI Studio (APIキー取得ガイド)](/api-ja)
 
 ---
 

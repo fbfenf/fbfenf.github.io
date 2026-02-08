@@ -1,0 +1,59 @@
+---
+layout: default
+title: API Key 가이드
+permalink: /api/
+---
+
+[**한국어**](/api) · [English](/api-en) · [日本語](/api-ja) · [中文](/api-zh)
+
+---
+
+# 🔑 Google Gemini API Key 발급 가이드
+
+iScript의 강력한 AI 기능(발음 듣기, 문장 분석 등)을 사용하려면 **Google Gemini API Key**가 필요합니다.
+Google 계정만 있다면 누구나 **무료**로 쉽고 빠르게 발급받을 수 있습니다.
+
+---
+
+## 🚀 3분 만에 발급받기 (따라해보세요!)
+
+### 1단계: Google AI Studio 접속
+아래 버튼을 눌러 Google의 API 키 관리 페이지로 이동합니다.
+
+👉 [**Google AI Studio 바로가기**](https://aistudio.google.com/app/apikey)
+
+> **참고**: Google 계정 로그인이 필요할 수 있습니다.
+
+### 2단계: API 키 만들기
+1. 화면에 보이는 파란색 **Create API key** 버튼을 클릭합니다.
+2. 팝업 메뉴에서 **Create API key in new project**를 선택합니다.
+   *(이미 프로젝트가 있다면 existing project를 선택해도 됩니다)*
+
+### 3단계: 키 복사하기
+1. 잠시 후 API 키가 생성됩니다.
+2. 생성된 키 옆의 **Copy** 버튼(문서 아이콘)을 눌러 복사합니다.
+   *(키는 `AIza`로 시작하는 긴 문자열입니다)*
+
+### 4단계: iScript 앱에 입력
+1. **iScript 앱**을 실행합니다.
+2. **설정(Settings)** 메뉴로 이동합니다.
+3. **API Key** 항목을 누르고, 복사한 키를 붙여넣기(Paste) 합니다.
+4. **저장**하면 끝! 🎉
+
+---
+
+## 💡 자주 묻는 질문 (FAQ)
+
+### Q: 이거 정말 무료인가요?
+**네, 무료입니다.** 개인 사용자는 Google AI Studio의 무료 등급(Free Tier)을 통해 충분한 양을 무료로 사용할 수 있습니다.
+
+### Q: 결제 카드를 등록해야 하나요?
+아니요, 무료 등급 이용 시 **카드 등록이 필요 없습니다.**
+
+### Q: API 키가 작동하지 않아요.
+- 복사할 때 공백이 포함되지 않았는지 확인해보세요.
+- 키를 재발급 받아서 다시 입력해보세요.
+
+---
+
+[**🏠 홈으로 돌아가기**](/)

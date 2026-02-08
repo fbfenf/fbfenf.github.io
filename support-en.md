@@ -85,7 +85,7 @@ Please include the following information for faster response:
    - Settings → Check API Key
 2. Is internet connected?
 3. Is the API key valid?
-   - Verify at [Google AI Studio](https://aistudio.google.com/app/apikey)
+   - Verify at [API Key Guide](/api-en)
 
 #### Q: TTS (pronunciation) doesn't work
 
@@ -170,7 +170,7 @@ Please include the following information for faster response:
 #### 🔑 Set up API Key
 
 - Utilize AI analysis and TTS features
-- [Get free key](https://aistudio.google.com/app/apikey)
+- [Get free key guide](/api-en)
 
 #### 👁️ Use Blur Focus
 
@@ -225,7 +225,7 @@ Your feedback makes iScript better! 🚀
 
 - 📖 [User Guide](https://iscript.dev/index-en)
 - 🔒 [Privacy Policy](https://iscript.dev/privacy-en)
-- 🔑 [Google AI Studio (Get API Key)](https://aistudio.google.com/app/apikey)
+- 🔑 [Get API Key Guide](/api-en)
 
 ---
 

@@ -59,7 +59,7 @@ iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活
 
 > 💡 **TIP**: AI機能を使用するには無料のAPIキーが必要です！
 
-1. **無料APIキー取得**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+1. **無料APIキー取得**: [キー取得ガイド](/api-ja)
 2. **アプリ設定** → "API Key" → 取得したキーを入力
 3. ✅ AI分析及びTTS機能が使用可能
 
@@ -193,7 +193,7 @@ iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活
 ### 📚 1つの文をマスター
 
 1. **APIキー設定**  
-   学習前に [無料APIキー](https://aistudio.google.com/app/apikey) を接続しましょう
+   学習前に [無料APIキーガイド](/api-ja) を接続しましょう
 
 2. **聞いて繰り返す**  
    TTS を5〜10回再生しながら声に出して読みましょう

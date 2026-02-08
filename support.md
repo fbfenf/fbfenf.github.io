@@ -76,7 +76,7 @@ A: 대본 읽기 등 기본 기능은 오프라인에서도 가능하지만, **A
 **확인 사항:**
 1. **API 키**가 앱 설정에 정확히 입력되었나요? (공백 주의)
 2. 인터넷에 연결되어 있나요?
-3. API 키가 만료되지 않았는지 [Google AI Studio](https://aistudio.google.com/app/apikey)에서 확인해 보세요.
+3. API 키가 만료되지 않았는지 [API Key 발급 가이드](/api)를 참고해 보세요.
 
 #### Q: TTS(발음) 소리가 안 들려요
 **해결 방법:**
@@ -101,7 +101,7 @@ iScript는 서버가 없는 **로컬 앱**이라서, 앱을 삭제하면 데이�
 
 - 📖 **사용 설명서**: [iScript 사용자 가이드](/)
 - 🔒 **개인정보 및 보안**: [개인정보처리방침](/privacy/)
-- 🔑 **API 키 발급**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+- 🔑 **API 키 발급**: [API Key 발급 가이드](/api)
 
 ---
 

@@ -59,7 +59,7 @@ iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국�
 
 > 💡 **TIP**: AI 기능을 사용하려면 무료 API 키가 필요합니다!
 
-1. **무료 API 키 발급**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+1. **무료 API 키 발급**: [발급 가이드 보기](/api)
 2. **앱 설정** → "API Key" → 발급받은 키 입력
 3. ✅ AI 분석 및 TTS 기능 사용 가능
 
@@ -193,7 +193,7 @@ iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국�
 ### 📚 한 문장 마스터하기
 
 1. **API 키 설정**  
-   학습 전 [무료 API 키](https://aistudio.google.com/app/apikey)를 미리 연결하세요
+   학습 전 [무료 API 키 발급 가이드](/api)를 미리 연결하세요
 
 2. **듣고 따라하기**  
    TTS를 5~10회 반복 재생하며 소리 내어 따라 읽으세요

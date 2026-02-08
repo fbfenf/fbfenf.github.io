@@ -59,7 +59,7 @@ iScript is an **AI-powered learning tool** that helps you effectively learn fore
 
 > 💡 **TIP**: You need a free API key to use AI features!
 
-1. **Get Free API Key**: [Google AI Studio](https://aistudio.google.com/app/apikey)
+1. **Get Free API Key**: [User Guide](/api-en)
 2. **App Settings** → "API Key" → Enter your key
 3. ✅ AI analysis and TTS features activated
 
@@ -193,7 +193,7 @@ For details, see [Privacy Policy](https://iscript.dev/privacy-en)
 ### 📚 Mastering One Sentence
 
 1. **Set up API Key**  
-   Connect [free API key](https://aistudio.google.com/app/apikey) before learning
+   Connect [free API key guide](/api-en) before learning
 
 2. **Listen and Repeat**  
    Play TTS 5-10 times and read aloud
