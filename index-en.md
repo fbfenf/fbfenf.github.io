@@ -71,6 +71,8 @@ iScript is an **AI-powered learning tool** that helps you effectively learn fore
 1. **Prepare Excel file (.xlsx)**
    - Column 1: Original text
    - Column 2: Translation
+   > 💡 No script file? [Download free samples here](/resources-en)!
+
 2. **Library** → "Add Script" → Select file
 3. Check copyright agreement and upload
 
@@ -224,26 +226,9 @@ For details, see [Privacy Policy](https://iscript.dev/privacy-en)
 
 ## 📞 Customer Support
 
-### Contact
-- **Email**: hello@iscript.dev
-- **Support**: https://iscript.dev/support-en
-
-### FAQ
-
-**Q: Can I remove ads?**  
-A: Currently only free version is available. Ad removal option planned for future updates.
-
-**Q: Where are backup files saved?**  
-A: You can save to any location (iCloud Drive, Downloads, etc.) using Share function.
-
-**Q: Does the API key cost money?**  
-A: Free AI API providers offer free quotas, sufficient for typical learning use.
-
-**Q: Can I use it on iPad?**  
-A: Yes, available on all iOS devices (iPhone, iPad).
-
-**Q: Can I use it offline?**  
-A: Viewing scripts works offline, but AI analysis and TTS require internet connection.
+- ❓ **FAQ & Troubleshooting**: [Support Page](/support-en/)
+- 📧 **Contact**: hello@iscript.dev
+- 🎬 **Sample Scripts**: [Resources](/resources-en/)
 
 ---
 
@@ -262,7 +247,7 @@ See **Terms of Service** in the app for details.
 ---
 
 **Platform**: iOS (iPhone, iPad)  
-**Version**: 1.1.5  
+**Version**: 1.1.7  
 **Last Updated**: February 5, 2026
 
 © 2026 iScript Lab. All rights reserved.

@@ -45,7 +45,7 @@ Learn formal expressions and business terms used by office worker characters.
 
 ### 3. [Beginner] Top 100 Essential Verbs
 Learn the most frequently used 100 Korean verbs with examples.
-- **Format**: Word + Meaning + Example Sentence
+- **Format**: Word + Meaning
 - [📥 **Download (.xlsx)**](/assets/files/samples/korean_verbs_100.xlsx)
 
 ### 4. [Travel] Survival Travel Korean

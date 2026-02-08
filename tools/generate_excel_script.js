@@ -1,6 +1,6 @@
 const xlsx = require('xlsx');
 
-// 1. [Basic] Daily Life Expressions
+// 1. [Basic] Daily Life Expressions (30 sentences)
 const basic_korean = [
     { Korean: "안녕하세요!", English: "Hello!" },
     { Korean: "반가워요.", English: "Nice to meet you." },
@@ -34,7 +34,7 @@ const basic_korean = [
     { Korean: "다음에 봐요.", English: "See you next time." }
 ];
 
-// 2. [Intermediate] Office Business Talk
+// 2. [Intermediate] Office Business Talk (50 sentences)
 const business_korean = [
     { Korean: "안녕하십니까.", English: "Greetings (Formal)." },
     { Korean: "수고하셨습니다.", English: "Good job today. / Thank you for your effort." },
@@ -65,10 +65,30 @@ const business_korean = [
     { Korean: "견적서 보내주세요.", English: "Please send me the quotation." },
     { Korean: "계약이 성사되었습니다.", English: "The contract has been signed." },
     { Korean: "프로젝트 진행 상황 보고해주세요.", English: "Please report the project progress." },
-    { Korean: "수고하세요.", English: "Keep up the good work. (Formal greeting)" }
+    { Korean: "수고하세요.", English: "Keep up the good work. (Formal greeting)" },
+    { Korean: "자료 준비되었습니다.", English: "The materials are ready." },
+    { Korean: "언제 시간 되시나요?", English: "When are you available?" },
+    { Korean: "점심 식사 하셨습니까?", English: "Have you had lunch?" },
+    { Korean: "커피 한 잔 하시겠습니까?", English: "Would you like a cup of coffee?" },
+    { Korean: "잠시 자리 비우셨습니다.", English: "He/She is away from the desk for a moment." },
+    { Korean: "메모 남겨드릴까요?", English: "Shall I leave a message?" },
+    { Korean: "팩스로 보내주세요.", English: "Please send it by fax." },
+    { Korean: "프레젠테이션 준비 완료했습니다.", English: "Presentation preparation is complete." },
+    { Korean: "예산안 검토 부탁드립니다.", English: "Please review the budget proposal." },
+    { Korean: "다음 주 일정 잡겠습니다.", English: "I will schedule it for next week." },
+    { Korean: "출근했습니다.", English: "I have arrived at work." },
+    { Korean: "병가 내겠습니다.", English: "I will take a sick leave." },
+    { Korean: "연차 쓰겠습니다.", English: "I will use my annual leave." },
+    { Korean: "급한 일입니까?", English: "Is it urgent?" },
+    { Korean: "우선순위가 어떻게 되나요?", English: "What is the priority?" },
+    { Korean: "피드백 부탁드립니다.", English: "Please give me feedback." },
+    { Korean: "수정해서 다시 보내겠습니다.", English: "I will revise and resend it." },
+    { Korean: "성공적인 프로젝트였습니다.", English: "It was a successful project." },
+    { Korean: "함께 일해서 즐거웠습니다.", English: "It was a pleasure working with you." },
+    { Korean: "앞으로도 잘 부탁드립니다.", English: "I look forward to working with you." }
 ];
 
-// 3. [Beginner] Top 100 Essential Verbs (Sample 30)
+// 3. [Beginner] Top 100 Essential Verbs (100 verbs, no examples)
 const verbs_100 = [
     { Korean: "가다", English: "to go" },
     { Korean: "오다", English: "to come" },
@@ -99,10 +119,80 @@ const verbs_100 = [
     { Korean: "좋아하다", English: "to like" },
     { Korean: "싫어하다", English: "to dislike/hate" },
     { Korean: "살다", English: "to live" },
-    { Korean: "죽다", English: "to die" }
+    { Korean: "죽다", English: "to die" },
+    { Korean: "열다", English: "to open" },
+    { Korean: "닫다", English: "to close" },
+    { Korean: "입다", English: "to wear" },
+    { Korean: "벗다", English: "to take off" },
+    { Korean: "신다", English: "to wear (shoes/socks)" },
+    { Korean: "타다", English: "to ride" },
+    { Korean: "내리다", English: "to get off" },
+    { Korean: "걷다", English: "to walk" },
+    { Korean: "뛰다", English: "to run" },
+    { Korean: "앉다", English: "to sit" },
+    { Korean: "서다", English: "to stand" },
+    { Korean: "알다", English: "to know" },
+    { Korean: "모르다", English: "to not know" },
+    { Korean: "생각하다", English: "to think" },
+    { Korean: "기억하다", English: "to remember" },
+    { Korean: "잊다", English: "to forget" },
+    { Korean: "느끼다", English: "to feel" },
+    { Korean: "보내다", English: "to send" },
+    { Korean: "빌리다", English: "to borrow" },
+    { Korean: "돌려주다", English: "to return" },
+    { Korean: "돕다", English: "to help" },
+    { Korean: "필요하다", English: "to need" },
+    { Korean: "찾다", English: "to find/look for" },
+    { Korean: "잃어버리다", English: "to lose" },
+    { Korean: "시작하다", English: "to start" },
+    { Korean: "끝나다", English: "to end" },
+    { Korean: "기다리다", English: "to wait" },
+    { Korean: "준비하다", English: "to prepare" },
+    { Korean: "약속하다", English: "to promise" },
+    { Korean: "거짓말하다", English: "to lie" },
+    { Korean: "고백하다", English: "to confess" },
+    { Korean: "결혼하다", English: "to marry" },
+    { Korean: "이혼하다", English: "to divorce" },
+    { Korean: "태어나다", English: "to be born" },
+    { Korean: "자라다", English: "to grow up" },
+    { Korean: "이기다", English: "to win" },
+    { Korean: "지다", English: "to lose (game)" },
+    { Korean: "싸우다", English: "to fight" },
+    { Korean: "화내다", English: "to get angry" },
+    { Korean: "용서하다", English: "to forgive" },
+    { Korean: "사과하다", English: "to apologize" },
+    { Korean: "감사하다", English: "to thank" },
+    { Korean: "축하하다", English: "to congratulate" },
+    { Korean: "노래하다", English: "to sing" },
+    { Korean: "춤추다", English: "to dance" },
+    { Korean: "그리다", English: "to draw" },
+    { Korean: "만들다", English: "to make" },
+    { Korean: "고치다", English: "to fix" },
+    { Korean: "청소하다", English: "to clean" },
+    { Korean: "요리하다", English: "to cook" },
+    { Korean: "빨래하다", English: "to do laundry" },
+    { Korean: "운전하다", English: "to drive" },
+    { Korean: "여행하다", English: "to travel" },
+    { Korean: "운동하다", English: "to exercise" },
+    { Korean: "공부하다", English: "to study" },
+    { Korean: "일하다", English: "to work" },
+    { Korean: "쉬다", English: "to rest" },
+    { Korean: "잠자다", English: "to sleep" },
+    { Korean: "꿈꾸다", English: "to dream" },
+    { Korean: "믿다", English: "to believe" },
+    { Korean: "바라다", English: "to hope/wish" },
+    { Korean: "걱정하다", English: "to worry" },
+    { Korean: "기뻐하다", English: "to rejoice" },
+    { Korean: "슬퍼하다", English: "to be sad" },
+    { Korean: "놀라다", English: "to be surprised" },
+    { Korean: "무서워하다", English: "to be afraid" },
+    { Korean: "부러워하다", English: "to envy" },
+    { Korean: "질투하다", English: "to be jealous" },
+    { Korean: "존경하다", English: "to respect" },
+    { Korean: "무시하다", English: "to ignore" }
 ];
 
-// 4. [Travel] Survival Travel Korean
+// 4. [Travel] Survival Travel Korean (20 sentences - unchanged)
 const travel_korean = [
     { Korean: "여권 보여주세요.", English: "Please show me your passport." },
     { Korean: "체크인 부탁합니다.", English: "Check-in, please." },
