@@ -1,4 +1,5 @@
 const xlsx = require('xlsx');
+// Last updated: 2026-02-09 (English patterns updated to full sentences)
 
 // 1. [English] Native Patterns (30 sentences)
 const english_pattern = [
