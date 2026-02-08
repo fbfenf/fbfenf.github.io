@@ -218,10 +218,7 @@ For details, see [Privacy Policy](https://iscript.dev/privacy-en)
 
 ---
 
-## 🎥 Video Guides
-
-- 📺 [3-Minute User Guide](https://youtu.be/xUybFtc4g14)
-- 📺 [How to Create Scripts](https://youtu.be/3XBsYnaatcw)
+- 📺 **Sample Scripts & Guides**: [Resources](/resources-en/)
 
 ---
 

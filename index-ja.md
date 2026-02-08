@@ -218,10 +218,7 @@ iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活
 
 ---
 
-## 🎥 動画ガイド
-
-- 📺 [3分使い方ガイド](https://youtu.be/xUybFtc4g14)
-- 📺 [スクリプトの作り方](https://youtu.be/3XBsYnaatcw)
+- 📺 **サンプル台本 & ガイド**: [資料室](/resources-ja/)
 
 ---
 

@@ -224,9 +224,7 @@ iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국�
 
 - ❓ **자주 묻는 질문 (FAQ) 및 문제 해결**: [고객 지원 페이지](/support/)
 - 📧 **문의하기**: hello@iscript.dev
-- 🎥 **동영상 가이드**: 
-  - [iScript 3분 사용법](https://youtu.be/xUybFtc4g14)
-  - [대본 만드는 법](https://youtu.be/3XBsYnaatcw)
+- 🎬 **샘플 대본 및 가이드**: [자료실](/resources/)
 
 ---
 

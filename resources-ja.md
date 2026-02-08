@@ -17,6 +17,9 @@ iScriptアプリを初めてインストールしましたか？
 > 1. 下のボタンを押して `.xlsx` または `.zip` ファイルをダウンロードします。
 > 2. **iScriptアプリ** 実行 → **Library (ライブラリ)** タブ → **+ Add Script** ボタンを押します。
 > 3. ダウンロードしたファイルを選択すると、自動的に学習が始まります！
+>
+> 🎥 **動画ガイド**: **Netflix**や**YouTube**の字幕を使って、[3分で自分だけのスクリプト](https://youtu.be/3XBsYnaatcw)を作ってみましょう！
+
 
 ---
 
@@ -27,14 +30,14 @@ iScriptアプリを初めてインストールしましたか？
 - **難易度**: ⭐⭐
 - **文章数**: 30個
 - **学習ポイント**: 挨拶、自己紹介、感情表現
-- [📥 **Download (.xlsx)**](#) *(準備中)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [中級] オフィスビジネス会話
 会社員の主人公たちが使う丁寧な表現やビジネス用語を学びましょう。
 - **難易度**: ⭐⭐⭐
 - **文章数**: 50個
 - **学習ポイント**: 会議、電話応対、メール作成
-- [📥 **Download (.xlsx)**](#) *(準備中)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
 ---
 
@@ -43,12 +46,12 @@ iScriptアプリを初めてインストールしましたか？
 ### 3. [初級] 必須動詞100選
 最もよく使われる韓国語の動詞100個を例文と一緒に学習します。
 - **構成**: 単語 + 意味 + 例文
-- [📥 **Download (.xlsx)**](#) *(準備中)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/korean_verbs_100.xlsx)
 
 ### 4. [旅行] トラベル韓国語
 韓国旅行時に100%使えるサバイバル表現集。
 - **構成**: 状況別必須表現 (空港、食堂、ショッピング)
-- [📥 **Download (.xlsx)**](#) *(準備中)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/travel_korean.xlsx)
 
 ---
 

@@ -17,6 +17,9 @@ Download free sample scripts below to experience potential of iScript right away
 > 1. Click a button below to download the `.xlsx` or `.zip` file.
 > 2. Open **iScript App** → Tap **Library** tab → Tap **+ Add Script**.
 > 3. Select the downloaded file and start learning!
+>
+> 🎥 **Video Guide**: Use **Netflix** and **YouTube** subtitles to [create your own scripts in 3 mins](https://youtu.be/3XBsYnaatcw)!
+
 
 ---
 
@@ -27,14 +30,14 @@ Essential conversational phrases frequently used in K-Dramas.
 - **Difficulty**: ⭐⭐
 - **Sentences**: 30
 - **Key Points**: Greetings, Self-intro, Feelings
-- [📥 **Download (.xlsx)**](#) *(Coming Soon)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/basic_korean.xlsx)
 
 ### 2. [Intermediate] Office Business Talk
 Learn formal expressions and business terms used by office worker characters.
 - **Difficulty**: ⭐⭐⭐
 - **Sentences**: 50
 - **Key Points**: Meetings, Phone calls, Emails
-- [📥 **Download (.xlsx)**](#) *(Coming Soon)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/business_korean.xlsx)
 
 ---
 
@@ -43,12 +46,12 @@ Learn formal expressions and business terms used by office worker characters.
 ### 3. [Beginner] Top 100 Essential Verbs
 Learn the most frequently used 100 Korean verbs with examples.
 - **Format**: Word + Meaning + Example Sentence
-- [📥 **Download (.xlsx)**](#) *(Coming Soon)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/korean_verbs_100.xlsx)
 
 ### 4. [Travel] Survival Travel Korean
 Survival phrases you can use 100% when traveling in Korea.
 - **Format**: Situational phrases (Airport, Restaurant, Shopping)
-- [📥 **Download (.xlsx)**](#) *(Coming Soon)*
+- [📥 **Download (.xlsx)**](/assets/files/samples/travel_korean.xlsx)
 
 ---
 
