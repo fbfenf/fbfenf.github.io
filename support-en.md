@@ -224,6 +224,7 @@ Your feedback makes iScript better! 🚀
 ## 🔗 Useful Links
 
 - 📖 [User Guide](https://iscript.dev/index-en)
+- 🎓 [15-Minute Shadowing Guide](/guide-en/)
 - 🔒 [Privacy Policy](https://iscript.dev/privacy-en)
 - 🔑 [Get API Key Guide](/api-en)
 

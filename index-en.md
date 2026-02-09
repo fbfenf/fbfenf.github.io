@@ -192,31 +192,10 @@ For details, see [Privacy Policy](https://iscript.dev/privacy-en)
 
 ## 💡 Effective Learning Methods
 
-### 📚 Mastering One Sentence
+We have prepared a **4-step shadowing routine** to utilize 100% of iScript's features.
+Start real learning where your mouth remembers, just 15 minutes a day.
 
-1. **Set up API Key**  
-   Connect [free API key guide](/api-en) before learning
-
-2. **Listen and Repeat**  
-   Play TTS 5-10 times and read aloud
-
-3. **Deep Understanding with AI**
-   - When you don't know words/have trouble interpreting, click **AI Explain**
-   - Keep playing TTS while waiting for AI analysis (takes about 5 plays)
-   - Read carefully: words, grammar, cultural background
-
-4. **Mark as Complete**  
-   When fully understood, press **Learned** button
-
-5. **Automatic Review**  
-   SRS will notify you at optimal timing
-
-### 💡 Tips for Better Learning
-
-- 🔥 **Daily Practice**: Maintain your Streak
-- 👁️ **Blur Focus**: Try interpreting before viewing translation
-- ⭐ **Use Bookmarks**: Save important words with star
-- 💾 **Regular Backups**: Create backup files once a week
+👉 **[View 15-Minute Shadowing Guide](/guide-en/)**
 
 ---
 

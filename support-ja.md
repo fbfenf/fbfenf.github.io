@@ -224,6 +224,7 @@ permalink: /support-ja/
 ## 🔗 便利なリンク
 
 - 📖 [ユーザーガイド](https://iscript.dev/index-ja)
+- 🎓 [15分シャドーイングガイド](/guide-ja/)
 - 🔒 [プライバシーポリシー](https://iscript.dev/privacy-ja)
 - 🔑 [Google AI Studio (APIキー取得ガイド)](/api-ja)
 

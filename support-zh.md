@@ -224,6 +224,7 @@ permalink: /support-zh/
 ## 🔗 有用链接
 
 - 📖 [用户指南](https://iscript.dev/index-zh)
+- 🎓 [15分钟影子跟读指南](/guide-zh/)
 - 🔒 [隐私政策](https://iscript.dev/privacy-zh)
 - 🔑 [Google AI Studio (API密钥指南)](/api-zh)
 
