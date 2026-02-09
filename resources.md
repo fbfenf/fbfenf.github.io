@@ -5,8 +5,6 @@ permalink: /resources/
 page_id: resources
 ---
 
----
-
 > **iScript 앱을 처음 설치하셨나요?**  
 > 아래의 무료 샘플 대본을 다운로드하여 앱의 강력한 기능을 바로 체험해 보세요!
 

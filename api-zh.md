@@ -5,8 +5,6 @@ permalink: /api-zh/
 page_id: api
 ---
 
----
-
 > **要使用iScript强大的AI功能(听发音、句子分析等)，需要免费的 AI API Key。**  
 > 只要有Google账号，任何人都可以**免费**轻松快速获取。
 

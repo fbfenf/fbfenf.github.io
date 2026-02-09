@@ -1,9 +1,7 @@
----
 layout: default
 title: APIキー取得ガイド
 permalink: /api-ja/
 page_id: api
----
 
 
 > **iScriptの強力なAI機能(発音聞き取り、文章分析など)を使用するには、無料の AI API Key が必要です。**  

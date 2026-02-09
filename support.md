@@ -5,8 +5,6 @@ permalink: /support/
 page_id: support
 ---
 
----
-
 > **iScript 사용 중 궁금한 점이 있으신가요?**  
 > 아래 내용을 확인하시거나 이메일로 문의해 주세요.
 

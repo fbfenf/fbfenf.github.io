@@ -5,8 +5,6 @@ permalink: /resources-ja/
 page_id: resources
 ---
 
----
-
 > **iScriptアプリを初めてインストールしましたか？**  
 > 以下の無料サンプル台本をダウンロードして、アプリの強力な機能をすぐに体験してみてください！
 

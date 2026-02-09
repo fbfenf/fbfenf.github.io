@@ -5,8 +5,6 @@ permalink: /support-zh/
 page_id: support
 ---
 
----
-
 > **在使用iScript过程中有任何疑问吗？**  
 > 请查看以下内容或通过电子邮件联系我们。
 

@@ -5,8 +5,6 @@ permalink: /privacy-ja/
 page_id: privacy
 ---
 
----
-
 # プライバシーポリシー
 
 > **iScript Labはユーザーの個人情報を大切に扱い、関連法規を遵守します。**

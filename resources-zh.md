@@ -5,8 +5,6 @@ permalink: /resources-zh/
 page_id: resources
 ---
 
----
-
 > **刚安装iScript应用吗？**  
 > 请下载以下免费示例脚本，立即体验应用的强大功能！
 

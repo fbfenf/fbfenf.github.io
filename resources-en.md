@@ -5,8 +5,6 @@ permalink: /resources-en/
 page_id: resources
 ---
 
----
-
 > **New to iScript?**  
 > Download free sample scripts below to experience potential of iScript right away!
 

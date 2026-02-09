@@ -5,8 +5,6 @@ permalink: /api/
 page_id: api
 ---
 
----
-
 > **iScript의 강력한 AI 기능(발음 듣기, 문장 분석 등)을 사용하려면 무료 AI API Key가 필요합니다.**  
 > Google 계정만 있다면 누구나 **무료**로 쉽고 빠르게 발급받을 수 있습니다.
 
