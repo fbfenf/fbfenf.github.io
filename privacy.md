@@ -7,9 +7,6 @@ page_id: privacy
 
 ---
 
-# 개인정보처리방침 (Privacy Policy)
-
-
 iScript Lab은 사용자의 개인정보를 소중히 다루며, 관련 법규를 준수합니다.
 
 ---

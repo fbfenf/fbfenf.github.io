@@ -5,11 +5,7 @@ permalink: /privacy-en/
 page_id: privacy
 ---
 
----
-
-# Privacy Policy
-
-iScript Lab respects user privacy and complies with relevant regulations.
+iScript Lab values your privacy and complies with relevant laws and regulations.
 
 ---
 

@@ -9,7 +9,6 @@ page_id: guide
 
 [← Back to Home](/index-en)
 
-# 🚀 iScript 15-Minute Shadowing Routine
 > **"True mastery comes when your mouth remembers."**  
 > Practice the 4-step learning method based on brain science with the app’s features.
 

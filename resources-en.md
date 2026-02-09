@@ -7,8 +7,6 @@ page_id: resources
 
 ---
 
-# 📂 Download Sample Scripts
-
 New to iScript?  
 Download free sample scripts below to experience potential of iScript right away!
 

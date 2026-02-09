@@ -7,10 +7,8 @@ page_id: api
 
 ---
 
-# 🔑 AI API Key Guide
-
-To use iScript's powerful AI features (Pronunciation, Sentence Analysis, etc.), you need a free **AI API Key**.
-Anyone with a Google account can get it **for free** quickly and easily.
+To use iScript's powerful AI features (Pronunciation, Analysis, etc.), you need a free **AI API Key**.
+Anyone with a Google account can get one easily and quickly for **free**.
 
 ---
 

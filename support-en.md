@@ -7,10 +7,8 @@ page_id: support
 
 ---
 
-# Customer Support
-
-> Thank you for using iScript!  
-> Please feel free to contact us if you have any questions or issues. 😊
+Do you have any questions while using iScript?  
+Check the information below or contact us via email.
 
 ---
 
