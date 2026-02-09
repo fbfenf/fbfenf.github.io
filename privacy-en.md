@@ -116,7 +116,7 @@ This policy may be revised according to laws or service changes, and users will 
 For questions regarding privacy processing, please contact:
 
 - **Email**: hello@iscript.dev
-- **Customer Support**: [/support-en](/support-en)
+- **Customer Support**: [Customer Support Page](https://iscript.dev/support-en)
 
 ---
 
