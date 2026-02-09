@@ -5,10 +5,6 @@ permalink: /guide-en/
 page_id: guide
 ---
 
----
-
-[← Back to Home](/index-en)
-
 > **"True mastery comes when your mouth remembers."**  
 > Practice the 4-step learning method based on brain science with the app’s features.
 
@@ -58,4 +54,4 @@ If you feel **"5 sentences are too few?"**, don't just increase the quantity bli
 
 ---
 
-[Back to Top ⬆️](#)
+[🏠 Back to Home](/index-en)
