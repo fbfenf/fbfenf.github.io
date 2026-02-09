@@ -9,7 +9,7 @@ page_id: resources
 > Download free sample scripts below to experience potential of iScript right away!
 
 > **How to Use:**
-> 1. Click a button below to download the `.xlsx` or `.zip` file.
+> 1. Click a **download button** below to download the `.xlsx` or `.zip` file.
 > 2. Open **iScript App** → Tap **Library** tab → Tap **+ Add Script**.
 > 3. Select the downloaded file and start learning!
 >
