@@ -1,13 +1,12 @@
 ---
 layout: default
-title: iScript Learning Guide
+title: Learning Guide
 permalink: /guide-ja/
 page_id: guide
 ---
 
 > **「口が覚えてこそ、本当に自分のものになります。」**  
 > 脳科学に基づいた4段階学習法をiScriptの機能と一緒に実践してみてください。
-
 > 🎯 **推奨学習量**: 1日 **3~5文** (1セット)
 
 ---

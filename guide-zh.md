@@ -1,13 +1,12 @@
 ---
 layout: default
-title: iScript Learning Guide
+title: Learning Guide
 permalink: /guide-zh/
 page_id: guide
 ---
 
 > **“只有嘴巴记住了，才是真正属于你的。”**  
 > 请尝试结合iScript的功能实践基于脑科学的4阶段学习法。
-
 > 🎯 **推荐学习量**: 每天 **3~5句** (一组)
 
 ---

@@ -1,13 +1,12 @@
 ---
 layout: default
-title: iScript Learning Guide
+title: Learning Guide
 permalink: /guide/
 page_id: guide
 ---
 
 > **"입이 기억해야 진짜 내 것이 됩니다."**  
-> 뇌과학 기반의 4단계 학습법을 앱 기능과 함께 실천해보세요.
-
+> 뇌과학 기반의 4단계 학습법을 앱 기능과 함께 실천해보세요. 
 > 🎯 **권장 분량**: 하루 **3~5문장** (한 세트)
 
 ---
