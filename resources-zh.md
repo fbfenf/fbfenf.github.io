@@ -2,9 +2,8 @@
 layout: default
 title: 示例脚本
 permalink: /resources-zh/
+page_id: resources
 ---
-
-[한국어](/resources) · [English](/resources-en) · [日本語](/resources-ja) · [**中文**](/resources-zh)
 
 ---
 

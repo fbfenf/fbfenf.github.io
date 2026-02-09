@@ -198,15 +198,14 @@ Start real learning where your mouth remembers, just 15 minutes a day.
 
 ---
 
-- 📺 **Sample Scripts & Guides**: [Resources](/resources-en/)
+## 🔗 Related Documents
 
----
-
-## 📞 Customer Support
+Have questions or need help?
 
 - ❓ **FAQ & Troubleshooting**: [Support Page](/support-en/)
+- 🎓 **Effective Learning Method**: [15-Minute Shadowing Guide](/guide-en/)
 - 📧 **Contact**: hello@iscript.dev
-- 🎬 **Sample Scripts**: [Resources](/resources-en/)
+- 🎬 **Sample Scripts & Guides**: [Resources](/resources-en/)
 
 ---
 

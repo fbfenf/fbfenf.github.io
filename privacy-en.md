@@ -2,9 +2,8 @@
 layout: default
 title: Privacy Policy
 permalink: /privacy-en/
+page_id: privacy
 ---
-
-[한국어](/privacy) · [**English**](/privacy-en) · [日本語](/privacy-ja) · [中文](/privacy-zh)
 
 ---
 

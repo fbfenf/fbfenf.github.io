@@ -2,9 +2,8 @@
 layout: default
 title: 샘플 대본
 permalink: /resources/
+page_id: resources
 ---
-
-[**한국어**](/resources) · [English](/resources-en) · [日本語](/resources-ja) · [中文](/resources-zh)
 
 ---
 
