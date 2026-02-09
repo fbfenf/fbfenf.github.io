@@ -7,7 +7,7 @@ page_id: resources
 
 > **刚安装iScript应用吗？**  
 > 请下载以下免费示例脚本，立即体验应用的强大功能！
-
+>
 > **使用方法:**
 > 1. 点击下方**下载按钮**下载 `.xlsx` 或 `.zip` 文件。
 > 2. 打开 **iScript App** → 点击 **Library (资料库)** 标签 → 点击 **+ Add Script** 按钮。
