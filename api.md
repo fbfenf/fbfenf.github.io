@@ -2,9 +2,8 @@
 layout: default
 title: API Key 발급 가이드
 permalink: /api/
+page_id: api
 ---
-
-[**한국어**](/api) · [English](/api-en) · [日本語](/api-ja) · [中文](/api-zh)
 
 ---
 

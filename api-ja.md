@@ -1,10 +1,9 @@
 ---
 layout: default
-title: API Key 取得ガイド
+title: APIキー取得ガイド
 permalink: /api-ja/
+page_id: api
 ---
-
-[한국어](/api) · [English](/api-en) · [**日本語**](/api-ja) · [中文](/api-zh)
 
 ---
 
