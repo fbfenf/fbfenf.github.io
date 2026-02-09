@@ -24,20 +24,21 @@
             <!-- Language Navigation -->
             <div class="lang-nav" style="text-align: right; margin-bottom: 20px; font-size: 0.9em;">
                 {% if page.page_id == 'home' %}
-                    <a href="/" style="color: rgba(255,255,255,0.8);">KO</a> · 
-                    <a href="/index-en" style="color: rgba(255,255,255,0.8);">EN</a> · 
-                    <a href="/index-ja" style="color: rgba(255,255,255,0.8);">JA</a> · 
-                    <a href="/index-zh" style="color: rgba(255,255,255,0.8);">ZH</a>
+                <a href="/" style="color: rgba(255,255,255,0.8);">KO</a> ·
+                <a href="/index-en" style="color: rgba(255,255,255,0.8);">EN</a> ·
+                <a href="/index-ja" style="color: rgba(255,255,255,0.8);">JA</a> ·
+                <a href="/index-zh" style="color: rgba(255,255,255,0.8);">ZH</a>
                 {% elsif page.page_id %}
-                    <a href="/{{ page.page_id }}" style="color: rgba(255,255,255,0.8);">KO</a> · 
-                    <a href="/{{ page.page_id }}-en" style="color: rgba(255,255,255,0.8);">EN</a> · 
-                    <a href="/{{ page.page_id }}-ja" style="color: rgba(255,255,255,0.8);">JA</a> · 
-                    <a href="/{{ page.page_id }}-zh" style="color: rgba(255,255,255,0.8);">ZH</a>
+                <a href="/{{ page.page_id }}" style="color: rgba(255,255,255,0.8);">KO</a> ·
+                <a href="/{{ page.page_id }}-en" style="color: rgba(255,255,255,0.8);">EN</a> ·
+                <a href="/{{ page.page_id }}-ja" style="color: rgba(255,255,255,0.8);">JA</a> ·
+                <a href="/{{ page.page_id }}-zh" style="color: rgba(255,255,255,0.8);">ZH</a>
                 {% endif %}
             </div>
 
-            <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-            <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+            <h1 id="project_title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            <h2 id="project_tagline">{{ page.description | default: site.description | default:
+                site.github.project_tagline }}</h2>
 
             {% if site.show_downloads %}
             <section id="downloads">
