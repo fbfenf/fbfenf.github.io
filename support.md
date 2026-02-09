@@ -1,10 +1,9 @@
 ---
 layout: default
-title: 고객 지원
+title: 고객지원
 permalink: /support/
+page_id: support
 ---
-
-[**한국어**](/support) · [English](/support-en) · [日本語](/support-ja) · [中文](/support-zh)
 
 ---
 

@@ -2,9 +2,8 @@
 layout: default
 title: iScript Learning Guide
 permalink: /guide-zh/
+page_id: guide
 ---
-
-[**한국어**](/guide) · [English](/guide-en) · [日本語](/guide-ja) · [中文](/guide-zh)
 
 ---
 

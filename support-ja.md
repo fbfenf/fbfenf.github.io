@@ -2,9 +2,8 @@
 layout: default
 title: カスタマーサポート
 permalink: /support-ja/
+page_id: support
 ---
-
-[한국어](/support) · [English](/support-en) · [**日本語**](/support-ja) · [中文](/support-zh)
 
 ---
 
