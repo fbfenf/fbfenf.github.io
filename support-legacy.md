@@ -12,5 +12,3 @@ title: 고객지원 및 가이드
 
 
 
-
-© 2026 iScript Lab. All rights reserved.

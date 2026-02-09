@@ -227,4 +227,4 @@ See **Terms of Service** in the app for details.
 **Version**: 1.1.8  
 **Last Updated**: February 8, 2026
 
-© 2026 iScript Lab. All rights reserved.
+

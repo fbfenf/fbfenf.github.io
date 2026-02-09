@@ -33,5 +33,3 @@ AI 분석 및 음성 재생(TTS) 기능을 위해 텍스트 데이터가 **Googl
 
 
 
-
-© 2026 iScript Lab. All rights reserved.

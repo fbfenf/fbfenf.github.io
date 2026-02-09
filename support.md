@@ -105,4 +105,4 @@ iScript는 서버가 없는 **로컬 앱**이라서, 앱을 삭제하면 데이�
 **이메일**: hello@iscript.dev  
 **최종 업데이트**: 2026년 2월 8일
 
-© 2026 iScript Lab. All rights reserved.
+

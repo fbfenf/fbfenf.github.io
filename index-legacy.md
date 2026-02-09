@@ -66,5 +66,3 @@ iScript는 사용자가 소유한 엑셀 파일(.xlsx)을 학습 데이터(단�
 
 
 
-
-© 2026 iScript Lab. All rights reserved.

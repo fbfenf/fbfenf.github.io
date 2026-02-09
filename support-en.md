@@ -241,4 +241,4 @@ All data is stored locally on user's device, and iScript respects user's **data 
 **Email**: hello@iscript.dev  
 **Last Updated**: February 8, 2026
 
-© 2026 iScript Lab. All rights reserved.
+

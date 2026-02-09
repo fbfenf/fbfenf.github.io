@@ -241,4 +241,4 @@ page_id: support
 **邮箱**: hello@iscript.dev  
 **最后更新**: 2026年2月8日
 
-© 2026 iScript Lab. All rights reserved.
+

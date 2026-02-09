@@ -242,4 +242,4 @@ page_id: support
 **メール**: hello@iscript.dev  
 **最終更新**: 2026年2月8日
 
-© 2026 iScript Lab. All rights reserved.
+

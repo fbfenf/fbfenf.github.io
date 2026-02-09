@@ -225,4 +225,4 @@ iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文�
 **版本**: 1.1.8  
 **最后更新**: 2026年2月8日
 
-© 2026 iScript Lab. All rights reserved.
+
