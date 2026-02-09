@@ -5,7 +5,7 @@ permalink: /privacy-en/
 page_id: privacy
 ---
 
-iScript Lab values your privacy and complies with relevant laws and regulations.
+> **iScript Lab values your privacy and complies with relevant laws and regulations.**
 
 ---
 

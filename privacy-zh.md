@@ -9,7 +9,7 @@ page_id: privacy
 
 # 隐私政策
 
-iScript Lab重视用户隐私并遵守相关法规。
+> **iScript Lab重视您的隐私，并遵守相关法律法规。**
 
 ---
 

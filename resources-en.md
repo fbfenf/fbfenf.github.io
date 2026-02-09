@@ -7,8 +7,8 @@ page_id: resources
 
 ---
 
-New to iScript?  
-Download free sample scripts below to experience potential of iScript right away!
+> **New to iScript?**  
+> Download free sample scripts below to experience potential of iScript right away!
 
 > **How to Use:**
 > 1. Click a button below to download the `.xlsx` or `.zip` file.
