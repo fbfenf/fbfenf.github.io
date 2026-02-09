@@ -36,9 +36,86 @@
                 {% endif %}
             </div>
 
-            <h1 id="project_title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-            <h2 id="project_tagline">{{ page.description | default: site.description | default:
-                site.github.project_tagline }}</h2>
+            <!-- Page Title Area (Clickable) -->
+            {%- assign home_url = "/" -%}
+            {%- if page.url contains "-en" -%}{%- assign home_url = "/index-en" -%}{%- endif -%}
+            {%- if page.url contains "-ja" -%}{%- assign home_url = "/index-ja" -%}{%- endif -%}
+            {%- if page.url contains "-zh" -%}{%- assign home_url = "/index-zh" -%}{%- endif -%}
+
+            <a href="{{ home_url }}" style="text-decoration: none; color: inherit; display: block;">
+                <h1 id="project_title" style="margin-bottom: 5px;">{{ page.title | default: site.title | default:
+                    site.github.repository_name }}</h1>
+                <h2 id="project_tagline" style="margin-top: 5px; opacity: 0.8;">{{ page.description | default:
+                    site.description | default: site.github.project_tagline }}</h2>
+            </a>
+
+            <!-- GLOBAL NAVIGATION MENU -->
+            {%- assign sfx = "" -%}
+            {%- if page.url contains "-en" -%}{%- assign sfx = "-en" -%}{%- endif -%}
+            {%- if page.url contains "-ja" -%}{%- assign sfx = "-ja" -%}{%- endif -%}
+            {%- if page.url contains "-zh" -%}{%- assign sfx = "-zh" -%}{%- endif -%}
+
+            {%- if page.url contains "-en" -%}{%- assign lang_key = "en" -%}{%- elsif page.url contains "-ja" -%}{%-
+            assign lang_key = "ja" -%}{%- elsif page.url contains "-zh" -%}{%- assign lang_key = "zh" -%}{%- else -%}{%-
+            assign lang_key = "ko" -%}{%- endif -%}
+
+            <nav class="global-nav">
+                <a href="{{ '/guide' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}가이드{%
+                    elsif lang_key == 'en' %}Guide{% elsif lang_key == 'ja' %}ガイド{% else %}指南{% endif %}</a>
+                <a href="{{ '/api' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}API 키{%
+                    elsif lang_key == 'en' %}API Key{% elsif lang_key == 'ja' %}APIキー{% else %}API 指南{% endif %}</a>
+                <a href="{{ '/resources' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}샘플
+                    대본{% elsif lang_key == 'en' %}Resources{% elsif lang_key == 'ja' %}サンプル台本{% else %}示例脚本{% endif
+                    %}</a>
+                <a href="{{ '/support' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}고객지원{%
+                    elsif lang_key == 'en' %}Support{% elsif lang_key == 'ja' %}サポート{% else %}客户支持{% endif %}</a>
+                <a href="{{ '/privacy' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}개인정보{%
+                    elsif lang_key == 'en' %}Privacy{% elsif lang_key == 'ja' %}プライバシー{% else %}隐私政策{% endif %}</a>
+            </nav>
+
+            <style>
+                .global-nav {
+                    display: flex;
+                    justify-content: center;
+                    gap: 15px;
+                    margin-top: 25px;
+                    flex-wrap: wrap;
+                }
+
+                .nav-item {
+                    color: rgba(255, 255, 255, 0.8) !important;
+                    text-decoration: none !important;
+                    font-size: 0.95em;
+                    padding: 8px 16px;
+                    border-radius: 20px;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(5px);
+                    transition: all 0.3s ease;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                }
+
+                .nav-item:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                    color: #fff !important;
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                }
+
+                #project_title:hover {
+                    opacity: 0.9;
+                }
+
+                @media (max-width: 600px) {
+                    .global-nav {
+                        gap: 8px;
+                    }
+
+                    .nav-item {
+                        padding: 6px 12px;
+                        font-size: 0.85em;
+                    }
+                }
+            </style>
 
             {% if site.show_downloads %}
             <section id="downloads">
