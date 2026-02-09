@@ -3,6 +3,8 @@ layout: default
 title: API Key Guide
 permalink: /api-en/
 page_id: api
+---
+
 > **To use iScript's powerful AI features (Pronunciation, Analysis, etc.), you need a free AI API Key.**  
 > Anyone with a Google account can get one easily and quickly for **free**.
 
