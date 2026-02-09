@@ -7,6 +7,7 @@ page_id: guide
 
 > **"True mastery comes when your mouth remembers."**  
 > Practice the 4-step learning method based on brain science with the app’s features.
+> 
 > 🎯 **Recommended Amount**: **3~5 sentences** per day (One Set)
 
 ---
