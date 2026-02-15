@@ -15,6 +15,10 @@ page_id: home
 - **& (Connection)**: 서로 소통하며 성장하는 연결  
 - **i (Intelligence/Individual)**: 최신 AI 기술과 개별 기록의 조화
 
+<br>
+
+[![App Store에서 다운로드하기](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&releaseDate=1708214400)](https://apps.apple.com/kr/app/iscript/id6758364468)
+
 ---
 
 # iScript 사용자 가이드

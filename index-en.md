@@ -15,6 +15,10 @@ page_id: home
 - **& (Connection)**: Growing together through communication  
 - **i (Intelligence/Individual)**: Harmony of latest AI technology and individual records
 
+<br>
+
+[![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1708214400)](https://apps.apple.com/us/app/iscript/id6758364468)
+
 ---
 
 # iScript User Guide
