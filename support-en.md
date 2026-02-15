@@ -210,7 +210,7 @@ Your feedback makes iScript better! 🚀
 ## 📱 App Information
 
 - **Platform**: iOS (iPhone, iPad)
-- **Current Version**: 1.1.8
+- **Current Version**: 1.1.9
 - **Minimum Requirements**: iOS 15.0 or later
 - **Price**: Free (Ad-supported)
 

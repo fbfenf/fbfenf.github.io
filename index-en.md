@@ -228,7 +228,7 @@ See **Terms of Service** in the app for details.
 ---
 
 **Platform**: iOS (iPhone, iPad)  
-**Version**: 1.1.8  
+**Version**: 1.1.9  
 **Last Updated**: February 8, 2026
 
 
