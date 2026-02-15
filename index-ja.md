@@ -14,10 +14,8 @@ page_id: home
 - **U (User)**: 学習の主体であるあなた
 - **& (Connection)**: コミュニケーションを通じて共に成長する繋がり  
 - **i (Intelligence/Individual)**: 最新のAI技術と個別記録の調和
-
-<br>
-
-[![App Storeからダウンロード](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&releaseDate=1708214400)](https://apps.apple.com/jp/app/iscript/id6758364468)
+  
+  [![App Storeからダウンロード](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&releaseDate=1708214400)](https://apps.apple.com/jp/app/iscript/id6758364468)
 
 ---
 

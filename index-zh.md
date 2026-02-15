@@ -14,10 +14,8 @@ page_id: home
 - **U (User)**: 学习的主体——你
 - **& (Connection)**: 通过沟通共同成长的连接  
 - **i (Intelligence/Individual)**: 最新AI技术与个人记录的和谐
-
-<br>
-
-[![App Store虽然下载](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn?size=250x83&releaseDate=1708214400)](https://apps.apple.com/cn/app/iscript/id6758364468)
+  
+  [![App Store虽然下载](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn?size=250x83&releaseDate=1708214400)](https://apps.apple.com/cn/app/iscript/id6758364468)
 
 ---
 
