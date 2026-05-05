@@ -24,7 +24,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="page-{{ page.page_id | default: 'content' }}">
+<body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -34,17 +34,17 @@
             {% endif %}
 
             <!-- Language Navigation -->
-            <div class="lang-nav">
+            <div class="lang-nav" style="text-align: right; margin-bottom: 20px; font-size: 0.9em;">
                 {% if page.page_id == 'home' %}
-                <a href="/">한국어</a> ·
-                <a href="/index-en">English</a> ·
-                <a href="/index-ja">日本語</a> ·
-                <a href="/index-zh">中文</a>
+                <a href="/" style="color: rgba(255,255,255,0.8);">한국어</a> ·
+                <a href="/index-en" style="color: rgba(255,255,255,0.8);">English</a> ·
+                <a href="/index-ja" style="color: rgba(255,255,255,0.8);">日本語</a> ·
+                <a href="/index-zh" style="color: rgba(255,255,255,0.8);">中文</a>
                 {% elsif page.page_id %}
-                <a href="/{{ page.page_id }}">한국어</a> ·
-                <a href="/{{ page.page_id }}-en">English</a> ·
-                <a href="/{{ page.page_id }}-ja">日本語</a> ·
-                <a href="/{{ page.page_id }}-zh">中文</a>
+                <a href="/{{ page.page_id }}" style="color: rgba(255,255,255,0.8);">한국어</a> ·
+                <a href="/{{ page.page_id }}-en" style="color: rgba(255,255,255,0.8);">English</a> ·
+                <a href="/{{ page.page_id }}-ja" style="color: rgba(255,255,255,0.8);">日本語</a> ·
+                <a href="/{{ page.page_id }}-zh" style="color: rgba(255,255,255,0.8);">中文</a>
                 {% endif %}
             </div>
 
@@ -83,6 +83,56 @@
                 <a href="{{ '/privacy' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}개인정보{%
                     elsif lang_key == 'en' %}Privacy{% elsif lang_key == 'ja' %}プライバシー{% else %}隐私政策{% endif %}</a>
             </nav>
+
+            <style>
+                .global-nav {
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 10px;
+                    margin-top: 25px;
+                    flex-wrap: wrap;
+                    padding-left: 0;
+                }
+
+                .nav-item {
+                    color: rgba(255, 255, 255, 0.8) !important;
+                    text-decoration: none !important;
+                    font-size: 0.9em;
+                    padding: 8px 15px;
+                    border-radius: 12px;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(5px);
+                    transition: all 0.2s ease;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                }
+
+                .nav-item:first-child {
+                    margin-left: 0;
+                }
+
+                .nav-item:hover {
+                    background: rgba(255, 255, 255, 0.2);
+                    color: #fff !important;
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                }
+
+                #project_title:hover {
+                    opacity: 0.9;
+                }
+
+                @media (max-width: 600px) {
+                    .global-nav {
+                        gap: 8px;
+                    }
+
+                    .nav-item {
+                        padding: 6px 12px;
+                        font-size: 0.85em;
+                    }
+                }
+            </style>
+
             {% if site.show_downloads %}
             <section id="downloads">
                 <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>

@@ -1,142 +1,232 @@
 ---
 layout: default
 title: iScript
-description: An AI language learning mate for your own scripts
 page_id: home
 ---
 
-<div class="landing">
-  <section class="hero-section">
-    <div class="hero-copy">
-      <h1>An AI language learning mate for your own scripts</h1>
-      <p class="hero-lede">Upload text or spreadsheet-based scripts, then manage sentence learning, SRS review, TTS, and progress tracking on your device.</p>
-      <div class="button-row">
-        <a class="button button-primary" href="https://apps.apple.com/us/app/iscript/id6758364468">Download on the App Store</a>
-        <a class="button button-secondary" href="/resources-en/">View sample scripts</a>
-      </div>
-      <p class="hero-note">iPhone · iPad · Free to start · Pro in-app purchase available</p>
-    </div>
-    <div class="hero-preview" aria-label="iScript learning screen summary">
-      <div class="preview-header">
-        <span>Today’s Script</span>
-        <span>Review 12</span>
-      </div>
-      <div class="sentence-card">
-        <p class="sentence-original">I finally got the hang of it.</p>
-        <p class="sentence-translation">I understand it now.</p>
-      </div>
-      <div class="preview-actions">
-        <span>Local TTS</span>
-        <span>UNKNOWN / KNOWN</span>
-        <span>SRS</span>
-      </div>
-    </div>
-  </section>
+---
 
-  <section class="section-block update-block">
-    <div class="section-heading">
-      <h2>What’s new</h2>
-      <p>Version 1.2.0 · April 16, 2026</p>
-    </div>
-    <div class="update-grid">
-      <div>
-        <h3>Local TTS</h3>
-        <p>A lighter listening flow helps you repeat and review sentences more smoothly.</p>
-      </div>
-      <div>
-        <h3>iScript Pro</h3>
-        <p>Pro unlocks ad removal, unlimited scripts, backup and restore, advanced stats, and AI analysis access.</p>
-      </div>
-      <div>
-        <h3>Better localization</h3>
-        <p>The app now follows the device language on first launch and improves Korean and English permission text.</p>
-      </div>
-    </div>
-  </section>
+# 🎯 Brand Identity
 
-  <section class="section-block">
-    <div class="section-heading">
-      <h2>Learning flow</h2>
-      <p>Bring in a script, learn sentence by sentence, and keep review moving.</p>
-    </div>
-    <ol class="step-grid">
-      <li><strong>Upload</strong><span>Add your own script or spreadsheet</span></li>
-      <li><strong>Learn</strong><span>Manage UNKNOWN / KNOWN sentence states</span></li>
-      <li><strong>Review</strong><span>Return through an SRS-based review flow</span></li>
-      <li><strong>Track</strong><span>Check progress and learning statistics</span></li>
-    </ol>
-  </section>
+> **iScript: intelligent Script for U&i**  
+> Beyond a simple language tool, aiming for organic growth between technology and people.
 
-  <section class="section-block">
-    <div class="section-heading">
-      <h2>Core features</h2>
-      <p>Six clear areas, without overlapping claims.</p>
-    </div>
-    <div class="feature-grid">
-      <article><h3>Script management</h3><p>Upload and manage text or spreadsheet-based scripts.</p></article>
-      <article><h3>Sentence learning</h3><p>Study sentence by sentence and switch UNKNOWN / KNOWN states.</p></article>
-      <article><h3>SRS review</h3><p>Keep your review flow going after learning sessions.</p></article>
-      <article><h3>Audio learning</h3><p>Use Local TTS, and connect an API key for Gemini TTS when needed.</p></article>
-      <article><h3>Records</h3><p>Track bookmarks, progress, and advanced statistics.</p></article>
-      <article><h3>Data</h3><p>Manage learning data with a local-first approach and backup / restore support.</p></article>
-    </div>
-  </section>
+- **U (User)**: You, the subject of learning
+- **& (Connection)**: Growing together through communication  
+- **i (Intelligence/Individual)**: Harmony of latest AI technology and individual records
+  
+  [![Download on the App Store](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1708214400)](https://apps.apple.com/us/app/iscript/id6758364468)
 
-  <section class="section-block plan-block">
-    <div class="section-heading">
-      <h2>Free and Pro</h2>
-      <p>Start with the basics for free, then extend longer study workflows with Pro.</p>
-    </div>
-    <div class="plan-grid">
-      <div class="plan-card">
-        <h3>Free</h3>
-        <ul>
-          <li>Basic script learning</li>
-          <li>Sentence state management</li>
-          <li>SRS review flow</li>
-          <li>Basic statistics</li>
-        </ul>
-      </div>
-      <div class="plan-card highlighted">
-        <h3>Pro</h3>
-        <ul>
-          <li>Ad removal</li>
-          <li>Unlimited scripts</li>
-          <li>Backup and restore</li>
-          <li>Advanced statistics</li>
-          <li>AI analysis access</li>
-        </ul>
-      </div>
-    </div>
-    <p class="small-note">AI analysis and Gemini TTS require connecting your own Gemini API key in Settings. <a href="/api-en/">See API key setup</a></p>
-  </section>
+---
 
-  <section class="section-block trust-block">
-    <div class="section-heading">
-      <h2>Local-first</h2>
-      <p>Learning data is managed around your device. See the privacy policy for details about ads, analytics, and AI-related data handling.</p>
-    </div>
-    <a class="text-link" href="/privacy-en/">View privacy policy</a>
-  </section>
+# iScript User Guide
 
-  <section class="section-block docs-block">
-    <div class="section-heading">
-      <h2>Docs and support</h2>
-      <p>Everything you need to get started.</p>
-    </div>
-    <div class="docs-grid">
-      <a href="/guide-en/"><strong>User guide</strong><span>15-minute shadowing routine and learning tips</span></a>
-      <a href="/api-en/"><strong>API Key</strong><span>How to create and connect a Gemini API key</span></a>
-      <a href="/resources-en/"><strong>Sample scripts</strong><span>Example files you can test right away</span></a>
-      <a href="/support-en/"><strong>Support</strong><span>FAQ and contact information</span></a>
-    </div>
-  </section>
+**intelligent Script for U&i**  
+*AI-powered iOS Language Learning App*
 
-  <section class="final-cta">
-    <h2>Start learning today with scripts you already have.</h2>
-    <div class="button-row centered">
-      <a class="button button-primary" href="https://apps.apple.com/us/app/iscript/id6758364468">Download on the App Store</a>
-      <a class="button button-secondary" href="/api-en/">See API key setup</a>
-    </div>
-  </section>
-</div>
+---
+
+## 📱 Quick Start
+
+### What is iScript?
+
+iScript is an **AI-powered learning tool** that helps you effectively learn foreign languages using your own script files (Excel).
+
+### Versatile Learning
+
+- 🎬 **Sentence Learning**: Learn contextual expressions with text scripts
+- 📝 **Vocabulary Learning**: Improve vocabulary with word list files  
+  *(Simply use Excel format: Column 1 = Word, Column 2 = Meaning)*
+- 🔄 **Efficient memorization** with SRS (Spaced Repetition System)
+
+---
+
+## 🚀 Key Features
+
+### 1. AI Learning Features
+
+#### 1.1 AI Pronunciation (TTS)
+- 🔊 **Native Pronunciation**: Tap the speaker icon to hear sentences
+- 📊 **Listen Count**: Check repeat count with number badge on icon
+
+#### 1.2 AI Sentence Analysis (Explain)
+- ✨ Tap **AI Explain** button to get:
+  - **Meaning and pronunciation** of key words
+  - Grammar structure explanation
+  - Cultural background explanation
+- ⭐ **Word Bookmark**: Save important words with star button
+
+#### 1.3 API Key Setup
+
+> 💡 **TIP**: You need a free API key to use AI features!
+
+1. **Get Free API Key**: [User Guide](/api-en)
+2. **App Settings** → "API Key" → Enter your key
+3. ✅ AI analysis and TTS features activated
+
+---
+
+### 2. Script Management
+
+#### 2.1 Upload Script
+1. **Prepare Excel file (.xlsx)**
+   - Column 1: Original text
+   - Column 2: Translation
+   > 💡 No script file? [Download free samples here](/resources-en)!
+
+2. **Library** → "Add Script" → Select file
+3. Check copyright agreement and upload
+
+#### 2.2 Edit Script
+- **Rename**: Tap pencil icon in script list
+- **Delete**: Tap trash icon
+- **Add Sentence**: Use "Add Sentence" button in script
+
+---
+
+### 3. Learning Features
+
+#### 3.1 Blur Focus
+- Translations are **blurred by default**
+- Try to interpret first, then **tap translation area** to check
+- Helps improve concentration and active learning
+
+#### 3.2 Learning Status Management
+
+| Status | Description | Color |
+|--------|-------------|-------|
+| **New** | First time learning | Blue |
+| **To Learn** | Currently learning | - |
+| **Learned** | Completed | Green |
+| **Review** | Needs review | Orange |
+
+#### 3.3 Spaced Repetition System (SRS)
+- Based on **forgetting curve theory**
+- Automatically calculates review timing
+- Review cycle: 1 day → 3 days → 7 days → 14 days...
+
+---
+
+### 4. Data Backup & Restore
+
+#### 4.1 Backup (Share API)
+
+1. **Settings** → "File Backup" → **Backup** button
+2. **Share dialog** appears
+3. **Select save location**:
+   - 💾 iCloud Drive (Recommended)
+   - 📥 Downloads folder
+   - 📁 Files app
+4. ✅ JSON file saved
+
+#### 4.2 Restore (FilePicker)
+
+1. **Settings** → "File Backup" → **Restore** button
+2. **File picker dialog** appears
+3. Select previously saved **JSON backup file**
+4. ✅ Data restored and app restarts
+
+> ⚠️ **Important**: If you don't create a backup, all learning records will be permanently deleted when you delete the app.  
+> 📆 **Recommended**: Back up once a week!
+
+---
+
+### 5. Advertising
+
+#### 5.1 Free App Operation
+- iScript is **free** and supported by **Google AdMob** ads
+
+#### 5.2 Ad Types
+
+| Type | Location | Timing |
+|------|----------|--------|
+| **Banner Ad** | Fixed at bottom | When app starts |
+| **Interstitial Ad** | Full screen | Starting learning, Moving to Analytics |
+
+#### 5.3 Ad Control
+- **iOS Settings** → Privacy → Tracking
+- Disable "Allow Apps to Request to Track" to limit personalized ads
+
+---
+
+### 6. Theme & Language Settings
+
+#### 6.1 Theme
+- **Light**: Bright theme
+- **Dark**: Dark theme
+- **Sepia**: Sepia theme (reduces eye strain)
+
+#### 6.2 Language
+- **Korean (KO)**
+- **English (EN)**
+
+---
+
+### 7. Learning Analytics
+
+#### 7.1 How to Check
+- Tap clock icon at top
+- Library → "Analytics" button
+
+#### 7.2 Provided Information
+- 📊 **Daily learning time** (7-day chart)
+- 🔥 **Streak** (consecutive learning days)
+- 📈 **Learning pattern analysis** (weekly)
+- 📚 **Learning progress** (Total/Learned/Review needed)
+- 🧠 **SRS review schedule** (7-day forecast)
+
+---
+
+## 🔒 Privacy Protection
+
+### Local-First
+- All learning data stored **locally on device only (IndexedDB)**
+- No data transmission to iScript server
+
+### Third-party Services
+- **Google AdMob**: Only advertising identifier (IDFA)
+- **AI Service**: User's own API Key for sentence analysis (BYOK method)
+
+For details, see [Privacy Policy](https://iscript.dev/privacy-en)
+
+---
+
+## 💡 Effective Learning Methods
+
+We have prepared a **4-step shadowing routine** to utilize 100% of iScript's features.
+Start real learning where your mouth remembers, just 15 minutes a day.
+
+👉 **[View 15-Minute Shadowing Guide](/guide-en/)**
+
+---
+
+## 🔗 Related Documents
+
+Have questions or need help?
+
+- ❓ **FAQ & Troubleshooting**: [Support Page](/support-en/)
+- 🎓 **Effective Learning Method**: [15-Minute Shadowing Guide](/guide-en/)
+- 📧 **Contact**: hello@iscript.dev
+- 🎬 **Sample Scripts & Guides**: [Resources](/resources-en/)
+
+---
+
+## 📜 Copyright Notice
+
+### Personal Use Principle
+- Scripts are for **personal learning purposes only**
+- Permitted under Fair Use for educational purposes
+
+### Prohibited
+- ❌ **Sharing, selling, or distributing** script files
+- ❌ Commercial use
+
+See **Terms of Service** in the app for details.
+
+---
+
+**Platform**: iOS (iPhone, iPad)  
+**Version**: 1.1.9  
+**Last Updated**: February 8, 2026
+
+

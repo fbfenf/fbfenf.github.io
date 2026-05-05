@@ -1,142 +1,232 @@
 ---
 layout: default
 title: iScript
-description: 自分のスクリプトで学ぶAI語学学習メイト
 page_id: home
 ---
 
-<div class="landing">
-  <section class="hero-section">
-    <div class="hero-copy">
-      <h1>自分のスクリプトで学ぶAI語学学習メイト</h1>
-      <p class="hero-lede">テキストやスプレッドシート形式のスクリプトをアップロードし、文章単位の学習、SRS復習、TTS、進捗管理をデバイス上で進められます。</p>
-      <div class="button-row">
-        <a class="button button-primary" href="https://apps.apple.com/jp/app/iscript/id6758364468">App Storeでダウンロード</a>
-        <a class="button button-secondary" href="/resources-ja/">サンプルを見る</a>
-      </div>
-      <p class="hero-note">iPhone · iPad対応 · 無料で開始 · Proアプリ内課金あり</p>
-    </div>
-    <div class="hero-preview" aria-label="iScript学習画面の概要">
-      <div class="preview-header">
-        <span>Today’s Script</span>
-        <span>Review 12</span>
-      </div>
-      <div class="sentence-card">
-        <p class="sentence-original">I finally got the hang of it.</p>
-        <p class="sentence-translation">やっとコツがわかった。</p>
-      </div>
-      <div class="preview-actions">
-        <span>Local TTS</span>
-        <span>UNKNOWN / KNOWN</span>
-        <span>SRS</span>
-      </div>
-    </div>
-  </section>
+---
 
-  <section class="section-block update-block">
-    <div class="section-heading">
-      <h2>最新アップデート</h2>
-      <p>Version 1.2.0 · 2026年4月16日</p>
-    </div>
-    <div class="update-grid">
-      <div>
-        <h3>Local TTS追加</h3>
-        <p>文章をより軽快に聞き、繰り返し学習しやすい音声フローを強化しました。</p>
-      </div>
-      <div>
-        <h3>iScript Pro対応</h3>
-        <p>広告削除、スクリプト無制限、バックアップ・復元、高度な統計、AI分析アクセスをProで提供します。</p>
-      </div>
-      <div>
-        <h3>ローカライズ改善</h3>
-        <p>初回起動時にデバイス言語を自然に反映し、韓国語・英語の権限説明文を改善しました。</p>
-      </div>
-    </div>
-  </section>
+# 🎯 ブランドアイデンティティ
 
-  <section class="section-block">
-    <div class="section-heading">
-      <h2>学習フロー</h2>
-      <p>スクリプトを入れ、文章ごとに学び、復習までつなげます。</p>
-    </div>
-    <ol class="step-grid">
-      <li><strong>Upload</strong><span>自分のスクリプトまたはスプレッドシートを追加</span></li>
-      <li><strong>Learn</strong><span>文章ごとにUNKNOWN / KNOWNを管理</span></li>
-      <li><strong>Review</strong><span>SRSベースの復習フローで再確認</span></li>
-      <li><strong>Track</strong><span>進捗と学習統計を確認</span></li>
-    </ol>
-  </section>
+> **iScript: intelligent Script for U&i**  
+> 単純な語学ツールを超え、技術と人との有機的な成長を目指します。
 
-  <section class="section-block">
-    <div class="section-heading">
-      <h2>主な機能</h2>
-      <p>重複しない6つの領域に整理しました。</p>
-    </div>
-    <div class="feature-grid">
-      <article><h3>スクリプト管理</h3><p>テキストまたはスプレッドシート形式のスクリプトをアップロードして管理します。</p></article>
-      <article><h3>文章学習</h3><p>文章単位で学習し、UNKNOWN / KNOWNの状態を切り替えます。</p></article>
-      <article><h3>SRS復習</h3><p>学習後も復習フローを継続できるよう設計されています。</p></article>
-      <article><h3>音声学習</h3><p>Local TTSで聞き、必要に応じてGemini TTSはAPI Key接続後に利用できます。</p></article>
-      <article><h3>記録</h3><p>文章・単語ブックマーク、進捗、高度な統計を確認できます。</p></article>
-      <article><h3>データ</h3><p>ローカルファーストで学習データを管理し、バックアップ・復元をサポートします。</p></article>
-    </div>
-  </section>
+- **U (User)**: 学習の主体であるあなた
+- **& (Connection)**: コミュニケーションを通じて共に成長する繋がり  
+- **i (Intelligence/Individual)**: 最新のAI技術と個別記録の調和
+  
+  [![App Storeからダウンロード](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&releaseDate=1708214400)](https://apps.apple.com/jp/app/iscript/id6758364468)
 
-  <section class="section-block plan-block">
-    <div class="section-heading">
-      <h2>FreeとPro</h2>
-      <p>基本学習は無料で始め、長期的な学習フローはProで拡張できます。</p>
-    </div>
-    <div class="plan-grid">
-      <div class="plan-card">
-        <h3>Free</h3>
-        <ul>
-          <li>基本スクリプト学習</li>
-          <li>文章状態管理</li>
-          <li>SRS復習フロー</li>
-          <li>基本統計</li>
-        </ul>
-      </div>
-      <div class="plan-card highlighted">
-        <h3>Pro</h3>
-        <ul>
-          <li>広告削除</li>
-          <li>スクリプト無制限</li>
-          <li>バックアップ・復元</li>
-          <li>高度な統計</li>
-          <li>AI分析アクセス</li>
-        </ul>
-      </div>
-    </div>
-    <p class="small-note">AI分析とGemini TTSを使用するには、設定で自分のGemini API Keyを接続する必要があります。 <a href="/api-ja/">API Key設定を見る</a></p>
-  </section>
+---
 
-  <section class="section-block trust-block">
-    <div class="section-heading">
-      <h2>Local-first</h2>
-      <p>学習データはデバイス中心で管理されます。広告、分析、AI機能に関する詳細はプライバシーポリシーで確認できます。</p>
-    </div>
-    <a class="text-link" href="/privacy-ja/">プライバシーポリシーを見る</a>
-  </section>
+# iScript ユーザーガイド
 
-  <section class="section-block docs-block">
-    <div class="section-heading">
-      <h2>ドキュメントとサポート</h2>
-      <p>始めるために必要な資料をまとめました。</p>
-    </div>
-    <div class="docs-grid">
-      <a href="/guide-ja/"><strong>使用ガイド</strong><span>15分シャドーイングルーティンと学習法</span></a>
-      <a href="/api-ja/"><strong>API Key</strong><span>Gemini API Keyの発行と接続方法</span></a>
-      <a href="/resources-ja/"><strong>サンプル台本</strong><span>すぐに試せるサンプルファイル</span></a>
-      <a href="/support-ja/"><strong>サポート</strong><span>FAQと問い合わせ案内</span></a>
-    </div>
-  </section>
+**intelligent Script for U&i**  
+*AI搭載 iOS 言語学習アプリ*
 
-  <section class="final-cta">
-    <h2>手元のスクリプトで、今日から学習を始めましょう。</h2>
-    <div class="button-row centered">
-      <a class="button button-primary" href="https://apps.apple.com/jp/app/iscript/id6758364468">App Storeでダウンロード</a>
-      <a class="button button-secondary" href="/api-ja/">API Key設定を見る</a>
-    </div>
-  </section>
-</div>
+---
+
+## 📱 クイックスタート
+
+### iScriptとは？
+
+iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活用し、外国語を効果的に学習できる **AI搭載学習ツール** です。
+
+### 多様な学習活用
+
+- 🎬 **文章学習**: テキストスクリプトで文脈内の表現を学習
+- 📝 **単語学習**: 単語帳ファイルで語彙力向上  
+  *(1列=単語、2列=意味 形式のExcelファイルがあれば、自分だけの単語帳アプリとして活用可能)*
+- 🔄 **SRS(間隔反復システム)** で効率的な暗記
+
+---
+
+## 🚀 主要機能
+
+### 1. AI学習機能
+
+#### 1.1 AI発音 (TTS)
+- 🔊 **ネイティブ発音**: スピーカーアイコンをタップして文章を音声で聞くことができます
+- 📊 **聴取回数**: アイコン上の数字バッジで反復聴取回数を確認できます
+
+#### 1.2 AI文章分析 (Explain)
+- ✨ **AI Explain** ボタンをタップすると:
+  - 重要単語の **意味と発音** を提供
+  - 文法構造の説明
+  - 文化的背景の説明
+- ⭐ **単語ブックマーク**: 重要な単語に星マークを付けて保存できます
+
+#### 1.3 APIキー設定
+
+> 💡 **TIP**: AI機能を使用するには無料のAPIキーが必要です！
+
+1. **無料APIキー取得**: [キー取得ガイド](/api-ja)
+2. **アプリ設定** → "API Key" → 取得したキーを入力
+3. ✅ AI分析及びTTS機能が使用可能
+
+---
+
+### 2. スクリプト管理
+
+#### 2.1 スクリプトアップロード
+1. **Excelファイル(.xlsx)準備**
+   - 1列目: 原文
+   - 2列目: 翻訳文
+   > 💡 台本ファイルがないですか？ [資料室で無料サンプル](/resources-ja)をダウンロードしましょう！
+
+2. **ライブラリ** → "Add Script" → ファイル選択
+3. 著作権同意にチェックしてアップロード
+
+#### 2.2 スクリプト編集
+- **名前変更**: スクリプトリストで鉛筆アイコンをタップ
+- **削除**: ゴミ箱アイコンをタップ
+- **文章追加**: スクリプト内で "Add Sentence" ボタン
+
+---
+
+### 3. 学習機能
+
+#### 3.1 ブラーフォーカス
+- 翻訳文は **デフォルトでぼかし処理** されています
+- 自分で解釈してから **翻訳文領域をタップ** して正解を確認しましょう
+- 集中力向上と能動的学習に役立ちます
+
+#### 3.2 学習状態管理
+
+| 状態 | 説明 | 色 |
+|-----|------|-----|
+| **New** | 初めて学習する文章 | 青 |
+| **To Learn** | 学習中の文章 | - |
+| **Learned** | 学習完了 | 緑 |
+| **Review** | 復習必要 | オレンジ |
+
+#### 3.3 間隔反復システム (SRS)
+- **忘却曲線理論** 適用
+- 学習完了後、自動的に復習タイミングを計算
+- 復習周期: 1日 → 3日 → 7日 → 14日...
+
+---
+
+### 4. データバックアップ及び復元
+
+#### 4.1 バックアップ (Share API)
+
+1. **設定** → "ファイルバックアップ" → **バックアップ** ボタン
+2. **共有ダイアログ** 表示
+3. **保存場所を選択**:
+   - 💾 iCloud Drive (推奨)
+   - 📥 ダウンロードフォルダ
+   - 📁 ファイルアプリ
+4. ✅ JSONファイル保存完了
+
+#### 4.2 復元 (FilePicker)
+
+1. **設定** → "ファイルバックアップ" → **復元** ボタン
+2. **ファイル選択ダイアログ** 表示
+3. 以前保存した **JSONバックアップファイル** を選択
+4. ✅ データ復元及びアプリ再起動
+
+> ⚠️ **重要**: バックアップファイルを作成していない場合、アプリ削除時にすべての学習記録が永久削除されます。  
+> 📆 **推奨**: 週1回バックアップしましょう！
+
+---
+
+### 5. 広告
+
+#### 5.1 無料アプリ運営
+- iScriptは **無料** で、**Google AdMob** 広告でサポートされています
+
+#### 5.2 広告タイプ
+
+| タイプ | 位置 | タイミング |
+|-------|------|-----------|
+| **バナー広告** | 下部固定 | アプリ起動時 |
+| **全画面広告** | フルスクリーン | 学習開始時、Analytics移動時 |
+
+#### 5.3 広告制御
+- **iOS設定** → プライバシー → トラッキング
+- 「Appからのトラッキング要求を許可」を無効にすると、パーソナライズ広告を制限できます
+
+---
+
+### 6. テーマ及び言語設定
+
+#### 6.1 テーマ
+- **Light**: 明るいテーマ
+- **Dark**: ダークテーマ
+- **Sepia**: セピアテーマ (目の疲れを軽減)
+
+#### 6.2 言語
+- **韓国語 (KO)**
+- **English (EN)**
+
+---
+
+### 7. 学習分析 (Analytics)
+
+#### 7.1 確認方法
+- 上部の時計アイコンをタップ
+- ライブラリ → "Analytics" ボタン
+
+#### 7.2 提供情報
+- 📊 **日別学習時間** (7日間チャート)
+- 🔥 **ストリーク** (連続学習日数)
+- 📈 **学習パターン分析** (週間)
+- 📚 **学習進捗** (全体/学習済み/復習必要)
+- 🧠 **SRS復習スケジュール** (7日間予報)
+
+---
+
+## 🔒 プライバシー保護
+
+### ローカルファースト
+- すべての学習データは **デバイス内部のみに保存 (IndexedDB)**
+- iScriptサーバーにデータを送信しません
+
+### 第三者提供
+- **Google AdMob**: 広告識別子(IDFA)のみ提供
+- **AIサービス**: ユーザー自身のAPI Keyで文章分析 (BYOK方式)
+
+詳細は [プライバシーポリシー](https://iscript.dev/privacy-ja) を参照してください。
+
+---
+
+## 💡 効果的な学習方法
+
+iScriptの機能を100%活用する **4段階シャドーイングルーティン** が用意されています。
+1日15分、口が覚える本当の学習を始めましょう。
+
+👉 **[15分シャドーイングガイドを見る](/guide-ja/)**
+
+---
+
+## 🔗 関連ドキュメント
+
+ご質問やサポートが必要ですか？
+
+- ❓ **よくある質問 (FAQ) & トラブルシューティング**: [サポートページ](/support-ja/)
+- 🎓 **効果的な学習方法**: [15分シャドーイングガイド](/guide-ja/)
+- 📧 **お問い合わせ**: hello@iscript.dev
+- 🎬 **サンプル台本 & ガイド**: [資料室](/resources-ja/)
+
+---
+
+## 📜 著作権のお知らせ
+
+### 私的利用の原則
+- スクリプトは **個人の学習目的のみ** で使用してください
+- 教育目的のフェアユースの下で許可されています
+
+### 禁止事項
+- ❌ スクリプトファイルの **共有、販売、配布**
+- ❌ 商業利用
+
+詳細はアプリ内の **利用規約** を参照してください。
+
+---
+
+**プラットフォーム**: iOS (iPhone, iPad)  
+**バージョン**: 1.1.9  
+**最終更新**: 2026年2月8日
+
+
