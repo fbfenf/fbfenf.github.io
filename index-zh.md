@@ -1,230 +1,142 @@
 ---
 layout: default
 title: iScript
+description: 用自己的脚本学习的 AI 语言学习伙伴
 page_id: home
 ---
 
----
-
-# 🎯 品牌标识
-
-> **iScript: intelligent Script for U&i**  
-> 超越简单的语言工具，追求技术与人的有机成长。
-
-- **U (User)**: 学习的主体——你
-- **& (Connection)**: 通过沟通共同成长的连接  
-- **i (Intelligence/Individual)**: 最新AI技术与个人记录的和谐
-  
-  [![App Store虽然下载](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/zh-cn?size=250x83&releaseDate=1708214400)](https://apps.apple.com/cn/app/iscript/id6758364468)
-
----
-
-# iScript 用户指南
-
-**intelligent Script for U&i**  
-*AI驱动的iOS语言学习应用*
-
----
-
-## 📱 快速开始
-
-### 什么是iScript？
-
-iScript是一款**AI驱动的学习工具**，帮助您利用自己的脚本文件(Excel)高效学习外语。
-
-### 多样化学习应用
-
-- 🎬 **句子学习**: 通过文本脚本学习上下文表达
-- 📝 **词汇学习**: 通过单词表文件提高词汇量  
-  *(只需Excel格式：第1列=单词，第2列=意思，即可用作个人单词本)*
-- 🔄 通过**SRS(间隔重复系统)**高效记忆
-
----
-
-## 🚀 主要功能
-
-### 1. AI学习功能
-
-#### 1.1 AI发音 (TTS)
-- 🔊 **母语发音**: 点击扬声器图标即可听到句子发音
-- 📊 **收听次数**: 图标上的数字徽章显示重复收听次数
-
-#### 1.2 AI句子分析 (Explain)
-- ✨ 点击**AI Explain**按钮可获得:
-  - 关键词的**意思和发音**
-  - 语法结构说明
-  - 文化背景说明
-- ⭐ **单词书签**: 为重要单词添加星标保存
-
-#### 1.3 API密钥设置
-
-> 💡 **提示**: 使用AI功能需要免费的API密钥！
-
-1. **获取免费API密钥**: [获取指南](/api-zh)
-2. **应用设置** → "API Key" → 输入获取的密钥
-3. ✅ AI分析和TTS功能已激活
-
----
-
-### 2. 脚本管理
-
-#### 2.1 上传脚本
-1. **准备Excel文件(.xlsx)**
-   - 第1列: 原文
-   - 第2列: 译文
-   > 💡 没有脚本文件？ [点击此处下载免费示例](/resources-zh)！
-
-2. **资料库** → "Add Script" → 选择文件
-3. 勾选版权同意后上传
-
-#### 2.2 编辑脚本
-- **重命名**: 在脚本列表中点击铅笔图标
-- **删除**: 点击垃圾桶图标
-- **添加句子**: 在脚本中使用"Add Sentence"按钮
-
----
-
-### 3. 学习功能
-
-#### 3.1 模糊聚焦
-- 译文**默认模糊处理**
-- 先自己尝试翻译，然后**点击译文区域**查看正确答案
-- 有助于提高专注力和主动学习
-
-#### 3.2 学习状态管理
-
-| 状态 | 说明 | 颜色 |
-|-----|------|------|
-| **New** | 首次学习的句子 | 蓝色 |
-| **To Learn** | 正在学习的句子 | - |
-| **Learned** | 已完成学习 | 绿色 |
-| **Review** | 需要复习 | 橙色 |
-
-#### 3.3 间隔重复系统 (SRS)
-- 基于**遗忘曲线理论**
-- 学习完成后自动计算复习时机
-- 复习周期: 1天 → 3天 → 7天 → 14天...
-
----
-
-### 4. 数据备份与恢复
-
-#### 4.1 备份 (Share API)
-
-1. **设置** → "文件备份" → **备份**按钮
-2. 显示**共享对话框**
-3. **选择保存位置**:
-   - 💾 iCloud Drive (推荐)
-   - 📥 下载文件夹
-   - 📁 文件应用
-4. ✅ JSON文件已保存
-
-#### 4.2 恢复 (FilePicker)
-
-1. **设置** → "文件备份" → **恢复**按钮
-2. 显示**文件选择对话框**
-3. 选择之前保存的**JSON备份文件**
-4. ✅ 数据已恢复，应用重启
-
-> ⚠️ **重要**: 如果未创建备份文件，删除应用时所有学习记录将永久删除。  
-> 📆 **建议**: 每周备份一次！
-
----
-
-### 5. 广告
-
-#### 5.1 免费应用运营
-- iScript**免费**，由**Google AdMob**广告支持
-
-#### 5.2 广告类型
-
-| 类型 | 位置 | 时机 |
-|-----|------|------|
-| **横幅广告** | 底部固定 | 应用启动时 |
-| **插屏广告** | 全屏 | 开始学习时、移动到Analytics时 |
-
-#### 5.3 广告控制
-- **iOS设置** → 隐私 → 跟踪
-- 禁用"允许App请求跟踪"可限制个性化广告
-
----
-
-### 6. 主题与语言设置
-
-#### 6.1 主题
-- **Light**: 明亮主题
-- **Dark**: 暗色主题
-- **Sepia**: 复古主题 (减轻眼睛疲劳)
-
-#### 6.2 语言
-- **韩语 (KO)**
-- **英语 (EN)**
-
----
-
-### 7. 学习分析 (Analytics)
-
-#### 7.1 查看方法
-- 点击顶部时钟图标
-- 资料库 → "Analytics"按钮
-
-#### 7.2 提供信息
-- 📊 **每日学习时间** (7天图表)
-- 🔥 **连续学习天数 (Streak)**
-- 📈 **学习模式分析** (每周)
-- 📚 **学习进度** (总计/已学习/需复习)
-- 🧠 **SRS复习计划** (7天预报)
-
----
-
-## 🔒 隐私保护
-
-### 本地优先
-- 所有学习数据仅存储在**设备内部 (IndexedDB)**
-- 不向iScript服务器传输数据
-
-### 第三方服务
-- **Google AdMob**: 仅提供广告标识符(IDFA)
-- **AI服务**: 使用用户自己的 API 密钥进行句子分析 (BYOK方式)
-
-详情请参阅 [隐私政策](https://iscript.dev/privacy-zh)
-
----
-
-## 💡 有效学习方法
-
-我们准备了**4阶段影子跟读惯例**，以100%利用iScript的功能。
-每天15分钟，开始让嘴巴记住的真正学习。
-
-👉 **[查看15分钟影子跟读指南](/guide-zh/)**
-
-## 🔗 相关文档
-
-有疑问或需要帮助吗？
-
-- ❓ **常见问题 (FAQ) & 故障排除**: [支持页面](/support-zh/)
-- 🎓 **有效学习方法**: [15分钟跟读指南](/guide-zh/)
-- 📧 **联系我们**: hello@iscript.dev
-- 🎬 **示例脚本 & 指南**: [资料室](/resources-zh/)
-
----
-
-## 📜 版权声明
-
-### 个人使用原则
-- 脚本仅用于**个人学习目的**
-- 根据教育目的的合理使用而被允许
-
-### 禁止事项
-- ❌ **共享、出售或分发**脚本文件
-- ❌ 商业用途
-
-详情请参阅应用内的**服务条款**。
-
----
-
-**平台**: iOS (iPhone, iPad)  
-**版本**: 1.1.9  
-**最后更新**: 2026年2月8日
-
-
+<div class="landing">
+  <section class="hero-section">
+    <div class="hero-copy">
+      <h1>用自己的脚本学习的 AI 语言学习伙伴</h1>
+      <p class="hero-lede">上传文本或电子表格脚本，在设备上管理逐句学习、SRS 复习、TTS 和学习进度。</p>
+      <div class="button-row">
+        <a class="button button-primary" href="https://apps.apple.com/cn/app/iscript/id6758364468">在 App Store 下载</a>
+        <a class="button button-secondary" href="/resources-zh/">查看示例脚本</a>
+      </div>
+      <p class="hero-note">支持 iPhone · iPad · 免费开始 · 提供 Pro 应用内购买</p>
+    </div>
+    <div class="hero-preview" aria-label="iScript 学习界面摘要">
+      <div class="preview-header">
+        <span>Today’s Script</span>
+        <span>Review 12</span>
+      </div>
+      <div class="sentence-card">
+        <p class="sentence-original">I finally got the hang of it.</p>
+        <p class="sentence-translation">我终于掌握窍门了。</p>
+      </div>
+      <div class="preview-actions">
+        <span>Local TTS</span>
+        <span>UNKNOWN / KNOWN</span>
+        <span>SRS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block update-block">
+    <div class="section-heading">
+      <h2>最新更新</h2>
+      <p>Version 1.2.0 · 2026年4月16日</p>
+    </div>
+    <div class="update-grid">
+      <div>
+        <h3>新增 Local TTS</h3>
+        <p>更轻量的听读流程，让句子重复学习更加顺畅。</p>
+      </div>
+      <div>
+        <h3>支持 iScript Pro</h3>
+        <p>Pro 解锁去广告、无限脚本、备份与恢复、高级统计和 AI 分析访问。</p>
+      </div>
+      <div>
+        <h3>本地化改进</h3>
+        <p>首次启动时会自然跟随设备语言，并优化韩语和英语权限说明。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>学习流程</h2>
+      <p>导入脚本，逐句学习，再持续复习。</p>
+    </div>
+    <ol class="step-grid">
+      <li><strong>Upload</strong><span>添加自己的脚本或电子表格</span></li>
+      <li><strong>Learn</strong><span>按句管理 UNKNOWN / KNOWN 状态</span></li>
+      <li><strong>Review</strong><span>通过 SRS 复习流程重新学习</span></li>
+      <li><strong>Track</strong><span>查看进度和学习统计</span></li>
+    </ol>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>核心功能</h2>
+      <p>按六个不重叠的领域整理功能。</p>
+    </div>
+    <div class="feature-grid">
+      <article><h3>脚本管理</h3><p>上传并管理文本或电子表格脚本。</p></article>
+      <article><h3>逐句学习</h3><p>按句学习，并切换 UNKNOWN / KNOWN 状态。</p></article>
+      <article><h3>SRS 复习</h3><p>学习完成后继续保持复习节奏。</p></article>
+      <article><h3>听力学习</h3><p>使用 Local TTS；如需 Gemini TTS，可连接 API Key。</p></article>
+      <article><h3>学习记录</h3><p>查看句子和单词书签、进度以及高级统计。</p></article>
+      <article><h3>数据</h3><p>以本地优先方式管理学习数据，并支持备份与恢复。</p></article>
+    </div>
+  </section>
+
+  <section class="section-block plan-block">
+    <div class="section-heading">
+      <h2>Free 与 Pro</h2>
+      <p>免费开始基础学习，并通过 Pro 扩展更长的学习流程。</p>
+    </div>
+    <div class="plan-grid">
+      <div class="plan-card">
+        <h3>Free</h3>
+        <ul>
+          <li>基础脚本学习</li>
+          <li>句子状态管理</li>
+          <li>SRS 复习流程</li>
+          <li>基础统计</li>
+        </ul>
+      </div>
+      <div class="plan-card highlighted">
+        <h3>Pro</h3>
+        <ul>
+          <li>去除广告</li>
+          <li>无限脚本</li>
+          <li>备份与恢复</li>
+          <li>高级统计</li>
+          <li>AI 分析访问</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small-note">AI 分析和 Gemini TTS 需要在设置中连接你自己的 Gemini API Key。 <a href="/api-zh/">查看 API Key 设置</a></p>
+  </section>
+
+  <section class="section-block trust-block">
+    <div class="section-heading">
+      <h2>Local-first</h2>
+      <p>学习数据以设备为中心进行管理。关于广告、分析和 AI 功能的数据处理，请查看隐私政策。</p>
+    </div>
+    <a class="text-link" href="/privacy-zh/">查看隐私政策</a>
+  </section>
+
+  <section class="section-block docs-block">
+    <div class="section-heading">
+      <h2>文档与支持</h2>
+      <p>开始使用所需的资料集中在这里。</p>
+    </div>
+    <div class="docs-grid">
+      <a href="/guide-zh/"><strong>使用指南</strong><span>15 分钟影子跟读流程和学习方法</span></a>
+      <a href="/api-zh/"><strong>API Key</strong><span>Gemini API Key 的创建和连接方法</span></a>
+      <a href="/resources-zh/"><strong>示例脚本</strong><span>可立即测试的示例文件</span></a>
+      <a href="/support-zh/"><strong>客户支持</strong><span>FAQ 和联系信息</span></a>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>用已有脚本，从今天开始学习。</h2>
+    <div class="button-row centered">
+      <a class="button button-primary" href="https://apps.apple.com/cn/app/iscript/id6758364468">在 App Store 下载</a>
+      <a class="button button-secondary" href="/api-zh/">查看 API Key 设置</a>
+    </div>
+  </section>
+</div>

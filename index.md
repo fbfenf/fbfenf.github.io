@@ -1,218 +1,142 @@
 ---
 layout: default
 title: iScript
+description: 나만의 대본으로 학습하는 AI 언어 학습 메이트
 page_id: home
 ---
 
----
-
-# 🎯 Brand Identity
-
-> **iScript: intelligent Script for U&i**  
-> 단순한 어학 도구를 넘어, 기술과 사람의 유기적인 성장을 지향합니다.
-
-- **U (User)**: 학습의 주체인 당신
-- **& (Connection)**: 서로 소통하며 성장하는 연결  
-- **i (Intelligence/Individual)**: 최신 AI 기술과 개별 기록의 조화
-  
-  [![App Store에서 다운로드하기](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&releaseDate=1708214400)](https://apps.apple.com/kr/app/iscript/id6758364468)
-
----
-
-# iScript 사용자 가이드
-
-**intelligent Script for U&i**  
-*AI 기반 iOS 언어 학습 앱*
-
----
-
-## 📱 빠른 시작
-
-### iScript란?
-
-iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국어를 효과적으로 학습할 수 있도록 돕는 **AI 기반 학습 도구**입니다.
-
-### 다양한 학습 활용
-
-- 🎬 **문장 학습**: 텍스트 대본으로 문맥 속 표현 학습
-- 📝 **단어 학습**: 단어장 파일로 어휘력 향상  
-  *(1열 = 단어, 2열 = 뜻 형식의 엑셀 파일만 있으면 나만의 단어장 앱으로 활용 가능)*
-- 🔄 **SRS(간격 반복 시스템)**로 효율적인 암기
-
----
-
-## 🚀 주요 기능
-
-### 1. AI 학습 기능
-
-#### 1.1 AI 발음 (TTS)
-- 🔊 **원어민 발음**: 스피커 아이콘을 탭하여 문장을 음성으로 들을 수 있습니다.
-- 📊 **청취 횟수**: 아이콘 위 숫자 배지로 반복 청취 횟수를 확인할 수 있습니다.
-
-#### 1.2 AI 문장 분석 (Explain)
-- ✨ **AI Explain** 버튼을 탭하면:
-  - 핵심 단어의 **뜻과 발음** 제공
-  - 문법 구조 설명
-  - 문화적 배경 설명
-- ⭐ **단어 북마크**: 중요한 단어에 별표를 눌러 저장할 수 있습니다.
-
-#### 1.3 API 키 설정
-
-> 💡 **TIP**: AI 기능을 사용하려면 무료 API 키가 필요합니다!
-
-1. **무료 API 키 발급**: [발급 가이드 보기](/api)
-2. **앱 설정** → "API Key" → 발급받은 키 입력
-3. ✅ AI 분석 및 TTS 기능 사용 가능
-
----
-
-### 2. 대본 관리
-
-#### 2.1 대본 업로드
-1. **엑셀 파일(.xlsx) 준비**
-   - 1열: 원문
-   - 2열: 번역문
-   > � 대본 파일이 없으세요? [자료실에서 무료 샘플](/resources)을 다운로드하세요!
-
-2. **라이브러리** → "Add Script" → 파일 선택
-3. 저작권 동의 체크 후 업로드
-
-#### 2.2 대본 편집
-- **이름 변경**: 대본 목록에서 연필 아이콘 탭
-- **삭제**: 휴지통 아이콘 탭
-- **문장 추가**: 대본 내에서 "Add Sentence" 버튼
-
----
-
-### 3. 학습 기능
-
-#### 3.1 블러 Focus
-- 번역문은 **기본적으로 블러 처리**되어 있습니다.
-- 스스로 해석해 본 뒤 **번역문 영역을 탭**하여 정답을 확인하세요.
-- 집중력 향상 및 능동적 학습에 도움이 됩니다.
-
-#### 3.2 학습 상태 관리
-
-| 상태 | 설명 | 색상 |
-|-----|------|------|
-| **New** | 처음 학습하는 문장 | 파랑 |
-| **To Learn** | 학습 중인 문장 | - |
-| **Learned** | 학습 완료 | 초록 |
-| **Review** | 복습 필요 | 주황 |
-
-#### 3.3 간격 반복 시스템 (SRS)
-- **망각 곡선 이론** 적용
-- 학습 완료 후 자동으로 복습 타이밍 계산
-- 복습 주기: 1일 → 3일 → 7일 → 14일...
-
----
-
-### 4. 데이터 백업 및 복원
-
-#### 4.1 백업 (Share API)
-
-1. **설정** → "파일 백업" → **백업** 버튼
-2. **Share 다이얼로그** 표시
-3. **저장 위치 선택**:
-   - � iCloud Drive (권장)
-   - 📥 다운로드 폴더
-   - 📁 파일 앱
-4. ✅ JSON 파일 저장 완료
-
-#### 4.2 복원 (FilePicker)
-
-1. **설정** → "파일 백업" → **복원** 버튼
-2. **파일 선택 다이얼로그** 표시
-3. 이전에 저장한 **JSON 백업 파일** 선택
-4. ✅ 데이터 복원 및 앱 재시작
-
-> ⚠️ **중요**: 백업 파일을 생성하지 않은 경우, 앱 삭제 시 모든 학습 기록이 영구 삭제됩니다.  
-> 📆 **권장**: 일주일에 한 번씩 백업하세요!
-
----
-
-### 5. 광고 안내
-
-#### 5.1 무료 앱 운영
-- iScript는 **무료**로 제공되며, **Google AdMob** 광고로 운영됩니다.
-
-#### 5.2 광고 유형
-
-| 유형 | 표시 위치 | 표시 시점 |
-|------|----------|----------|
-| **배너 광고** | 화면 하단 고정 | 앱 시작 시 |
-| **전면 광고** | 전체 화면 | 대본 학습 종료 후 홈으로 복귀 시 |
-
-#### 5.3 광고 제어
-- **iOS 설정** → 개인정보 보호 → 추적
-- "앱이 추적을 요청하도록 허용" 비활성화 시 맞춤형 광고 제한
-
----
-
-### 6. 테마 및 언어 설정
-
-#### 6.1 테마
-- **Light**: 밝은 테마
-- **Dark**: 어두운 테마
-- **Sepia**: 세피아 테마 (눈 피로 감소)
-
-#### 6.2 언어
-- **한국어 (KO)**
-- **English (EN)**
-
----
-
-### 7. 학습 분석 (Analytics)
-
-#### 7.1 확인 방법
-- 상단 시계 아이콘 탭
-- 라이브러리 → "Analytics" 버튼
-
-#### 7.2 제공 정보
-- 📊 **일별 학습 시간** (7일 차트)
-- 🔥 **연속 학습 일수 (Streak)**
-- 📈 **학습 패턴 분석** (주간)
-- 📚 **학습 진행도** (전체/알고 있음/복습 필요)
-- 🧠 **SRS 복습 일정** (7일 예보)
-
----
-
-## 🔒 개인정보 및 보안 (요약)
-
-### 로컬 우선 (Local-First)
-- 모든 학습 데이터는 **기기 내부(IndexedDB)**에만 저장
-- iScript 서버로 데이터 전송 없음
-
-### 제3자 제공
-- **Google AdMob**: 광고 식별자(IDFA)만 제공
-- **AI 서비스**: 사용자 본인의 API Key로 문장 분석 (BYOK 방식)
-
-> 자세한 내용은 [개인정보처리방침](/privacy/)을 참조하세요.
-
----
-
-## 💡 효과적인 학습법
-
-iScript의 기능을 100% 활용하는 **4단계 쉐도잉 루틴**이 준비되어 있습니다.  
-하루 15분, 입이 기억하는 진짜 학습을 시작해보세요.
-
-👉 **[15분 쉐도잉 가이드 보러가기](/guide/)**
-
----
-
-## 🔗 관련 문서
-
-궁금한 점이 있거나 도움이 필요하신가요?
-
-- ❓ **자주 묻는 질문 (FAQ) 및 문제 해결**: [고객 지원 페이지](/support/)
-- 🎓 **효과적인 학습법**: [15분 쉐도잉 가이드](/guide/)
-- 📧 **문의하기**: hello@iscript.dev
-- 🎬 **샘플 대본 및 가이드**: [자료실](/resources/)
-
----
-
-**플랫폼**: iOS (iPhone, iPad)  
-**버전**: 1.1.9  
-**최종 업데이트**: 2026년 2월 8일
-
-
+<div class="landing">
+  <section class="hero-section">
+    <div class="hero-copy">
+      <h1>나만의 대본으로 학습하는 AI 언어 학습 메이트</h1>
+      <p class="hero-lede">텍스트와 스프레드시트 기반 대본을 업로드하고, 문장 단위 학습·SRS 복습·TTS·통계로 학습 흐름을 기기 안에서 관리하세요.</p>
+      <div class="button-row">
+        <a class="button button-primary" href="https://apps.apple.com/kr/app/iscript/id6758364468">App Store에서 다운로드</a>
+        <a class="button button-secondary" href="/resources/">샘플 대본 보기</a>
+      </div>
+      <p class="hero-note">iPhone · iPad 지원 · 무료 시작 · Pro 인앱 구입 제공</p>
+    </div>
+    <div class="hero-preview" aria-label="iScript 학습 화면 요약">
+      <div class="preview-header">
+        <span>Today’s Script</span>
+        <span>Review 12</span>
+      </div>
+      <div class="sentence-card">
+        <p class="sentence-original">I finally got the hang of it.</p>
+        <p class="sentence-translation">드디어 감을 잡았어.</p>
+      </div>
+      <div class="preview-actions">
+        <span>Local TTS</span>
+        <span>UNKNOWN / KNOWN</span>
+        <span>SRS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block update-block">
+    <div class="section-heading">
+      <h2>최신 업데이트</h2>
+      <p>Version 1.2.0 · 2026년 4월 16일</p>
+    </div>
+    <div class="update-grid">
+      <div>
+        <h3>Local TTS 추가</h3>
+        <p>문장을 더 가볍게 듣고 반복 학습할 수 있도록 로컬 음성 흐름을 보강했습니다.</p>
+      </div>
+      <div>
+        <h3>iScript Pro 적용</h3>
+        <p>광고 제거, 스크립트 무제한, 백업·복원, 고급 통계, AI 분석 접근을 Pro로 제공합니다.</p>
+      </div>
+      <div>
+        <h3>현지화 개선</h3>
+        <p>첫 실행 시 기기 언어를 자연스럽게 반영하고, 권한 요청 문구의 한/영 표현을 다듬었습니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>학습 흐름</h2>
+      <p>대본을 넣고, 문장별로 익히고, 복습 시점까지 이어갑니다.</p>
+    </div>
+    <ol class="step-grid">
+      <li><strong>Upload</strong><span>내 대본 또는 스프레드시트 업로드</span></li>
+      <li><strong>Learn</strong><span>문장 단위로 UNKNOWN / KNOWN 관리</span></li>
+      <li><strong>Review</strong><span>SRS 기반 복습 흐름으로 다시 보기</span></li>
+      <li><strong>Track</strong><span>통계와 진행도로 학습 기록 확인</span></li>
+    </ol>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>핵심 기능</h2>
+      <p>기능을 중복 없이 여섯 영역으로 정리했습니다.</p>
+    </div>
+    <div class="feature-grid">
+      <article><h3>대본 관리</h3><p>텍스트 또는 스프레드시트 기반 대본을 업로드하고 관리합니다.</p></article>
+      <article><h3>문장 학습</h3><p>문장 단위로 학습하며 UNKNOWN / KNOWN 상태를 전환합니다.</p></article>
+      <article><h3>SRS 복습</h3><p>학습 완료 후 복습 흐름을 이어가도록 설계했습니다.</p></article>
+      <article><h3>음성 학습</h3><p>Local TTS로 듣고, Gemini TTS는 API Key 연결 후 사용할 수 있습니다.</p></article>
+      <article><h3>기록</h3><p>문장과 단어 북마크, 진행도, 고급 통계로 학습 상황을 확인합니다.</p></article>
+      <article><h3>데이터</h3><p>로컬 우선으로 학습 데이터를 관리하고 백업·복원을 지원합니다.</p></article>
+    </div>
+  </section>
+
+  <section class="section-block plan-block">
+    <div class="section-heading">
+      <h2>Free와 Pro</h2>
+      <p>기본 학습은 무료로 시작하고, 더 긴 학습 흐름은 Pro로 확장할 수 있습니다.</p>
+    </div>
+    <div class="plan-grid">
+      <div class="plan-card">
+        <h3>Free</h3>
+        <ul>
+          <li>기본 대본 학습</li>
+          <li>문장 상태 관리</li>
+          <li>SRS 복습 흐름</li>
+          <li>기본 통계</li>
+        </ul>
+      </div>
+      <div class="plan-card highlighted">
+        <h3>Pro</h3>
+        <ul>
+          <li>광고 제거</li>
+          <li>스크립트 무제한</li>
+          <li>백업·복원</li>
+          <li>고급 통계</li>
+          <li>AI 분석 접근</li>
+        </ul>
+      </div>
+    </div>
+    <p class="small-note">AI 분석과 Gemini TTS를 사용하려면 설정에서 사용자의 Gemini API Key를 직접 연결해야 합니다. <a href="/api/">API Key 설정 방법 보기</a></p>
+  </section>
+
+  <section class="section-block trust-block">
+    <div class="section-heading">
+      <h2>Local-first</h2>
+      <p>학습 데이터는 기기 중심으로 관리됩니다. 광고, 분석, AI 기능과 관련된 자세한 내용은 개인정보처리방침에서 확인할 수 있습니다.</p>
+    </div>
+    <a class="text-link" href="/privacy/">개인정보처리방침 보기</a>
+  </section>
+
+  <section class="section-block docs-block">
+    <div class="section-heading">
+      <h2>문서와 지원</h2>
+      <p>시작에 필요한 자료를 한곳에 모았습니다.</p>
+    </div>
+    <div class="docs-grid">
+      <a href="/guide/"><strong>사용 가이드</strong><span>15분 쉐도잉 루틴과 학습법</span></a>
+      <a href="/api/"><strong>API Key</strong><span>Gemini API Key 발급과 연결 방법</span></a>
+      <a href="/resources/"><strong>샘플 대본</strong><span>바로 테스트할 수 있는 예제 파일</span></a>
+      <a href="/support/"><strong>고객지원</strong><span>FAQ와 문의 안내</span></a>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>내가 가진 대본으로 오늘부터 학습을 시작하세요.</h2>
+    <div class="button-row centered">
+      <a class="button button-primary" href="https://apps.apple.com/kr/app/iscript/id6758364468">App Store에서 다운로드</a>
+      <a class="button button-secondary" href="/api/">API Key 설정 방법 보기</a>
+    </div>
+  </section>
+</div>
