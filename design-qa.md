@@ -6,7 +6,7 @@
 - Languages: Korean, English, Japanese, Simplified Chinese
 - State: deployed production build
 - Production URL: https://iscript.dev/
-- Tested revision: `5b657879da9cdf67ea21919c5a734f0dacc4de90`
+- Tested revision: `dac95d7a8b015c340be803df85eddefc3a056644`
 
 ## Visual truth and evidence
 
@@ -22,6 +22,13 @@
   - Device scale factor: 1
 - Full-view side-by-side comparison: `C:\Users\pst\AppData\Local\Temp\iscript-qa\qa-comparison.png`
 - Representative subpage capture: `C:\Users\pst\AppData\Local\Temp\iscript-qa\qa-guide-desktop.png`
+- Travel resources desktop capture: `C:\Users\pst\AppData\Local\Temp\iscript-resource-qa\resources-desktop.png`
+  - Viewport: 1440 x 900 CSS px
+  - Full-page capture height: 3079 px
+- Travel resources mobile capture: `C:\Users\pst\AppData\Local\Temp\iscript-resource-qa\resources-mobile.png`
+  - Viewport: 390 x 844 CSS px
+  - Full-page capture height: 5490 px
+- Resource-page captures used the deployed production HTML and CSS in an isolated local preview because the sandboxed browser could not access the public network. Live HTTP checks were run separately against the production URLs.
 
 ## Comparison findings
 
@@ -46,6 +53,15 @@
 - Menu state changed from `aria-expanded=false` to `true`; the panel rendered as a grid with four language links and a visible App Store action.
 - Browser console errors: none.
 
+### Travel resources follow-up
+
+- The resources page extends the established white, near-black, cobalt, pale-blue, restrained-border, and rounded-card system without introducing a second visual language.
+- Desktop renders two clear three-column collections. The introduction, download cards, emergency panel, and workbook-format example maintain the existing page rhythm.
+- At an exact 390 px viewport, `window.innerWidth` and `document.documentElement.scrollWidth` both reported 390. The layout rendered six single-column cards, six visible download actions, and three emergency contacts without horizontal overflow.
+- The mobile menu changed from `aria-expanded=false` to `true` and applied the expected open state.
+- The isolated preview logged three expected missing-resource responses for external assets removed from the snapshot. No application JavaScript exception or broken page interaction was observed.
+- No P0, P1, or P2 issue remains. The long single-column mobile page is an acceptable P3 trade-off because it preserves full descriptions and large download targets.
+
 ## Comparison history
 
 1. Initial production comparison found inherited Slate-theme image and heading styles and an overly large small-screen headline as P2 polish issues.
@@ -61,7 +77,11 @@
 - Replacement-character scan reported zero U+FFFD characters.
 - Layout tag and Liquid conditional counts were balanced.
 - Locale-specific App Store URLs and language navigation were checked in the shared layout.
+- Four production resource routes returned HTTP 200 with six cards and six download actions each.
+- Six production workbook URLs returned HTTP 200 with the Excel workbook MIME type.
+- Every workbook reopened with one sheet, 87 rows, two columns, zero blank cells, correct language direction, and zero formula-error matches.
+- Resource-page desktop and mobile screenshots were visually reviewed in full.
 
 ## Final result
 
-`passed`
+`final result: passed`
