@@ -1,6 +1,7 @@
 ---
 layout: default
 title: APIキー取得ガイド
+description: iScriptのAI機能に必要なGemini APIキーを安全に発行・接続する方法をご案内します。
 permalink: /api-ja/
 page_id: api
 ---
@@ -60,4 +61,4 @@ page_id: api
 
 ---
 
-[**🏠 ホームに戻る**](/index-ja)
+[**ホームに戻る**](/index-ja/)

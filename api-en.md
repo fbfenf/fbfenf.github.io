@@ -1,6 +1,7 @@
 ---
 layout: default
 title: API Key Guide
+description: Learn how to create and safely connect the Gemini API key used by iScript AI features.
 permalink: /api-en/
 page_id: api
 ---
@@ -60,4 +61,4 @@ No, **no credit card is required** for the Free Tier.
 
 ---
 
-[**🏠 Back to Home**](/index-en)
+[**Back to Home**](/index-en/)

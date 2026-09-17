@@ -1,6 +1,7 @@
 ---
 layout: default
 title: API Key 발급 가이드
+description: iScript의 AI 분석 기능에 필요한 Gemini API Key를 안전하게 발급하고 연결하는 방법입니다.
 permalink: /api/
 page_id: api
 ---

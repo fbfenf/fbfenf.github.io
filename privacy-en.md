@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
+description: Learn how iScript handles local-first data, external services, and personal information.
 permalink: /privacy-en/
 page_id: privacy
 ---

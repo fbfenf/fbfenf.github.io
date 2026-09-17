@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 샘플 대본
+description: iScript에서 바로 열어 학습할 수 있는 무료 엑셀 대본과 단어장 샘플을 내려받으세요.
 permalink: /resources/
 page_id: resources
 ---

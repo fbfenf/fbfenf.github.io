@@ -1,6 +1,7 @@
 ---
 layout: default
 title: カスタマーサポート
+description: iScriptのよくある質問、トラブル解決方法、お問い合わせ先をご案内します。
 permalink: /support-ja/
 page_id: support
 ---

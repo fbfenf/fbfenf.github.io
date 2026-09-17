@@ -1,6 +1,7 @@
 ---
 layout: default
 title: プライバシーポリシー
+description: iScriptのローカルファースト保存、外部サービス利用、個人情報保護方針をご案内します。
 permalink: /privacy-ja/
 page_id: privacy
 ---

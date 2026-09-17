@@ -1,218 +1,98 @@
 ---
 layout: default
-title: iScript
+title: iScript — 내 콘텐츠로 배우는 언어 학습
+description: 좋아하는 대본을 문장 학습, AI 분석, SRS 복습으로 연결하는 iPhone·iPad 언어 학습 앱입니다.
+permalink: /
 page_id: home
 ---
 
----
-
-# 🎯 Brand Identity
-
-> **iScript: intelligent Script for U&i**  
-> 단순한 어학 도구를 넘어, 기술과 사람의 유기적인 성장을 지향합니다.
-
-- **U (User)**: 학습의 주체인 당신
-- **& (Connection)**: 서로 소통하며 성장하는 연결  
-- **i (Intelligence/Individual)**: 최신 AI 기술과 개별 기록의 조화
-  
-  [![App Store에서 다운로드하기](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&releaseDate=1708214400)](https://apps.apple.com/kr/app/iscript/id6758364468)
-
----
-
-# iScript 사용자 가이드
-
-**intelligent Script for U&i**  
-*AI 기반 iOS 언어 학습 앱*
-
----
-
-## 📱 빠른 시작
-
-### iScript란?
-
-iScript는 사용자가 보유한 대본 파일(엑셀)을 활용하여 외국어를 효과적으로 학습할 수 있도록 돕는 **AI 기반 학습 도구**입니다.
-
-### 다양한 학습 활용
-
-- 🎬 **문장 학습**: 텍스트 대본으로 문맥 속 표현 학습
-- 📝 **단어 학습**: 단어장 파일로 어휘력 향상  
-  *(1열 = 단어, 2열 = 뜻 형식의 엑셀 파일만 있으면 나만의 단어장 앱으로 활용 가능)*
-- 🔄 **SRS(간격 반복 시스템)**로 효율적인 암기
-
----
-
-## 🚀 주요 기능
-
-### 1. AI 학습 기능
-
-#### 1.1 AI 발음 (TTS)
-- 🔊 **원어민 발음**: 스피커 아이콘을 탭하여 문장을 음성으로 들을 수 있습니다.
-- 📊 **청취 횟수**: 아이콘 위 숫자 배지로 반복 청취 횟수를 확인할 수 있습니다.
-
-#### 1.2 AI 문장 분석 (Explain)
-- ✨ **AI Explain** 버튼을 탭하면:
-  - 핵심 단어의 **뜻과 발음** 제공
-  - 문법 구조 설명
-  - 문화적 배경 설명
-- ⭐ **단어 북마크**: 중요한 단어에 별표를 눌러 저장할 수 있습니다.
-
-#### 1.3 API 키 설정
-
-> 💡 **TIP**: AI 기능을 사용하려면 무료 API 키가 필요합니다!
-
-1. **무료 API 키 발급**: [발급 가이드 보기](/api)
-2. **앱 설정** → "API Key" → 발급받은 키 입력
-3. ✅ AI 분석 및 TTS 기능 사용 가능
-
----
-
-### 2. 대본 관리
-
-#### 2.1 대본 업로드
-1. **엑셀 파일(.xlsx) 준비**
-   - 1열: 원문
-   - 2열: 번역문
-   > � 대본 파일이 없으세요? [자료실에서 무료 샘플](/resources)을 다운로드하세요!
-
-2. **라이브러리** → "Add Script" → 파일 선택
-3. 저작권 동의 체크 후 업로드
-
-#### 2.2 대본 편집
-- **이름 변경**: 대본 목록에서 연필 아이콘 탭
-- **삭제**: 휴지통 아이콘 탭
-- **문장 추가**: 대본 내에서 "Add Sentence" 버튼
-
----
-
-### 3. 학습 기능
-
-#### 3.1 블러 Focus
-- 번역문은 **기본적으로 블러 처리**되어 있습니다.
-- 스스로 해석해 본 뒤 **번역문 영역을 탭**하여 정답을 확인하세요.
-- 집중력 향상 및 능동적 학습에 도움이 됩니다.
-
-#### 3.2 학습 상태 관리
-
-| 상태 | 설명 | 색상 |
-|-----|------|------|
-| **New** | 처음 학습하는 문장 | 파랑 |
-| **To Learn** | 학습 중인 문장 | - |
-| **Learned** | 학습 완료 | 초록 |
-| **Review** | 복습 필요 | 주황 |
-
-#### 3.3 간격 반복 시스템 (SRS)
-- **망각 곡선 이론** 적용
-- 학습 완료 후 자동으로 복습 타이밍 계산
-- 복습 주기: 1일 → 3일 → 7일 → 14일...
-
----
-
-### 4. 데이터 백업 및 복원
-
-#### 4.1 백업 (Share API)
-
-1. **설정** → "파일 백업" → **백업** 버튼
-2. **Share 다이얼로그** 표시
-3. **저장 위치 선택**:
-   - � iCloud Drive (권장)
-   - 📥 다운로드 폴더
-   - 📁 파일 앱
-4. ✅ JSON 파일 저장 완료
-
-#### 4.2 복원 (FilePicker)
-
-1. **설정** → "파일 백업" → **복원** 버튼
-2. **파일 선택 다이얼로그** 표시
-3. 이전에 저장한 **JSON 백업 파일** 선택
-4. ✅ 데이터 복원 및 앱 재시작
-
-> ⚠️ **중요**: 백업 파일을 생성하지 않은 경우, 앱 삭제 시 모든 학습 기록이 영구 삭제됩니다.  
-> 📆 **권장**: 일주일에 한 번씩 백업하세요!
-
----
-
-### 5. 광고 안내
-
-#### 5.1 무료 앱 운영
-- iScript는 **무료**로 제공되며, **Google AdMob** 광고로 운영됩니다.
-
-#### 5.2 광고 유형
-
-| 유형 | 표시 위치 | 표시 시점 |
-|------|----------|----------|
-| **배너 광고** | 화면 하단 고정 | 앱 시작 시 |
-| **전면 광고** | 전체 화면 | 대본 학습 종료 후 홈으로 복귀 시 |
-
-#### 5.3 광고 제어
-- **iOS 설정** → 개인정보 보호 → 추적
-- "앱이 추적을 요청하도록 허용" 비활성화 시 맞춤형 광고 제한
-
----
-
-### 6. 테마 및 언어 설정
-
-#### 6.1 테마
-- **Light**: 밝은 테마
-- **Dark**: 어두운 테마
-- **Sepia**: 세피아 테마 (눈 피로 감소)
-
-#### 6.2 언어
-- **한국어 (KO)**
-- **English (EN)**
-
----
-
-### 7. 학습 분석 (Analytics)
-
-#### 7.1 확인 방법
-- 상단 시계 아이콘 탭
-- 라이브러리 → "Analytics" 버튼
-
-#### 7.2 제공 정보
-- 📊 **일별 학습 시간** (7일 차트)
-- 🔥 **연속 학습 일수 (Streak)**
-- 📈 **학습 패턴 분석** (주간)
-- 📚 **학습 진행도** (전체/알고 있음/복습 필요)
-- 🧠 **SRS 복습 일정** (7일 예보)
-
----
-
-## 🔒 개인정보 및 보안 (요약)
-
-### 로컬 우선 (Local-First)
-- 모든 학습 데이터는 **기기 내부(IndexedDB)**에만 저장
-- iScript 서버로 데이터 전송 없음
-
-### 제3자 제공
-- **Google AdMob**: 광고 식별자(IDFA)만 제공
-- **AI 서비스**: 사용자 본인의 API Key로 문장 분석 (BYOK 방식)
-
-> 자세한 내용은 [개인정보처리방침](/privacy/)을 참조하세요.
-
----
-
-## 💡 효과적인 학습법
-
-iScript의 기능을 100% 활용하는 **4단계 쉐도잉 루틴**이 준비되어 있습니다.  
-하루 15분, 입이 기억하는 진짜 학습을 시작해보세요.
-
-👉 **[15분 쉐도잉 가이드 보러가기](/guide/)**
-
----
-
-## 🔗 관련 문서
-
-궁금한 점이 있거나 도움이 필요하신가요?
-
-- ❓ **자주 묻는 질문 (FAQ) 및 문제 해결**: [고객 지원 페이지](/support/)
-- 🎓 **효과적인 학습법**: [15분 쉐도잉 가이드](/guide/)
-- 📧 **문의하기**: hello@iscript.dev
-- 🎬 **샘플 대본 및 가이드**: [자료실](/resources/)
-
----
-
-**플랫폼**: iOS (iPhone, iPad)  
-**버전**: 1.1.9  
-**최종 업데이트**: 2026년 2월 8일
-
-
+<section class="hero">
+  <div class="site-shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">AI 언어 학습 메이트</p>
+      <h1>외운 문장이,<br><em>내 말이 되는 순간.</em></h1>
+      <p class="hero-description">좋아하는 대본을 올리면 문장 학습부터 AI 분석, SRS 복습까지 하나의 흐름으로 이어집니다.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 무료 다운로드</a>
+        <a class="button button-secondary" href="/resources/">샘플 대본 보기</a>
+      </div>
+      <p class="hero-meta"><span>평점 5.0</span><span>무료 다운로드</span><span>iPhone &amp; iPad</span></p>
+    </div>
+
+    <div class="product-stage" aria-label="iScript 앱 화면 미리보기">
+      <figure class="screen-shot screen-upload">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="iScript 대본 업로드 화면" width="800" height="1200">
+      </figure>
+      <figure class="screen-shot screen-learn">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScript 문장 학습 화면" width="800" height="1200">
+      </figure>
+      <figure class="screen-shot screen-progress">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="iScript 학습 진행도 화면" width="800" height="1200">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="proof-strip" aria-label="핵심 기능">
+  <div class="site-shell proof-grid">
+    <div class="proof-item"><strong>내 자료 그대로</strong><span>텍스트·엑셀 대본 업로드</span></div>
+    <div class="proof-item"><strong>깊이 이해하기</strong><span>AI 문장·뉘앙스 분석</span></div>
+    <div class="proof-item"><strong>오래 기억하기</strong><span>SRS 간격 반복 복습</span></div>
+    <div class="proof-item"><strong>기기 안에 안전하게</strong><span>로컬 우선 학습 기록</span></div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="site-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Simple learning flow</p>
+      <h2>3단계로, 내 콘텐츠가 학습이 됩니다.</h2>
+      <p>복잡한 설정 없이 지금 가진 대본으로 바로 시작하세요.</p>
+    </div>
+    <div class="flow-grid">
+      <article class="flow-step">
+        <span class="flow-number">01</span>
+        <h3>가져오기</h3>
+        <p>영화, 강의, 인터뷰, 단어장까지 익히고 싶은 자료를 업로드합니다.</p>
+      </article>
+      <article class="flow-step">
+        <span class="flow-number">02</span>
+        <h3>깊이 이해하기</h3>
+        <p>듣고 따라 하며, AI로 문법과 표현의 뉘앙스를 정확히 이해합니다.</p>
+      </article>
+      <article class="flow-step">
+        <span class="flow-number">03</span>
+        <h3>오래 기억하기</h3>
+        <p>SRS가 가장 효과적인 순간에 다시 보여주어 내 문장으로 만듭니다.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="site-shell feature-split">
+    <div class="feature-image">
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="단어와 문화적 뉘앙스를 분석하는 iScript 학습 화면" width="800" height="1200" loading="lazy">
+    </div>
+    <div class="feature-copy">
+      <p class="eyebrow">더 깊이, 더 정확하게</p>
+      <h2>문장 하나를 제대로 이해하는 순간.</h2>
+      <p>단순히 뜻을 외우는 대신 문장의 소리, 구조, 쓰이는 상황까지 연결해 실제 언어 감각을 기릅니다.</p>
+      <div class="feature-list">
+        <div class="feature-row"><b>01</b><div><strong>자연스러운 TTS</strong><span>문장을 듣고 따라 하며 발음과 리듬을 익힙니다.</span></div></div>
+        <div class="feature-row"><b>02</b><div><strong>AI 문법·뉘앙스 분석</strong><span>핵심 단어부터 문화적 배경까지 문장 안에서 이해합니다.</span></div></div>
+        <div class="feature-row"><b>03</b><div><strong>북마크와 학습 기록</strong><span>중요한 표현을 모으고 진행도를 한눈에 확인합니다.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="site-shell cta-panel">
+    <div>
+      <h2>오늘부터 내 대본으로 시작하세요.</h2>
+      <p>좋아하는 콘텐츠가 가장 오래 기억되는 교재가 됩니다.</p>
+    </div>
+    <a class="button" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
+  </div>
+</section>

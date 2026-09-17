@@ -1,232 +1,75 @@
 ---
 layout: default
-title: iScript
+title: iScript — 好きなコンテンツで学ぶ語学アプリ
+description: お気に入りの台本を文章学習、AI分析、SRS復習につなげるiPhone・iPad向け語学学習アプリです。
+permalink: /index-ja/
 page_id: home
 ---
 
----
-
-# 🎯 ブランドアイデンティティ
-
-> **iScript: intelligent Script for U&i**  
-> 単純な語学ツールを超え、技術と人との有機的な成長を目指します。
-
-- **U (User)**: 学習の主体であるあなた
-- **& (Connection)**: コミュニケーションを通じて共に成長する繋がり  
-- **i (Intelligence/Individual)**: 最新のAI技術と個別記録の調和
-  
-  [![App Storeからダウンロード](https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&releaseDate=1708214400)](https://apps.apple.com/jp/app/iscript/id6758364468)
-
----
-
-# iScript ユーザーガイド
-
-**intelligent Script for U&i**  
-*AI搭載 iOS 言語学習アプリ*
-
----
-
-## 📱 クイックスタート
-
-### iScriptとは？
-
-iScriptは、ユーザーが保有するスクリプトファイル(Excel)を活用し、外国語を効果的に学習できる **AI搭載学習ツール** です。
-
-### 多様な学習活用
-
-- 🎬 **文章学習**: テキストスクリプトで文脈内の表現を学習
-- 📝 **単語学習**: 単語帳ファイルで語彙力向上  
-  *(1列=単語、2列=意味 形式のExcelファイルがあれば、自分だけの単語帳アプリとして活用可能)*
-- 🔄 **SRS(間隔反復システム)** で効率的な暗記
-
----
-
-## 🚀 主要機能
-
-### 1. AI学習機能
-
-#### 1.1 AI発音 (TTS)
-- 🔊 **ネイティブ発音**: スピーカーアイコンをタップして文章を音声で聞くことができます
-- 📊 **聴取回数**: アイコン上の数字バッジで反復聴取回数を確認できます
-
-#### 1.2 AI文章分析 (Explain)
-- ✨ **AI Explain** ボタンをタップすると:
-  - 重要単語の **意味と発音** を提供
-  - 文法構造の説明
-  - 文化的背景の説明
-- ⭐ **単語ブックマーク**: 重要な単語に星マークを付けて保存できます
-
-#### 1.3 APIキー設定
-
-> 💡 **TIP**: AI機能を使用するには無料のAPIキーが必要です！
-
-1. **無料APIキー取得**: [キー取得ガイド](/api-ja)
-2. **アプリ設定** → "API Key" → 取得したキーを入力
-3. ✅ AI分析及びTTS機能が使用可能
-
----
-
-### 2. スクリプト管理
-
-#### 2.1 スクリプトアップロード
-1. **Excelファイル(.xlsx)準備**
-   - 1列目: 原文
-   - 2列目: 翻訳文
-   > 💡 台本ファイルがないですか？ [資料室で無料サンプル](/resources-ja)をダウンロードしましょう！
-
-2. **ライブラリ** → "Add Script" → ファイル選択
-3. 著作権同意にチェックしてアップロード
-
-#### 2.2 スクリプト編集
-- **名前変更**: スクリプトリストで鉛筆アイコンをタップ
-- **削除**: ゴミ箱アイコンをタップ
-- **文章追加**: スクリプト内で "Add Sentence" ボタン
-
----
-
-### 3. 学習機能
-
-#### 3.1 ブラーフォーカス
-- 翻訳文は **デフォルトでぼかし処理** されています
-- 自分で解釈してから **翻訳文領域をタップ** して正解を確認しましょう
-- 集中力向上と能動的学習に役立ちます
-
-#### 3.2 学習状態管理
-
-| 状態 | 説明 | 色 |
-|-----|------|-----|
-| **New** | 初めて学習する文章 | 青 |
-| **To Learn** | 学習中の文章 | - |
-| **Learned** | 学習完了 | 緑 |
-| **Review** | 復習必要 | オレンジ |
-
-#### 3.3 間隔反復システム (SRS)
-- **忘却曲線理論** 適用
-- 学習完了後、自動的に復習タイミングを計算
-- 復習周期: 1日 → 3日 → 7日 → 14日...
-
----
-
-### 4. データバックアップ及び復元
-
-#### 4.1 バックアップ (Share API)
-
-1. **設定** → "ファイルバックアップ" → **バックアップ** ボタン
-2. **共有ダイアログ** 表示
-3. **保存場所を選択**:
-   - 💾 iCloud Drive (推奨)
-   - 📥 ダウンロードフォルダ
-   - 📁 ファイルアプリ
-4. ✅ JSONファイル保存完了
-
-#### 4.2 復元 (FilePicker)
-
-1. **設定** → "ファイルバックアップ" → **復元** ボタン
-2. **ファイル選択ダイアログ** 表示
-3. 以前保存した **JSONバックアップファイル** を選択
-4. ✅ データ復元及びアプリ再起動
-
-> ⚠️ **重要**: バックアップファイルを作成していない場合、アプリ削除時にすべての学習記録が永久削除されます。  
-> 📆 **推奨**: 週1回バックアップしましょう！
-
----
-
-### 5. 広告
-
-#### 5.1 無料アプリ運営
-- iScriptは **無料** で、**Google AdMob** 広告でサポートされています
-
-#### 5.2 広告タイプ
-
-| タイプ | 位置 | タイミング |
-|-------|------|-----------|
-| **バナー広告** | 下部固定 | アプリ起動時 |
-| **全画面広告** | フルスクリーン | 学習開始時、Analytics移動時 |
-
-#### 5.3 広告制御
-- **iOS設定** → プライバシー → トラッキング
-- 「Appからのトラッキング要求を許可」を無効にすると、パーソナライズ広告を制限できます
-
----
-
-### 6. テーマ及び言語設定
-
-#### 6.1 テーマ
-- **Light**: 明るいテーマ
-- **Dark**: ダークテーマ
-- **Sepia**: セピアテーマ (目の疲れを軽減)
-
-#### 6.2 言語
-- **韓国語 (KO)**
-- **English (EN)**
-
----
-
-### 7. 学習分析 (Analytics)
-
-#### 7.1 確認方法
-- 上部の時計アイコンをタップ
-- ライブラリ → "Analytics" ボタン
-
-#### 7.2 提供情報
-- 📊 **日別学習時間** (7日間チャート)
-- 🔥 **ストリーク** (連続学習日数)
-- 📈 **学習パターン分析** (週間)
-- 📚 **学習進捗** (全体/学習済み/復習必要)
-- 🧠 **SRS復習スケジュール** (7日間予報)
-
----
-
-## 🔒 プライバシー保護
-
-### ローカルファースト
-- すべての学習データは **デバイス内部のみに保存 (IndexedDB)**
-- iScriptサーバーにデータを送信しません
-
-### 第三者提供
-- **Google AdMob**: 広告識別子(IDFA)のみ提供
-- **AIサービス**: ユーザー自身のAPI Keyで文章分析 (BYOK方式)
-
-詳細は [プライバシーポリシー](https://iscript.dev/privacy-ja) を参照してください。
-
----
-
-## 💡 効果的な学習方法
-
-iScriptの機能を100%活用する **4段階シャドーイングルーティン** が用意されています。
-1日15分、口が覚える本当の学習を始めましょう。
-
-👉 **[15分シャドーイングガイドを見る](/guide-ja/)**
-
----
-
-## 🔗 関連ドキュメント
-
-ご質問やサポートが必要ですか？
-
-- ❓ **よくある質問 (FAQ) & トラブルシューティング**: [サポートページ](/support-ja/)
-- 🎓 **効果的な学習方法**: [15分シャドーイングガイド](/guide-ja/)
-- 📧 **お問い合わせ**: hello@iscript.dev
-- 🎬 **サンプル台本 & ガイド**: [資料室](/resources-ja/)
-
----
-
-## 📜 著作権のお知らせ
-
-### 私的利用の原則
-- スクリプトは **個人の学習目的のみ** で使用してください
-- 教育目的のフェアユースの下で許可されています
-
-### 禁止事項
-- ❌ スクリプトファイルの **共有、販売、配布**
-- ❌ 商業利用
-
-詳細はアプリ内の **利用規約** を参照してください。
-
----
-
-**プラットフォーム**: iOS (iPhone, iPad)  
-**バージョン**: 1.1.9  
-**最終更新**: 2026年2月8日
-
-
+<section class="hero">
+  <div class="site-shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">AI語学学習メイト</p>
+      <h1>覚えた一文が、<br><em>自分の言葉になる瞬間。</em></h1>
+      <p class="hero-description">好きな台本をアップロードすれば、文章学習からAI分析、SRS復習までが一つの流れにつながります。</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://apps.apple.com/jp/app/iscript/id6758364468" target="_blank" rel="noopener">App Storeで無料ダウンロード</a>
+        <a class="button button-secondary" href="/resources-ja/">サンプル台本を見る</a>
+      </div>
+      <p class="hero-meta"><span>評価 5.0</span><span>無料ダウンロード</span><span>iPhone &amp; iPad</span></p>
+    </div>
+
+    <div class="product-stage" aria-label="iScriptアプリのプレビュー">
+      <figure class="screen-shot screen-upload"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="iScriptの台本アップロード画面" width="800" height="1200"></figure>
+      <figure class="screen-shot screen-learn"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScriptの文章学習画面" width="800" height="1200"></figure>
+      <figure class="screen-shot screen-progress"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="iScriptの学習進捗画面" width="800" height="1200"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="proof-strip" aria-label="主なメリット">
+  <div class="site-shell proof-grid">
+    <div class="proof-item"><strong>自分の教材をそのまま</strong><span>テキスト・Excel台本を追加</span></div>
+    <div class="proof-item"><strong>深く理解する</strong><span>AIで文脈とニュアンスを分析</span></div>
+    <div class="proof-item"><strong>長く覚える</strong><span>SRSによる間隔反復</span></div>
+    <div class="proof-item"><strong>端末内で安全に</strong><span>ローカルファーストの学習記録</span></div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="site-shell">
+    <div class="section-heading">
+      <p class="eyebrow">Simple learning flow</p>
+      <h2>3ステップで、好きなコンテンツが教材に。</h2>
+      <p>複雑な設定は不要。今持っている台本ですぐに始められます。</p>
+    </div>
+    <div class="flow-grid">
+      <article class="flow-step"><span class="flow-number">01</span><h3>取り込む</h3><p>映画、講義、インタビュー、単語帳など、学びたい資料を追加します。</p></article>
+      <article class="flow-step"><span class="flow-number">02</span><h3>深く理解する</h3><p>聞いて発音し、AIで文法や表現のニュアンスまで理解します。</p></article>
+      <article class="flow-step"><span class="flow-number">03</span><h3>長く覚える</h3><p>SRSが効果的なタイミングで文章を再提示し、自分の言葉にします。</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="site-shell feature-split">
+    <div class="feature-image"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="単語と文化的ニュアンスを分析するiScript学習画面" width="800" height="1200" loading="lazy"></div>
+    <div class="feature-copy">
+      <p class="eyebrow">より深く、より正確に</p>
+      <h2>一つの文章を本当に理解する瞬間。</h2>
+      <p>訳だけを覚えるのではなく、音・構造・使われる場面までつなげて実践的な語感を育てます。</p>
+      <div class="feature-list">
+        <div class="feature-row"><b>01</b><div><strong>自然な音声読み上げ</strong><span>聞いてまねしながら発音とリズムを身につけます。</span></div></div>
+        <div class="feature-row"><b>02</b><div><strong>AI文法・ニュアンス分析</strong><span>重要単語から文化的背景まで文脈の中で理解できます。</span></div></div>
+        <div class="feature-row"><b>03</b><div><strong>ブックマークと学習記録</strong><span>大切な表現を保存し、進捗をひと目で確認できます。</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="site-shell cta-panel">
+    <div><h2>今日から自分の台本で始めましょう。</h2><p>好きなコンテンツが、最も記憶に残る教材になります。</p></div>
+    <a class="button" href="https://apps.apple.com/jp/app/iscript/id6758364468" target="_blank" rel="noopener">App Storeからダウンロード</a>
+  </div>
+</section>

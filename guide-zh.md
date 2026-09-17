@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Learning Guide
+title: 15分钟学习指南
+description: 了解从听力、逐句练习到主动记忆的iScript高效学习流程。
 permalink: /guide-zh/
 page_id: guide
 ---
@@ -54,4 +55,4 @@ page_id: guide
 
 ---
 
-[🏠 返回首页](/)
+[返回首页](/index-zh/)

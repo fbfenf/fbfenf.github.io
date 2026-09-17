@@ -1,163 +1,209 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+{%- if page.url contains "-en" -%}
+  {%- assign lang_key = "en" -%}
+{%- elsif page.url contains "-ja" -%}
+  {%- assign lang_key = "ja" -%}
+{%- elsif page.url contains "-zh" -%}
+  {%- assign lang_key = "zh" -%}
+{%- else -%}
+  {%- assign lang_key = "ko" -%}
+{%- endif -%}
 
+{%- assign sfx = "" -%}
+{%- assign home_url = "/" -%}
+{%- if lang_key == "en" -%}
+  {%- assign sfx = "-en" -%}
+  {%- assign home_url = "/index-en/" -%}
+  {%- assign nav_home = "Home" -%}
+  {%- assign nav_label = "Primary navigation" -%}
+  {%- assign nav_guide = "Learning" -%}
+  {%- assign nav_api = "AI setup" -%}
+  {%- assign nav_resources = "Samples" -%}
+  {%- assign nav_support = "Support" -%}
+  {%- assign nav_privacy = "Privacy" -%}
+  {%- assign language_name = "English" -%}
+  {%- assign store_label = "Download on the App Store" -%}
+  {%- assign menu_label = "Menu" -%}
+  {%- assign skip_label = "Skip to content" -%}
+  {%- assign store_url = "https://apps.apple.com/us/app/iscript/id6758364468" -%}
+  {%- assign doc_kicker = "iScript guide" -%}
+{%- elsif lang_key == "ja" -%}
+  {%- assign sfx = "-ja" -%}
+  {%- assign home_url = "/index-ja/" -%}
+  {%- assign nav_home = "ホーム" -%}
+  {%- assign nav_label = "メインナビゲーション" -%}
+  {%- assign nav_guide = "学習法" -%}
+  {%- assign nav_api = "AI設定" -%}
+  {%- assign nav_resources = "サンプル" -%}
+  {%- assign nav_support = "サポート" -%}
+  {%- assign nav_privacy = "プライバシー" -%}
+  {%- assign language_name = "日本語" -%}
+  {%- assign store_label = "App Storeからダウンロード" -%}
+  {%- assign menu_label = "メニュー" -%}
+  {%- assign skip_label = "本文へ移動" -%}
+  {%- assign store_url = "https://apps.apple.com/jp/app/iscript/id6758364468" -%}
+  {%- assign doc_kicker = "iScript ガイド" -%}
+{%- elsif lang_key == "zh" -%}
+  {%- assign sfx = "-zh" -%}
+  {%- assign home_url = "/index-zh/" -%}
+  {%- assign nav_home = "首页" -%}
+  {%- assign nav_label = "主导航" -%}
+  {%- assign nav_guide = "学习方法" -%}
+  {%- assign nav_api = "AI设置" -%}
+  {%- assign nav_resources = "示例" -%}
+  {%- assign nav_support = "支持" -%}
+  {%- assign nav_privacy = "隐私" -%}
+  {%- assign language_name = "中文" -%}
+  {%- assign store_label = "在 App Store 下载" -%}
+  {%- assign menu_label = "菜单" -%}
+  {%- assign skip_label = "跳到正文" -%}
+  {%- assign store_url = "https://apps.apple.com/cn/app/iscript/id6758364468" -%}
+  {%- assign doc_kicker = "iScript 指南" -%}
+{%- else -%}
+  {%- assign nav_home = "홈" -%}
+  {%- assign nav_label = "주요 메뉴" -%}
+  {%- assign nav_guide = "학습법" -%}
+  {%- assign nav_api = "AI 설정" -%}
+  {%- assign nav_resources = "샘플 대본" -%}
+  {%- assign nav_support = "지원" -%}
+  {%- assign nav_privacy = "개인정보" -%}
+  {%- assign language_name = "한국어" -%}
+  {%- assign store_label = "App Store에서 받기" -%}
+  {%- assign menu_label = "메뉴" -%}
+  {%- assign skip_label = "본문으로 이동" -%}
+  {%- assign store_url = "https://apps.apple.com/kr/app/iscript/id6758364468" -%}
+  {%- assign doc_kicker = "iScript 가이드" -%}
+{%- endif -%}
+
+<html lang="{{ lang_key }}">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen"
-        href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    {% seo %}
-    {% include head-custom.html %}
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HC2LRR7Z5V"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-HC2LRR7Z5V');
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4017883589308448"
-        crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% seo %}
+  {% include head-custom.html %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HC2LRR7Z5V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HC2LRR7Z5V');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4017883589308448" crossorigin="anonymous"></script>
 </head>
+<body class="page-{{ page.page_id | default: 'content' }} lang-{{ lang_key }}">
+  <a class="skip-link" href="#main-content">{{ skip_label }}</a>
 
-<body>
+  <header class="site-header">
+    <div class="site-shell header-inner">
+      <a class="brand" href="{{ home_url | relative_url }}" aria-label="iScript {{ nav_home }}">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/85/8a/6b858a1a-0fd8-84f3-7d5b-ec27148b1e47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/128x128bb.jpg" alt="" width="44" height="44">
+        <span>iScript</span>
+      </a>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-            {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">{{ menu_label }}</button>
+
+      <nav id="site-nav" class="site-nav" aria-label="{{ nav_label }}">
+        <a href="{{ home_url | relative_url }}"{% if page.page_id == 'home' %} class="is-active" aria-current="page"{% endif %}>{{ nav_home }}</a>
+        <a href="{{ '/guide' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'guide' %} class="is-active" aria-current="page"{% endif %}>{{ nav_guide }}</a>
+        <a href="{{ '/api' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'api' %} class="is-active" aria-current="page"{% endif %}>{{ nav_api }}</a>
+        <a href="{{ '/resources' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'resources' %} class="is-active" aria-current="page"{% endif %}>{{ nav_resources }}</a>
+        <a href="{{ '/support' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'support' %} class="is-active" aria-current="page"{% endif %}>{{ nav_support }}</a>
+        <div class="mobile-language-links" aria-label="Language">
+          {% if page.page_id == 'home' %}
+            <a href="{{ '/' | relative_url }}" lang="ko">KO</a>
+            <a href="{{ '/index-en/' | relative_url }}" lang="en">EN</a>
+            <a href="{{ '/index-ja/' | relative_url }}" lang="ja">JA</a>
+            <a href="{{ '/index-zh/' | relative_url }}" lang="zh">ZH</a>
+          {% else %}
+            <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">KO</a>
+            <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">EN</a>
+            <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">JA</a>
+            <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">ZH</a>
+          {% endif %}
+        </div>
+        <a class="mobile-store-link" href="{{ store_url }}" target="_blank" rel="noopener">{{ store_label }}</a>
+      </nav>
+
+      <div class="header-actions">
+        <details class="language-switcher">
+          <summary>{{ language_name }}</summary>
+          <div class="language-menu">
+            {% if page.page_id == 'home' %}
+              <a href="{{ '/' | relative_url }}" lang="ko">한국어</a>
+              <a href="{{ '/index-en/' | relative_url }}" lang="en">English</a>
+              <a href="{{ '/index-ja/' | relative_url }}" lang="ja">日本語</a>
+              <a href="{{ '/index-zh/' | relative_url }}" lang="zh">中文</a>
+            {% else %}
+              <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">한국어</a>
+              <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">English</a>
+              <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">日本語</a>
+              <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">中文</a>
             {% endif %}
-
-            <!-- Language Navigation -->
-            <div class="lang-nav" style="text-align: right; margin-bottom: 20px; font-size: 0.9em;">
-                {% if page.page_id == 'home' %}
-                <a href="/" style="color: rgba(255,255,255,0.8);">한국어</a> ·
-                <a href="/index-en" style="color: rgba(255,255,255,0.8);">English</a> ·
-                <a href="/index-ja" style="color: rgba(255,255,255,0.8);">日本語</a> ·
-                <a href="/index-zh" style="color: rgba(255,255,255,0.8);">中文</a>
-                {% elsif page.page_id %}
-                <a href="/{{ page.page_id }}" style="color: rgba(255,255,255,0.8);">한국어</a> ·
-                <a href="/{{ page.page_id }}-en" style="color: rgba(255,255,255,0.8);">English</a> ·
-                <a href="/{{ page.page_id }}-ja" style="color: rgba(255,255,255,0.8);">日本語</a> ·
-                <a href="/{{ page.page_id }}-zh" style="color: rgba(255,255,255,0.8);">中文</a>
-                {% endif %}
-            </div>
-
-            <!-- Page Title Area (Static) -->
-            <h1 id="project_title" style="margin-bottom: 5px;">{{ page.title | default: site.title | default:
-                site.github.repository_name }}</h1>
-            <h2 id="project_tagline" style="margin-top: 5px; opacity: 0.8;">{{ page.description | default:
-                site.description | default: site.github.project_tagline }}</h2>
-
-            <!-- GLOBAL NAVIGATION MENU -->
-            {%- assign sfx = "" -%}
-            {%- if page.url contains "-en" -%}{%- assign sfx = "-en" -%}{%- endif -%}
-            {%- if page.url contains "-ja" -%}{%- assign sfx = "-ja" -%}{%- endif -%}
-            {%- if page.url contains "-zh" -%}{%- assign sfx = "-zh" -%}{%- endif -%}
-
-            {%- if page.url contains "-en" -%}{%- assign lang_key = "en" -%}{%- elsif page.url contains "-ja" -%}{%-
-            assign lang_key = "ja" -%}{%- elsif page.url contains "-zh" -%}{%- assign lang_key = "zh" -%}{%- else -%}{%-
-            assign lang_key = "ko" -%}{%- endif -%}
-
-            {%- assign home_url = "/" -%}
-            {%- if lang_key == "en" -%}{%- assign home_url = "/index-en" -%}{%- elsif lang_key == "ja" -%}{%- assign
-            home_url = "/index-ja" -%}{%- elsif lang_key == "zh" -%}{%- assign home_url = "/index-zh" -%}{%- endif -%}
-
-            <nav class="global-nav">
-                <a href="{{ home_url | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}홈{% elsif lang_key ==
-                    'en' %}Home{% elsif lang_key == 'ja' %}ホーム{% else %}首页{% endif %}</a>
-                <a href="{{ '/guide' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}가이드{%
-                    elsif lang_key == 'en' %}Guide{% elsif lang_key == 'ja' %}ガイド{% else %}指南{% endif %}</a>
-                <a href="{{ '/api' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}API 키{%
-                    elsif lang_key == 'en' %}API Key{% elsif lang_key == 'ja' %}APIキー{% else %}API 指南{% endif %}</a>
-                <a href="{{ '/resources' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}샘플
-                    대본{% elsif lang_key == 'en' %}Resources{% elsif lang_key == 'ja' %}サンプル台本{% else %}示例脚本{% endif
-                    %}</a>
-                <a href="{{ '/support' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}고객지원{%
-                    elsif lang_key == 'en' %}Support{% elsif lang_key == 'ja' %}サポート{% else %}客户支持{% endif %}</a>
-                <a href="{{ '/privacy' | append: sfx | relative_url }}" class="nav-item">{% if lang_key == 'ko' %}개인정보{%
-                    elsif lang_key == 'en' %}Privacy{% elsif lang_key == 'ja' %}プライバシー{% else %}隐私政策{% endif %}</a>
-            </nav>
-
-            <style>
-                .global-nav {
-                    display: flex;
-                    justify-content: flex-start;
-                    gap: 10px;
-                    margin-top: 25px;
-                    flex-wrap: wrap;
-                    padding-left: 0;
-                }
-
-                .nav-item {
-                    color: rgba(255, 255, 255, 0.8) !important;
-                    text-decoration: none !important;
-                    font-size: 0.9em;
-                    padding: 8px 15px;
-                    border-radius: 12px;
-                    background: rgba(255, 255, 255, 0.1);
-                    backdrop-filter: blur(5px);
-                    transition: all 0.2s ease;
-                    border: 1px solid rgba(255, 255, 255, 0.1);
-                }
-
-                .nav-item:first-child {
-                    margin-left: 0;
-                }
-
-                .nav-item:hover {
-                    background: rgba(255, 255, 255, 0.2);
-                    color: #fff !important;
-                    transform: translateY(-2px);
-                    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-                }
-
-                #project_title:hover {
-                    opacity: 0.9;
-                }
-
-                @media (max-width: 600px) {
-                    .global-nav {
-                        gap: 8px;
-                    }
-
-                    .nav-item {
-                        padding: 6px 12px;
-                        font-size: 0.85em;
-                    }
-                }
-            </style>
-
-            {% if site.show_downloads %}
-            <section id="downloads">
-                <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-                <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-            {% endif %}
-        </header>
+          </div>
+        </details>
+        <a class="button button-primary header-cta" href="{{ store_url }}" target="_blank" rel="noopener">{{ store_label }}</a>
+      </div>
     </div>
+  </header>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-            {{ content }}
-        </section>
-    </div>
+  <main id="main-content" class="site-main">
+    {% if page.page_id == 'home' %}
+      {{ content }}
+    {% else %}
+      <section class="doc-hero">
+        <div class="site-shell doc-hero-inner">
+          <p class="eyebrow">{{ doc_kicker }}</p>
+          <h1>{{ page.title }}</h1>
+          {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+        </div>
+      </section>
+      <div class="site-shell content-shell prose">
+        {{ content }}
+      </div>
+    {% endif %}
+  </main>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-        <footer class="inner">
-            {% if site.github.is_project_page %}
-            <!--- <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> --->
-            {% endif %}
-            <p>© 2026 iScript Lab. All rights reserved.</p>
-        </footer>
+  <footer class="site-footer">
+    <div class="site-shell footer-grid">
+      <div>
+        <a class="brand footer-brand" href="{{ home_url | relative_url }}">
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/85/8a/6b858a1a-0fd8-84f3-7d5b-ec27148b1e47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/128x128bb.jpg" alt="" width="38" height="38">
+          <span>iScript</span>
+        </a>
+        <p>intelligent Script for U&amp;i</p>
+      </div>
+      <div class="footer-links">
+        <a href="{{ '/guide' | append: sfx | append: '/' | relative_url }}">{{ nav_guide }}</a>
+        <a href="{{ '/resources' | append: sfx | append: '/' | relative_url }}">{{ nav_resources }}</a>
+        <a href="{{ '/support' | append: sfx | append: '/' | relative_url }}">{{ nav_support }}</a>
+        <a href="{{ '/privacy' | append: sfx | append: '/' | relative_url }}">{{ nav_privacy }}</a>
+      </div>
+      <p class="copyright">&copy; 2026 iScript Lab. All rights reserved.</p>
     </div>
+  </footer>
+
+  <script>
+    (function () {
+      var button = document.querySelector('.menu-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!button || !nav) return;
+      button.addEventListener('click', function () {
+        var open = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('is-open', !open);
+      });
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 860) {
+          button.setAttribute('aria-expanded', 'false');
+          nav.classList.remove('is-open');
+        }
+      });
+    }());
+  </script>
 </body>
-
 </html>

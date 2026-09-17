@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Learning Guide
+description: Build a focused iScript routine that moves from listening to sentence practice and active recall.
 permalink: /guide-en/
 page_id: guide
 ---
@@ -54,4 +55,4 @@ If you feel **"5 sentences are too few?"**, don't just increase the quantity bli
 
 ---
 
-[🏠 Back to Home](/index-en)
+[Back to Home](/index-en/)

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Learning Guide
+title: 15분 학습 가이드
+description: 듣기, 문장 훈련, 체화로 이어지는 iScript의 집중 학습 루틴을 확인하세요.
 permalink: /guide/
 page_id: guide
 ---

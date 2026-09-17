@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 客户支持
+description: 查看iScript常见问题、故障排除方法以及联系我们的方式。
 permalink: /support-zh/
 page_id: support
 ---

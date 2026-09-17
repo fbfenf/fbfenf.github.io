@@ -1,6 +1,7 @@
 ---
 layout: default
 title: サンプル台本
+description: iScriptですぐに学習できる無料のExcel台本と単語帳サンプルをダウンロードできます。
 permalink: /resources-ja/
 page_id: resources
 ---
@@ -63,4 +64,4 @@ page_id: resources
 
 ---
 
-[**🏠 ホームに戻る**](/index-ja)
+[**ホームに戻る**](/index-ja/)

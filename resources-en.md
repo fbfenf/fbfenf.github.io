@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sample Scripts
+description: Download free spreadsheet scripts and vocabulary samples you can start learning with in iScript.
 permalink: /resources-en/
 page_id: resources
 ---
@@ -63,4 +64,4 @@ Want to create your own script? All you need is an Excel file!
 
 ---
 
-[**🏠 Back to Home**](/index-en)
+[**Back to Home**](/index-en/)

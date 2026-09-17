@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Customer Support
+description: Find answers, troubleshooting steps, and ways to contact the iScript support team.
 permalink: /support-en/
 page_id: support
 ---

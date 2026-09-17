@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Learning Guide
+title: 15分学習ガイド
+description: 聞く、文章練習、定着へと進むiScriptの集中学習ルーティンをご紹介します。
 permalink: /guide-ja/
 page_id: guide
 ---
@@ -54,4 +55,4 @@ page_id: guide
 
 ---
 
-[🏠 ホームへ戻る](/)
+[ホームへ戻る](/index-ja/)

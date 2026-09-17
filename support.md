@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 고객지원
+description: iScript 사용 중 자주 묻는 질문, 문제 해결 방법, 문의 채널을 확인하세요.
 permalink: /support/
 page_id: support
 ---

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 개인정보처리방침
+description: iScript의 로컬 우선 데이터 저장, 외부 서비스 사용, 개인정보 보호 원칙을 안내합니다.
 permalink: /privacy/
 page_id: privacy
 ---

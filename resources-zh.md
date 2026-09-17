@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 示例脚本
+description: 下载可直接在iScript中学习的免费Excel台本与词汇表示例。
 permalink: /resources-zh/
 page_id: resources
 ---
@@ -63,4 +64,4 @@ page_id: resources
 
 ---
 
-[**🏠 返回首页**](/index-zh)
+[**返回首页**](/index-zh/)

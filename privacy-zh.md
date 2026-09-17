@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 隐私政策
+description: 了解iScript的本地优先存储、外部服务使用与个人信息保护原则。
 permalink: /privacy-zh/
 page_id: privacy
 ---

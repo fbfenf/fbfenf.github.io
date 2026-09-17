@@ -1,6 +1,7 @@
 ---
 layout: default
 title: API Key 指南
+description: 了解如何安全创建并连接iScript AI功能所需的Gemini API密钥。
 permalink: /api-zh/
 page_id: api
 ---
@@ -60,4 +61,4 @@ page_id: api
 
 ---
 
-[**🏠 返回首页**](/index-zh)
+[**返回首页**](/index-zh/)
