@@ -24,6 +24,15 @@ page_id: resources
   </div>
 </section>
 
+<aside class="resource-video-guide" aria-labelledby="video-guide-title">
+  <div>
+    <p class="resource-video-kicker">自分だけの台本を作る</p>
+    <h2 id="video-guide-title">Netflix・YouTubeの字幕をiScriptの学習台本にしてみましょう。</h2>
+    <p>好きなコンテンツの字幕を学習用に準備する手順を、3分の動画で確認できます。</p>
+  </div>
+  <a class="button resource-video-link" href="https://youtu.be/3XBsYnaatcw" target="_blank" rel="noopener" aria-label="自分だけの台本を作る3分ガイドをYouTubeで見る（新しいタブ）">3分動画ガイドを見る</a>
+</aside>
+
 <section class="resource-collection" aria-labelledby="korea-trip-title">
   <div class="resource-section-heading">
     <h2 id="korea-trip-title">外国人旅行者のための韓国語</h2>

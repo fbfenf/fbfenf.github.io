@@ -24,6 +24,15 @@ page_id: resources
   </div>
 </section>
 
+<aside class="resource-video-guide" aria-labelledby="video-guide-title">
+  <div>
+    <p class="resource-video-kicker">制作自己的脚本</p>
+    <h2 id="video-guide-title">将Netflix或YouTube字幕制作成iScript学习脚本。</h2>
+    <p>通过3分钟视频，了解如何把喜欢的内容字幕整理成适合反复练习的学习脚本。</p>
+  </div>
+  <a class="button resource-video-link" href="https://youtu.be/3XBsYnaatcw" target="_blank" rel="noopener" aria-label="在新标签页中打开YouTube，观看3分钟自制脚本指南">观看3分钟视频指南</a>
+</aside>
+
 <section class="resource-collection" aria-labelledby="korea-trip-title">
   <div class="resource-section-heading">
     <h2 id="korea-trip-title">外国游客的韩国旅行韩语</h2>

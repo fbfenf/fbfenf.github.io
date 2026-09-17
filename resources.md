@@ -24,6 +24,15 @@ page_id: resources
   </div>
 </section>
 
+<aside class="resource-video-guide" aria-labelledby="video-guide-title">
+  <div>
+    <p class="resource-video-kicker">나만의 대본 만들기</p>
+    <h2 id="video-guide-title">넷플릭스·유튜브 자막을 iScript 대본으로 만들어 보세요.</h2>
+    <p>좋아하는 콘텐츠의 자막을 학습 대본으로 준비하는 과정을 3분 영상으로 확인할 수 있습니다.</p>
+  </div>
+  <a class="button resource-video-link" href="https://youtu.be/3XBsYnaatcw" target="_blank" rel="noopener" aria-label="나만의 대본 만들기 3분 영상 가이드 보기 (YouTube, 새 창)">3분 영상 가이드 보기</a>
+</aside>
+
 <section class="resource-collection" aria-labelledby="korea-trip-title">
   <div class="resource-section-heading">
     <h2 id="korea-trip-title">외국인을 위한 한국 여행 한국어</h2>

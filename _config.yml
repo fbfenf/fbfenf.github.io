@@ -3,6 +3,7 @@ description: Turn the scripts you love into focused language learning with iScri
 theme: jekyll-theme-slate
 baseurl: ""
 url: "https://iscript.dev"
+asset_version: "20260917-2"
 markdown: kramdown
 show_downloads: false
 

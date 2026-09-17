@@ -20,9 +20,9 @@ page_id: home
     </div>
 
     <div class="product-stage" aria-label="iScript应用界面预览">
-      <figure class="screen-shot screen-upload"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="iScript台本上传界面" width="800" height="1200"></figure>
-      <figure class="screen-shot screen-learn"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScript句子学习界面" width="800" height="1200"></figure>
-      <figure class="screen-shot screen-progress"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="iScript学习进度界面" width="800" height="1200"></figure>
+      <figure class="screen-shot screen-upload"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="iScript台本上传界面" width="554" height="1200"></figure>
+      <figure class="screen-shot screen-learn"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScript句子学习界面" width="554" height="1200"></figure>
+      <figure class="screen-shot screen-progress"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="iScript学习进度界面" width="554" height="1200"></figure>
     </div>
   </div>
 </section>
@@ -53,7 +53,7 @@ page_id: home
 
 <section class="section">
   <div class="site-shell feature-split">
-    <div class="feature-image"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="分析词汇与文化语境的iScript学习界面" width="800" height="1200" loading="lazy"></div>
+    <div class="feature-image"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="分析词汇与文化语境的iScript学习界面" width="554" height="1200" loading="lazy"></div>
     <div class="feature-copy">
       <p class="eyebrow">理解更深，也更准确</p>
       <h2>真正读懂一个句子的那一刻。</h2>
