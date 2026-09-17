@@ -6,7 +6,7 @@
 - Languages: Korean, English, Japanese, Simplified Chinese
 - State: deployed production build
 - Production URL: https://iscript.dev/
-- Tested revision: `43d21f2ca49a5bd82a140a421cfad1b067ef59a4`
+- Tested revision: `cb6a7b4e38e3ed45808a09d32cf83edc4c2cc3c9`
 
 ## Visual truth and evidence
 
@@ -88,6 +88,50 @@
 - Cache behavior: production HTML now references `style.css?v=20260917-2`; the formerly empty query parameter can no longer serve the stale unstyled resource layout shown in the user report.
 - No actionable P0, P1, or P2 issue remains.
 
+## Final production audit — 2026-09-17
+
+### Audit scope and environment
+
+- User flow: home page loads → mobile menu opens → language and sample-script navigation remains available → resource video and workbook actions render correctly.
+- Routes: 24 production pages across home, guide, API, resources, support, and privacy in Korean, English, Japanese, and Simplified Chinese.
+- Viewports: 1440 x 900 and 390 x 844 CSS px, device scale factor 1.
+- Browser path: the in-app Browser plugin and repository Playwright runtime were unavailable. The existing Chrome installation was controlled through the DevTools Protocol without installing dependencies.
+- Current-run machine-readable evidence: `C:\tmp\iscript-final-audit-20260917\audit-summary.json`.
+
+### Current-run screenshots
+
+- Home desktop full page: `C:\tmp\iscript-final-audit-20260917\01-home-desktop-full.png`
+- Home feature desktop: `C:\tmp\iscript-final-audit-20260917\02-home-feature-desktop.png`
+- Home mobile first viewport: `C:\tmp\iscript-final-audit-20260917\03-home-mobile.png`
+- Home mobile menu open: `C:\tmp\iscript-final-audit-20260917\04-home-mobile-menu.png`
+- Resources desktop full page: `C:\tmp\iscript-final-audit-20260917\05-resources-desktop-full.png`
+- Resources video guide desktop: `C:\tmp\iscript-final-audit-20260917\06-resources-video-desktop.png`
+- Resources Korean, Japanese, and Chinese mobile: `C:\tmp\iscript-final-audit-20260917\07-resources-mobile-video.png`, `08-resources-ja-mobile-video.png`, and `09-resources-zh-mobile-video.png`
+- English guide mobile: `C:\tmp\iscript-final-audit-20260917\10-guide-en-mobile.png`
+- Source and production side-by-side comparison: `C:\tmp\iscript-final-audit-20260917\11-source-production-comparison.png`
+
+### Findings and required fidelity surfaces
+
+- P0/P1/P2 findings: none.
+- Typography: Inter and the three Noto Sans locale fallbacks loaded consistently. Display hierarchy, body leading, localized wrapping, and button labels remained readable at both widths. No clipped text was detected.
+- Spacing and layout: all 48 route/viewport combinations matched their viewport width exactly with no horizontal overflow. Cards, document sections, hero spacing, borders, radii, and shadows remained visually consistent.
+- Colors and tokens: near-black, cobalt, pale-blue, white, and warm screenshot surfaces stayed consistent with the selected direction and met the intended hierarchy in the inspected screenshots.
+- Image quality: App Store imagery loaded at full intrinsic dimensions after its lazy-loaded section entered view. The feature screenshot remained at the exact 554:1200 source ratio with `object-fit: contain`.
+- Copy and localization: all routes exposed the expected `html lang`, one H1, and meaningful localized content. The four resource pages contained six cards, six downloads, and the localized YouTube guide.
+- Interaction states: the mobile menu changed from `aria-expanded=false` to `true`, exposed four language links and the App Store action, and introduced no overflow.
+- Accessibility: navigation, main, and footer landmarks were present; images had alt attributes; no duplicate IDs or empty visible controls were found. Real keyboard input focused the skip link at x=12/y=12 and Enter navigated to `#main-content`. Full screen-reader and contrast-in-forced-colors testing remains outside screenshot-based evidence.
+- Console and runtime: no relevant console errors, framework overlays, or blank-page states were found.
+- P3 follow-up only: the production flow and feature sections use a quieter numbered editorial treatment where the original concept used larger circular icons. This is an intentional, consistent simplification and does not block acceptance.
+
+### QA step health
+
+1. Home entry and primary calls to action — healthy.
+2. Mobile menu, language access, and App Store action — healthy.
+3. Resource video guide and six workbook downloads — healthy.
+4. Four-language responsive layout and wrapping — healthy.
+5. Keyboard skip navigation and semantic structure — healthy within tested scope.
+6. HTTP, console, image, and CSS asset health — healthy.
+
 ## Comparison history
 
 1. Initial production comparison found inherited Slate-theme image and heading styles and an overly large small-screen headline as P2 polish issues.
@@ -100,7 +144,7 @@
 
 ## Functional and structural verification
 
-- GitHub Pages deployment run `35204391889` for the tested revision completed successfully.
+- GitHub Pages deployment run `35205541464` for the tested revision completed successfully.
 - The home route and four localized resource routes returned HTTP 200 and referenced `style.css?v=20260917-2`.
 - The YouTube short link returned HTTP 200 and resolved to video `3XBsYnaatcw`.
 - 24 public Markdown pages were enumerated: six page groups across four languages.
