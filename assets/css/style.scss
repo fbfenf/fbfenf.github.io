@@ -35,6 +35,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: clip;
   color: var(--ink);
   background: var(--surface);
   font-family: Inter, "Noto Sans KR", "Noto Sans JP", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -42,6 +43,17 @@ body {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  text-shadow: none;
+  background: none;
 }
 
 body.lang-ko { word-break: keep-all; }
@@ -53,8 +65,13 @@ a {
 }
 
 img {
+  position: static;
   display: block;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
 }
 
 button,
@@ -206,7 +223,7 @@ a {
   transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
 }
 
-.button:hover { transform: translateY(-2px); }
+.button:hover { transform: translateY(-2px); text-decoration: none; }
 .button:focus-visible { outline: 3px solid rgba(20, 115, 230, 0.24); outline-offset: 3px; }
 
 .button-primary {
@@ -323,6 +340,7 @@ a {
 
 .product-stage {
   position: relative;
+  overflow: hidden;
   min-height: 600px;
   border: 1px solid var(--blue-line);
   border-radius: 48px;
@@ -533,7 +551,9 @@ a {
 .prose h2 {
   margin: 72px 0 22px;
   padding-top: 26px;
+  padding-bottom: 0;
   border-top: 1px solid var(--line);
+  background: none;
   font-size: 31px;
 }
 
@@ -730,7 +750,7 @@ a {
   .header-actions { display: none; }
   .header-inner { grid-template-columns: 1fr auto; }
   .hero { padding-top: 52px; }
-  .hero-copy h1 { font-size: clamp(42px, 13vw, 58px); }
+  .hero-copy h1 { overflow-wrap: normal; font-size: clamp(38px, 11vw, 48px); }
   .hero-description { font-size: 17px; }
   .hero-actions { display: grid; }
   .hero-actions .button { width: 100%; }
