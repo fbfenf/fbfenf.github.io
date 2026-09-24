@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-{%- if page.url contains "-en" -%}
+{%- if page.url contains "-pt-br" -%}
+  {%- assign lang_key = "pt-BR" -%}
+{%- elsif page.url contains "-en" -%}
   {%- assign lang_key = "en" -%}
 {%- elsif page.url contains "-ja" -%}
   {%- assign lang_key = "ja" -%}
@@ -11,7 +13,24 @@
 
 {%- assign sfx = "" -%}
 {%- assign home_url = "/" -%}
-{%- if lang_key == "en" -%}
+{%- if lang_key == "pt-BR" -%}
+  {%- assign sfx = "-pt-br" -%}
+  {%- assign home_url = "/index-pt-br/" -%}
+  {%- assign nav_home = "Início" -%}
+  {%- assign nav_label = "Navegação principal" -%}
+  {%- assign nav_guide = "Como aprender" -%}
+  {%- assign nav_api = "Configuração de IA" -%}
+  {%- assign nav_resources = "Exemplos" -%}
+  {%- assign nav_support = "Suporte" -%}
+  {%- assign nav_privacy = "Privacidade" -%}
+  {%- assign language_name = "Português (Brasil)" -%}
+  {%- assign language_menu_label = "Idioma" -%}
+  {%- assign store_label = "Baixar na App Store" -%}
+  {%- assign menu_label = "Menu" -%}
+  {%- assign skip_label = "Ir para o conteúdo" -%}
+  {%- assign store_url = "https://apps.apple.com/br/app/iscript/id6758364468" -%}
+  {%- assign doc_kicker = "Guia do iScript" -%}
+{%- elsif lang_key == "en" -%}
   {%- assign sfx = "-en" -%}
   {%- assign home_url = "/index-en/" -%}
   {%- assign nav_home = "Home" -%}
@@ -22,6 +41,7 @@
   {%- assign nav_support = "Support" -%}
   {%- assign nav_privacy = "Privacy" -%}
   {%- assign language_name = "English" -%}
+  {%- assign language_menu_label = "Language" -%}
   {%- assign store_label = "Download on the App Store" -%}
   {%- assign menu_label = "Menu" -%}
   {%- assign skip_label = "Skip to content" -%}
@@ -38,6 +58,7 @@
   {%- assign nav_support = "サポート" -%}
   {%- assign nav_privacy = "プライバシー" -%}
   {%- assign language_name = "日本語" -%}
+  {%- assign language_menu_label = "言語" -%}
   {%- assign store_label = "App Storeからダウンロード" -%}
   {%- assign menu_label = "メニュー" -%}
   {%- assign skip_label = "本文へ移動" -%}
@@ -54,6 +75,7 @@
   {%- assign nav_support = "支持" -%}
   {%- assign nav_privacy = "隐私" -%}
   {%- assign language_name = "中文" -%}
+  {%- assign language_menu_label = "语言" -%}
   {%- assign store_label = "在 App Store 下载" -%}
   {%- assign menu_label = "菜单" -%}
   {%- assign skip_label = "跳到正文" -%}
@@ -68,6 +90,7 @@
   {%- assign nav_support = "지원" -%}
   {%- assign nav_privacy = "개인정보" -%}
   {%- assign language_name = "한국어" -%}
+  {%- assign language_menu_label = "언어" -%}
   {%- assign store_label = "App Store에서 받기" -%}
   {%- assign menu_label = "메뉴" -%}
   {%- assign skip_label = "본문으로 이동" -%}
@@ -113,17 +136,19 @@
         <a href="{{ '/api' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'api' %} class="is-active" aria-current="page"{% endif %}>{{ nav_api }}</a>
         <a href="{{ '/resources' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'resources' %} class="is-active" aria-current="page"{% endif %}>{{ nav_resources }}</a>
         <a href="{{ '/support' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'support' %} class="is-active" aria-current="page"{% endif %}>{{ nav_support }}</a>
-        <div class="mobile-language-links" aria-label="Language">
+        <div class="mobile-language-links" aria-label="{{ language_menu_label }}">
           {% if page.page_id == 'home' %}
             <a href="{{ '/' | relative_url }}" lang="ko">KO</a>
             <a href="{{ '/index-en/' | relative_url }}" lang="en">EN</a>
             <a href="{{ '/index-ja/' | relative_url }}" lang="ja">JA</a>
             <a href="{{ '/index-zh/' | relative_url }}" lang="zh">ZH</a>
+            <a href="{{ '/index-pt-br/' | relative_url }}" lang="pt-BR">PT-BR</a>
           {% else %}
             <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">KO</a>
             <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">EN</a>
             <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">JA</a>
             <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">ZH</a>
+            <a href="{{ '/' | append: page.page_id | append: '-pt-br/' | relative_url }}" lang="pt-BR">PT-BR</a>
           {% endif %}
         </div>
         <a class="mobile-store-link" href="{{ store_url }}" target="_blank" rel="noopener">{{ store_label }}</a>
@@ -138,11 +163,13 @@
               <a href="{{ '/index-en/' | relative_url }}" lang="en">English</a>
               <a href="{{ '/index-ja/' | relative_url }}" lang="ja">日本語</a>
               <a href="{{ '/index-zh/' | relative_url }}" lang="zh">中文</a>
+              <a href="{{ '/index-pt-br/' | relative_url }}" lang="pt-BR">Português (Brasil)</a>
             {% else %}
               <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">한국어</a>
               <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">English</a>
               <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">日本語</a>
               <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">中文</a>
+              <a href="{{ '/' | append: page.page_id | append: '-pt-br/' | relative_url }}" lang="pt-BR">Português (Brasil)</a>
             {% endif %}
           </div>
         </details>
