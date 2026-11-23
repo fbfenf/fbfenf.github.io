@@ -1,17 +1,15 @@
 ---
 layout: default
 title: Configuração de IA
-description: A IA do iScript funciona com a Apple Intelligence. Em um iPhone compatível, não há nada para configurar; em outros dispositivos, uma chave do Gemini permite usar as explicações de frases.
+description: Como usar as explicações com IA do iScript. Em um iPhone compatível, não há nada para configurar; em outros dispositivos, uma chave do Gemini permite usar as explicações de frases.
 permalink: /api-pt-br/
 locale: pt_BR
 page_id: api
 ---
 
-> Em um iPhone compatível com a Apple Intelligence, não há nada para configurar e não é preciso chave.
+> Ouvir, praticar, revisar e o vocabulário não precisam de IA. Alguns roteiros incluídos também já vêm com explicações prontas.
 
-## O que funciona com a Apple Intelligence
-
-Em um iPhone compatível com a Apple Intelligence, com o iOS 27 ou posterior e a Apple Intelligence ativada nos Ajustes do iPhone, tudo isto funciona:
+## O que a IA faz
 
 - Explicações de frases (palavras, gramática, situações de uso)
 - Exemplos semelhantes e versões formal e informal
@@ -19,20 +17,25 @@ Em um iPhone compatível com a Apple Intelligence, com o iOS 27 ou posterior e a
 - Conversa com a IA na situação do seu roteiro, com correções no final
 - Preenchimento das traduções de um roteiro que você importa
 
-O quanto você pode usar por dia é definido pela Apple. Quando o limite é atingido, o app informa quando você poderá usar de novo.
+## Duas formas de usar
 
-## Em um dispositivo sem a Apple Intelligence
-
-Ouvir, praticar, revisar e o vocabulário funcionam normalmente. Alguns roteiros incluídos já vêm com explicações que não precisam de IA.
-
-Se quiser explicações para as frases que você mesmo importa, você pode conectar uma chave do Gemini. É opcional.
-
-| | Apple Intelligence | Chave do Gemini |
+| | IA do iPhone | Chave do Gemini |
 | :-- | :-- | :-- |
+| Para configurar | Nada | Obter uma chave e inserir |
 | Explicações de frases | Sim | Sim |
 | Ouvir com uma voz do Gemini | - | Sim |
 | Exemplos, formal e informal, perguntas | Sim | Não |
 | Conversar com a IA | Sim | Não |
+
+### IA do iPhone
+
+Funciona em um iPhone compatível com a Apple Intelligence (iOS 27 ou posterior), com a Apple Intelligence ativada nos Ajustes do iPhone. Não há nada para configurar no app e não é preciso chave.
+
+O quanto você pode usar por dia é definido pela Apple. Quando o limite é atingido, o app informa quando você poderá usar de novo.
+
+### Chave do Gemini
+
+Para outros iPhones, quando você quiser explicações para as frases que você mesmo importa. É opcional.
 
 ## Como obter uma chave do Gemini (opcional)
 
@@ -55,4 +58,4 @@ Verifique se não foi copiado um espaço antes ou depois da chave; se não resol
 
 ### Para onde as minhas frases são enviadas?
 
-Com a Apple Intelligence, para o modelo de servidor da Apple; com uma chave do Gemini, para o Google. Os detalhes estão na [política de privacidade](/privacy-pt-br/).
+Com a IA do iPhone, para o modelo de servidor da Apple; com uma chave do Gemini, para o Google. Os detalhes estão na [política de privacidade](/privacy-pt-br/).

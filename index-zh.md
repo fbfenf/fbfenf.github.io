@@ -57,7 +57,7 @@ page_id: home
     <div>
       <h2>看不懂的句子，<br>当场为你讲解。</h2>
       <p>单词的意思、语法，还有这句话用在什么场合。在讲解中选的单词会收进生词本。</p>
-      <p class="note">在支持 Apple Intelligence 的 iPhone 上无需密钥。<a href="/api-zh/">查看 AI 设置</a></p>
+      <p class="note">AI 讲解的使用方式因设备而异。<a href="/api-zh/">查看 AI 设置</a></p>
     </div>
   </div>
 </section>

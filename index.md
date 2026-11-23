@@ -57,7 +57,7 @@ page_id: home
     <div>
       <h2>모르는 문장은<br>그 자리에서 풀어 줍니다.</h2>
       <p>단어의 뜻, 문법, 그 말이 쓰이는 상황까지. 해설에서 고른 단어는 단어장에 모입니다.</p>
-      <p class="note">Apple Intelligence를 지원하는 iPhone에서는 키 없이 됩니다. <a href="/api/">AI 설정 보기</a></p>
+      <p class="note">AI 해설을 쓰는 방법은 기기에 따라 다릅니다. <a href="/api/">AI 설정 보기</a></p>
     </div>
   </div>
 </section>

@@ -57,7 +57,7 @@ page_id: home
     <div>
       <h2>わからない文は、<br>その場で解説します。</h2>
       <p>単語の意味、文法、その表現が使われる場面まで。解説で選んだ単語は単語帳に集まります。</p>
-      <p class="note">Apple Intelligenceに対応したiPhoneでは、キーは不要です。 <a href="/api-ja/">AI設定を見る</a></p>
+      <p class="note">AI解説の使い方は、デバイスによって異なります。 <a href="/api-ja/">AI設定を見る</a></p>
     </div>
   </div>
 </section>

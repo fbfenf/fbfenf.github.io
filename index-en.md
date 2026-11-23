@@ -57,7 +57,7 @@ page_id: home
     <div>
       <h2>A sentence you don't get<br>is explained right there.</h2>
       <p>What the words mean, the grammar, and when people say it. Words you pick from an explanation go to your word list.</p>
-      <p class="note">No key needed on an iPhone that supports Apple Intelligence. <a href="/api-en/">AI setup</a></p>
+      <p class="note">How AI explanations work depends on your device. <a href="/api-en/">AI setup</a></p>
     </div>
   </div>
 </section>

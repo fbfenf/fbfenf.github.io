@@ -57,7 +57,7 @@ page_id: home
     <div>
       <h2>A frase que você não entende<br>é explicada ali mesmo.</h2>
       <p>O significado das palavras, a gramática e as situações em que a frase é usada. As palavras que você escolhe em uma explicação ficam salvas no vocabulário.</p>
-      <p class="note">Em um iPhone compatível com a Apple Intelligence, não é preciso chave. <a href="/api-pt-br/">Configuração de IA</a></p>
+      <p class="note">A forma de usar as explicações com IA depende do aparelho. <a href="/api-pt-br/">Configuração de IA</a></p>
     </div>
   </div>
 </section>

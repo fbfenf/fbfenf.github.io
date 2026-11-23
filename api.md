@@ -1,17 +1,15 @@
 ---
 layout: default
 title: AI 설정
-description: iScript의 AI는 Apple Intelligence로 동작합니다. 지원하는 iPhone에서는 설정할 것이 없고, 그 밖의 기기에서는 Gemini 키로 문장 해설을 쓸 수 있습니다.
+description: iScript의 AI 해설을 쓰는 방법입니다. 지원하는 iPhone에서는 설정할 것이 없고, 그 밖의 기기에서는 Gemini 키로 문장 해설을 쓸 수 있습니다.
 permalink: /api/
 locale: ko_KR
 page_id: api
 ---
 
-> Apple Intelligence를 지원하는 iPhone에서는 설정할 것이 없습니다. 키도 필요하지 않습니다.
+> 듣기, 연습, 복습, 단어장은 AI 없이 됩니다. 내장 대본에는 해설이 미리 들어 있는 것도 있습니다.
 
-## Apple Intelligence로 되는 것
-
-Apple Intelligence를 지원하는 iPhone과 iOS 27 이상에서, iPhone 설정의 Apple Intelligence가 켜져 있으면 아래가 모두 됩니다.
+## AI로 할 수 있는 것
 
 - 문장 해설 (단어, 문법, 쓰이는 상황)
 - 비슷한 예문 만들기, 존댓말·반말로 바꿔 보기
@@ -19,20 +17,25 @@ Apple Intelligence를 지원하는 iPhone과 iOS 27 이상에서, iPhone 설정�
 - 대본의 상황으로 AI와 대화하고 교정 받기
 - 가져온 대본의 번역 채우기
 
-하루에 쓸 수 있는 양은 Apple이 정합니다. 다 쓰면 앱이 다시 쓸 수 있는 시각을 알려 줍니다.
+## 쓰는 방법은 두 가지입니다
 
-## Apple Intelligence를 쓸 수 없는 기기에서는
-
-듣기, 연습, 복습, 단어장은 그대로 됩니다. 내장 대본에는 해설이 미리 들어 있는 것이 있어 AI 없이도 볼 수 있습니다.
-
-가져온 대본의 문장 해설을 보고 싶다면 Gemini 키를 연결할 수 있습니다. 선택 사항입니다.
-
-| | Apple Intelligence | Gemini 키 |
+| | iPhone의 AI | Gemini 키 |
 | :-- | :-- | :-- |
+| 준비할 것 | 없음 | 키를 받아 넣기 |
 | 문장 해설 | 됨 | 됨 |
 | Gemini 음성으로 듣기 | - | 됨 |
 | 예문, 말투 바꾸기, 질문 | 됨 | 안 됨 |
 | AI와 대화 | 됨 | 안 됨 |
+
+### iPhone의 AI
+
+Apple Intelligence를 지원하는 iPhone(iOS 27 이상)에서, iPhone 설정의 Apple Intelligence가 켜져 있으면 됩니다. 앱에서 설정할 것도, 키도 없습니다.
+
+하루에 쓸 수 있는 양은 Apple이 정합니다. 다 쓰면 앱이 다시 쓸 수 있는 시각을 알려 줍니다.
+
+### Gemini 키
+
+그 밖의 iPhone에서 가져온 대본의 문장 해설을 보고 싶을 때 연결합니다. 선택 사항입니다.
 
 ## Gemini 키 받기 (선택)
 
@@ -55,4 +58,4 @@ Google AI Studio에는 무료로 쓸 수 있는 등급이 있습니다. 한도�
 
 ### 문장이 어디로 전송되나요?
 
-Apple Intelligence를 쓰면 Apple의 서버 모델로, Gemini 키를 쓰면 Google로 그 문장이 전송됩니다. 자세한 내용은 [개인정보처리방침](/privacy/)에 있습니다.
+iPhone의 AI를 쓰면 Apple의 서버 모델로, Gemini 키를 쓰면 Google로 그 문장이 전송됩니다. 자세한 내용은 [개인정보처리방침](/privacy/)에 있습니다.

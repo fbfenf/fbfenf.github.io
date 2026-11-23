@@ -1,17 +1,15 @@
 ---
 layout: default
 title: AI設定
-description: iScriptのAIはApple Intelligenceで動作します。対応するiPhoneでは設定は不要で、そのほかのデバイスではGeminiキーで文の解説を利用できます。
+description: iScriptのAI解説の使い方です。対応するiPhoneでは設定は不要で、そのほかのデバイスではGeminiキーで文の解説を利用できます。
 permalink: /api-ja/
 locale: ja_JP
 page_id: api
 ---
 
-> Apple Intelligenceに対応したiPhoneでは、設定するものはありません。キーも不要です。
+> 聞く、練習、復習、単語帳はAIなしで使えます。内蔵スクリプトには、解説があらかじめ入っているものもあります。
 
-## Apple Intelligenceでできること
-
-Apple Intelligenceに対応したiPhoneで、iOS 27以降を使い、iPhoneの「設定」でApple Intelligenceをオンにしていれば、以下のすべてを利用できます。
+## AIでできること
 
 - 文の解説（単語、文法、使われる場面）
 - 似た例文の作成、丁寧な言い方・くだけた言い方への言い換え
@@ -19,20 +17,25 @@ Apple Intelligenceに対応したiPhoneで、iOS 27以降を使い、iPhoneの�
 - スクリプトの場面でのAIとの会話と、会話のあとの添削
 - 読み込むスクリプトの訳を補う
 
-1日に使える量はAppleが定めています。上限に達すると、また使えるようになる時刻をアプリがお知らせします。
+## 使い方は2つあります
 
-## Apple Intelligenceを利用できないデバイスでは
-
-聞く、練習、復習、単語帳は、そのまま利用できます。内蔵スクリプトには解説があらかじめ入っているものがあり、AIなしで読めます。
-
-自分で読み込んだスクリプトの文の解説を見たい場合は、Geminiキーを接続できます。これは任意です。
-
-| | Apple Intelligence | Geminiキー |
+| | iPhoneのAI | Geminiキー |
 | :-- | :-- | :-- |
+| 準備 | 不要 | キーを取得して入力 |
 | 文の解説 | ○ | ○ |
 | Geminiの音声で聞く | - | ○ |
 | 例文、丁寧な言い方・くだけた言い方、質問 | ○ | × |
 | AIと会話 | ○ | × |
+
+### iPhoneのAI
+
+Apple Intelligenceに対応したiPhone（iOS 27以降）で、iPhoneの「設定」でApple Intelligenceをオンにしていれば利用できます。アプリで設定するものはなく、キーも不要です。
+
+1日に使える量はAppleが定めています。上限に達すると、また使えるようになる時刻をアプリがお知らせします。
+
+### Geminiキー
+
+そのほかのiPhoneで、自分で読み込んだスクリプトの文の解説を見たいときに接続します。これは任意です。
 
 ## Geminiキーを取得する（任意）
 
@@ -55,4 +58,4 @@ Google AI Studioには無料で使える枠があります。上限と料金はG
 
 ### 文はどこに送信されますか？
 
-Apple Intelligenceを使う場合はAppleのサーバーモデルに、Geminiキーを使う場合はGoogleに送信されます。詳しくは[プライバシーポリシー](/privacy-ja/)をご覧ください。
+iPhoneのAIを使う場合はAppleのサーバーモデルに、Geminiキーを使う場合はGoogleに送信されます。詳しくは[プライバシーポリシー](/privacy-ja/)をご覧ください。
