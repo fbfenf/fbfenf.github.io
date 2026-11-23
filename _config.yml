@@ -3,11 +3,27 @@ description: Turn the scripts you love into focused language learning with iScri
 theme: jekyll-theme-slate
 baseurl: ""
 url: "https://iscript.dev"
-asset_version: "20260917-2"
+asset_version: "20261124-1"
 markdown: kramdown
 show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Share previews (jekyll-seo-tag): a page may set its own `image`.
+twitter:
+  card: summary_large_image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og.png
 
 exclude:
   - "*-legacy.md"
   - "design-qa.md"
-
+  - "tools"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"

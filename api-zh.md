@@ -1,64 +1,58 @@
 ---
 layout: default
-title: API Key 指南
-description: 了解如何安全创建并连接iScript AI功能所需的Gemini API密钥。
+title: AI 设置
+description: iScript 的 AI 通过 Apple Intelligence 运行。在支持的 iPhone 上无需任何设置；在其他设备上，可以用 Gemini 密钥使用句子讲解。
 permalink: /api-zh/
+locale: zh_CN
 page_id: api
 ---
 
-> **要使用iScript强大的AI功能(听发音、句子分析等)，需要免费的 AI API Key。**  
-> 只要有Google账号，任何人都可以**免费**轻松快速获取。
+> 在支持 Apple Intelligence 的 iPhone 上无需任何设置，也不需要密钥。
 
----
+## 通过 Apple Intelligence 可以使用的功能
 
-## 🤔 什么是 API Key？（您可以放心使用！）
+在支持 Apple Intelligence 的 iPhone 上，系统为 iOS 27 或更高版本，并且已在 iPhone“设置”中打开 Apple Intelligence 时，以下功能都可以使用：
 
-您可以把它简单地理解为 **“使用 AI 服务的个人入场券”**。
+- 句子讲解（单词、语法、使用场合）
+- 类似例句，以及敬语和非敬语的说法
+- 就句子提问
+- 按脚本的情境和 AI 对话，并在结束后得到修改
+- 为导入的脚本补全译文
 
-- **不涉及隐私**: 它与您的姓名、电话或地址等个人信息完全无关。
-- **安全性高**: iScript 不设中央服务器，您的密钥**仅加密存储在您的设备中**，不会泄露给第三方。
+每天可以使用的量由 Apple 决定。用完后，App 会告诉你什么时候可以再次使用。
 
----
+## 在无法使用 Apple Intelligence 的设备上
 
-## 🚀 3分钟获取指南（请按照步骤操作！）
+听句子、练习、复习和生词本都可以照常使用。部分内置脚本自带讲解，无需 AI 也能查看。
 
-### 步骤 1: 访问 Google AI Studio
-点击下方按钮，进入 Google API 密钥管理页面。
+如果想查看自己导入的句子的讲解，可以连接 Gemini 密钥。这是可选的。
 
-👉 [**前往 Google AI Studio**](https://aistudio.google.com/app/apikey)
+| | Apple Intelligence | Gemini 密钥 |
+| :-- | :-- | :-- |
+| 句子讲解 | 可用 | 可用 |
+| 用 Gemini 语音朗读 | - | 可用 |
+| 例句、敬语与非敬语、提问 | 可用 | 不可用 |
+| 和 AI 对话 | 可用 | 不可用 |
 
-> **小贴士**: 您可能需要登录您的 Google 帐号。
+## 获取 Gemini 密钥（可选）
 
-### 步骤 2: 创建 API 密钥
-1. 点击屏幕上的蓝色 **Create API key**（创建 API 密钥）按钮。
-2. 在弹出菜单中选择 **Create API key in new project**（在新项目中创建 API 密钥）。
-   *(如果您已有项目，也可以选择现有项目)*
+1. 打开 [Google AI Studio](https://aistudio.google.com/app/apikey)，用 Google 账号登录。
+2. 轻点 **Create API key** 创建密钥。
+3. 拷贝生成的密钥。
+4. 在 iScript 的**设置** → **Gemini 密钥**中粘贴密钥并存储。
 
-### 步骤 3: 复制密钥
-1. 稍后您的 API 密钥将生成。
-2. 点击生成的密钥旁边的 **Copy**（复制）按钮（文档图标）。
-   *(密钥是以 `AIza` 开头的长字符串)*
+密钥只保存在这台 iPhone 的钥匙串中。它不会包含在备份文件或咨询邮件里，也不会传给开发者。删除密钥后，就不会再向 Google 发送任何内容。
 
-### 步骤 4: 粘贴到 iScript App
-1. 打开 **iScript App**。
-2. 进入 **Settings**（设置）菜单。
-3. 点击 **API Key** 选项，然后粘贴（Paste）您复制的密钥。
-4. **Save**（保存）即可！🎉
+## 常见问题
 
----
+### Gemini 密钥是免费的吗？
 
-## 💡 常见问题 (FAQ)
+Google AI Studio 提供免费层级。限额和价格由 Google 决定，创建密钥时请查看 Google 的说明。
 
-### Q: 这真的免费吗？
-**是的，免费。** 个人用户通过 Google AI Studio 的免费层（Free Tier），每天可以免费使用足够的额度。
+### 填入了密钥，还是没有讲解。
 
-### Q: 需要绑定信用卡吗？
-不需要，使用免费层**无需绑定信用卡**。
+请确认拷贝时密钥前后没有带上空格；如果还是不行，请重新创建一个密钥。“设置”中的 Gemini 密钥一栏显示“已连接”时，就表示正常。
 
-### Q: 我的 API Key 不起作用。
-- 请检查复制时是否包含了空格。
-- 尝试重新生成密钥并再次输入。
+### 句子会发送到哪里？
 
----
-
-[**返回首页**](/index-zh/)
+使用 Apple Intelligence 时，句子会发送到 Apple 的服务器模型；使用 Gemini 密钥时，会发送到 Google。详情请见[隐私政策](/privacy-zh/)。

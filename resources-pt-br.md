@@ -3,6 +3,7 @@ layout: default
 title: Pacotes de frases essenciais para viagens
 description: Baixe 86 frases práticas em coreano para visitantes e frases essenciais em inglês, japonês e chinês para viajantes coreanos.
 permalink: /resources-pt-br/
+locale: pt_BR
 page_id: resources
 ---
 
@@ -19,8 +20,8 @@ page_id: resources
   </div>
   <div class="resource-steps" aria-label="Como usar os arquivos">
     <div class="resource-step"><b>1</b><div><strong>Baixe seu pacote</strong><span>Confira o idioma de estudo e o idioma da tradução.</span></div></div>
-    <div class="resource-step"><b>2</b><div><strong>Abra no iScript</strong><span>Vá à Biblioteca e toque em + Adicionar roteiro.</span></div></div>
-    <div class="resource-step"><b>3</b><div><strong>Pratique por situação</strong><span>Use as explicações com IA e as revisões para dominar cada frase.</span></div></div>
+    <div class="resource-step"><b>2</b><div><strong>Abra no iScript</strong><span>Na Biblioteca, toque em + e escolha “Importar de um arquivo”.</span></div></div>
+    <div class="resource-step"><b>3</b><div><strong>Pratique por situação</strong><span>Use as explicações, a prática e a revisão para tornar cada frase sua.</span></div></div>
   </div>
 </section>
 
@@ -115,5 +116,5 @@ page_id: resources
     <thead><tr><th>Coluna A · Idioma de estudo</th><th>Coluna B · Tradução</th></tr></thead>
     <tbody><tr><td>사진을 찍어 주실 수 있나요?</td><td>Você poderia tirar uma foto para mim?</td></tr><tr><td>화장실은 어디예요?</td><td>Onde fica o banheiro?</td></tr></tbody>
   </table>
-  <p class="format-note">Use o formato .xlsx e informe os nomes dos dois idiomas na primeira linha.</p>
+  <p class="format-note">Salve os arquivos do Excel em .xlsx e coloque os nomes dos dois idiomas na primeira linha. Não precisa ser Excel: você também pode colar um texto copiado ou importar arquivos CSV, de texto e de legendas (srt).</p>
 </section>

@@ -1,0 +1,12 @@
+{%- comment -%}
+  The questions and answers of a page, written once in its front matter (`faq`) and shown
+  here; faq-schema.html gives the same list to search engines.
+{%- endcomment -%}
+<div class="faq">
+  {%- for item in page.faq %}
+  <details class="faq-item">
+    <summary>{{ item.q }}</summary>
+    <div class="faq-answer">{{ item.a | markdownify }}</div>
+  </details>
+  {%- endfor %}
+</div>

@@ -1,58 +1,45 @@
 ---
 layout: default
-title: Guia de aprendizado
-description: Crie uma rotina focada no iScript que combina escuta, prática de frases e recordação ativa.
+title: A rotina de 15 minutos
+description: Ouça tudo, aprenda uma frase por vez e depois diga todas em sequência. Uma rotina diária de 15 minutos com o iScript.
 permalink: /guide-pt-br/
+locale: pt_BR
 page_id: guide
 ---
 
-> **“Você domina de verdade quando sua boca se lembra.”**
-> Pratique o método de aprendizado em quatro etapas, baseado na ciência da memória, usando os recursos do aplicativo.
->
-> 🎯 **Quantidade recomendada**: **3 a 5 frases** por dia (um conjunto)
+> Uma frase passa a ser sua quando a sua boca se lembra dela. Três a cinco frases por dia, quinze minutos.
 
----
+## 1. Primeiro, ouça tudo
 
-### Etapa 1. 👂 Contexto (entrada)
-**Veja primeiro a floresta inteira.**
-1. **Escuta às cegas**: ouça continuamente, **três vezes**, as **3 a 5 frases** que você estudará hoje, sem olhar o texto.
-2. Perceba o fluxo geral e a emoção da conversa.
+Ouça as três a cinco frases de hoje três vezes seguidas, sem olhar o texto. O botão de reprodução, na parte de baixo da tela do roteiro, lê em sequência a partir da frase que você escolheu. Basta captar do que se trata e como é dito.
 
-### Etapa 2. 🧐 Prática intensiva (processamento)
-**Trabalhe cada árvore com cuidado.**
-1. **Explicação com IA**: abra a primeira frase e confira primeiro as palavras e expressões desconhecidas.
-2. **Leitura sincronizada**: toque no ícone de alto-falante e repita **pelo menos dez vezes**, até acompanhar a velocidade do falante nativo.
-3. **Aprendida**: quando conseguir falar com naturalidade, marque como **Aprendida** e passe para a próxima frase.
-   *(Repita o processo com todas as 3 a 5 frases.)*
+## 2. Aprenda uma frase por vez
 
-### Etapa 3. 🧠 Internalização (produção)
-**Volte à floresta e faça dela algo seu.**
-1. **Shadowing às cegas**: tente falar as 3 a 5 frases em sequência, sem olhar o texto.
-2. **SRS (revisão)**: quando a notificação de **[Revisão]** aparecer amanhã, pratique novamente.
+1. Toque em uma frase para abri-la. A tradução e os botões aparecem.
+2. Se algo não ficar claro, toque em **Explicar** e confira as palavras e a gramática.
+3. Ouça só essa frase com o alto-falante ao lado dela e repita umas dez vezes, até conseguir dizê-la na mesma velocidade.
+4. Toque em **Praticar** e use Falar para ver o quanto você acertou. Ditado, Lembrar e Lacunas servem para repassar a frase mais uma vez.
+5. Quando a frase sair naturalmente, toque em **Concluir** e passe para a próxima.
 
----
+## 3. Diga tudo em sequência
 
-## ⏱️ Sua rotina de 15 minutos
+Diga as três a cinco frases em sequência, sem olhar. Abra de novo só aquelas em que você travar.
 
-| Tempo | Atividade | Recurso do iScript |
+Uma frase em que você tocou em Concluir volta na revisão da aba **Hoje** mais ou menos quando você a esqueceria. Faça só o que aparecer naquele dia.
+
+## Os 15 minutos de hoje
+
+| Tempo | O que fazer | No app |
 | :-- | :-- | :-- |
-| **2 min** | **Contexto** | Ouça de 3 a 5 frases em sequência, três vezes |
-| **8 min** | **Prática intensiva** | Repita cada frase dez vezes |
-| **5 min** | **Internalização** | Fale de 3 a 5 frases em sequência, sem o texto |
-| **Dica** | **Revisão** | Faça apenas as revisões que aparecerem |
+| 2 min | Ouvir tudo | O botão de reprodução embaixo, três vezes |
+| 8 min | Uma frase por vez | Ouvir e repetir com o alto-falante, Explicar, Praticar |
+| 5 min | Dizer tudo em sequência | Três a cinco frases, sem o texto |
+| No dia seguinte | Revisão | Só as frases da aba Hoje |
 
----
+## Se quiser fazer mais
 
-## 🔥 Quer estudar mais? Use o empilhamento
+Dez frases de uma vez é demais: você deixa de prestar atenção nas últimas. Vá somando de cinco em cinco.
 
-Se você sente que **“cinco frases são poucas”**, não aumente a quantidade de uma só vez. Use o **empilhamento**.
-
-1. Domine completamente o **Conjunto 1 (frases 1 a 5)**. (15 min)
-2. Descanse um pouco e estude o **Conjunto 2 (frases 6 a 10)** com a mesma rotina. (15 min)
-3. Por fim, faça shadowing com o **Conjunto 1 + Conjunto 2 (frases 1 a 10)** em sequência.
-
-> ⚠️ **Atenção**: não tente estudar dez frases de uma só vez. Seu cérebro se cansa e perde o foco nas últimas frases. Divida o conteúdo em grupos de cinco, domine cada grupo e depois empilhe-os.
-
----
-
-[Voltar ao início](/index-pt-br/)
+1. Termine o primeiro conjunto (frases 1 a 5).
+2. Faça uma pausa curta e depois faça o segundo conjunto (6 a 10) do mesmo jeito.
+3. No final, diga os dois conjuntos em sequência.

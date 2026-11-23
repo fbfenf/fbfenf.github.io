@@ -1,98 +1,83 @@
 ---
 layout: default
-title: iScript — 내 콘텐츠로 배우는 언어 학습
-description: 좋아하는 대본을 문장 학습, AI 분석, SRS 복습으로 연결하는 iPhone·iPad 언어 학습 앱입니다.
+title: iScript — 대본으로 외국어를 공부하는 iPhone 앱
+description: 좋아하는 대본으로 듣고, 따라 말하고, 잊을 때쯤 다시 봅니다. 대본으로 영어·일본어·중국어·포르투갈어·한국어를 공부하는 무료 iPhone·iPad 앱입니다.
 permalink: /
+locale: ko_KR
 page_id: home
 ---
 
 <section class="hero">
   <div class="site-shell hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">AI 언어 학습 메이트</p>
-      <h1>외운 문장이,<br><em>내 말이 되는 순간.</em></h1>
-      <p class="hero-description">좋아하는 대본을 올리면 문장 학습부터 AI 분석, SRS 복습까지 하나의 흐름으로 이어집니다.</p>
+      <h1>외운 문장이,<br>내 말이 되는 순간.</h1>
+      <p class="lead">좋아하는 대본으로 듣고, 따라 말하고, 잊을 때쯤 다시 봅니다. 대본으로 외국어를 공부하는 iPhone 앱입니다.</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 무료 다운로드</a>
-        <a class="button button-secondary" href="/resources/">샘플 대본 보기</a>
+        <a class="button" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
+        <a class="text-link" href="/resources/">샘플 대본 보기</a>
       </div>
-      <p class="hero-meta"><span>평점 5.0</span><span>무료 다운로드</span><span>iPhone &amp; iPad</span></p>
+      <ul class="facts">
+        <li>무료</li>
+        <li>가입 없이 바로</li>
+        <li>iPhone · iPad</li>
+        <li>영어 · 일본어 · 중국어 · 포르투갈어 · 한국어</li>
+      </ul>
     </div>
+    <figure class="phone">
+      <img src="/assets/img/shots/ko/study.webp" alt="문장을 하나씩 펼쳐 공부하는 iScript 대본 화면" width="640" height="1391">
+    </figure>
+  </div>
+</section>
 
-    <div class="product-stage" aria-label="iScript 앱 화면 미리보기">
-      <figure class="screen-shot screen-upload">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="iScript 대본 업로드 화면" width="554" height="1200">
-      </figure>
-      <figure class="screen-shot screen-learn">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScript 문장 학습 화면" width="554" height="1200">
-      </figure>
-      <figure class="screen-shot screen-progress">
-        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="iScript 학습 진행도 화면" width="554" height="1200">
-      </figure>
+<section class="steps" aria-label="공부하는 순서">
+  <div class="site-shell steps-grid">
+    <div class="step">
+      <span class="num">01</span>
+      <h3>가져오기</h3>
+      <p>드라마 대사, 강의 자막, 직접 쓴 문장. 붙여 넣거나 파일로 가져옵니다.</p>
+    </div>
+    <div class="step">
+      <span class="num">02</span>
+      <h3>듣고 말하기</h3>
+      <p>한 문장씩 듣고, 따라 말하고, 받아쓰고, 가린 채 떠올립니다.</p>
+    </div>
+    <div class="step">
+      <span class="num">03</span>
+      <h3>다시 만나기</h3>
+      <p>익힌 문장은 잊을 때쯤 다시 나옵니다. 하루 몇 분이면 됩니다.</p>
     </div>
   </div>
 </section>
 
-<section class="proof-strip" aria-label="핵심 기능">
-  <div class="site-shell proof-grid">
-    <div class="proof-item"><strong>내 자료 그대로</strong><span>텍스트·엑셀 대본 업로드</span></div>
-    <div class="proof-item"><strong>깊이 이해하기</strong><span>AI 문장·뉘앙스 분석</span></div>
-    <div class="proof-item"><strong>오래 기억하기</strong><span>SRS 간격 반복 복습</span></div>
-    <div class="proof-item"><strong>기기 안에 안전하게</strong><span>로컬 우선 학습 기록</span></div>
-  </div>
-</section>
-
-<section class="section section-soft">
-  <div class="site-shell">
-    <div class="section-heading">
-      <p class="eyebrow">Simple learning flow</p>
-      <h2>3단계로, 내 콘텐츠가 학습이 됩니다.</h2>
-      <p>복잡한 설정 없이 지금 가진 대본으로 바로 시작하세요.</p>
-    </div>
-    <div class="flow-grid">
-      <article class="flow-step">
-        <span class="flow-number">01</span>
-        <h3>가져오기</h3>
-        <p>영화, 강의, 인터뷰, 단어장까지 익히고 싶은 자료를 업로드합니다.</p>
-      </article>
-      <article class="flow-step">
-        <span class="flow-number">02</span>
-        <h3>깊이 이해하기</h3>
-        <p>듣고 따라 하며, AI로 문법과 표현의 뉘앙스를 정확히 이해합니다.</p>
-      </article>
-      <article class="flow-step">
-        <span class="flow-number">03</span>
-        <h3>오래 기억하기</h3>
-        <p>SRS가 가장 효과적인 순간에 다시 보여주어 내 문장으로 만듭니다.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="site-shell feature-split">
-    <div class="feature-image">
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="단어와 문화적 뉘앙스를 분석하는 iScript 학습 화면" width="554" height="1200" loading="lazy">
-    </div>
-    <div class="feature-copy">
-      <p class="eyebrow">더 깊이, 더 정확하게</p>
-      <h2>문장 하나를 제대로 이해하는 순간.</h2>
-      <p>단순히 뜻을 외우는 대신 문장의 소리, 구조, 쓰이는 상황까지 연결해 실제 언어 감각을 기릅니다.</p>
-      <div class="feature-list">
-        <div class="feature-row"><b>01</b><div><strong>자연스러운 TTS</strong><span>문장을 듣고 따라 하며 발음과 리듬을 익힙니다.</span></div></div>
-        <div class="feature-row"><b>02</b><div><strong>AI 문법·뉘앙스 분석</strong><span>핵심 단어부터 문화적 배경까지 문장 안에서 이해합니다.</span></div></div>
-        <div class="feature-row"><b>03</b><div><strong>북마크와 학습 기록</strong><span>중요한 표현을 모으고 진행도를 한눈에 확인합니다.</span></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="site-shell cta-panel">
+<section class="feature">
+  <div class="site-shell feature-grid">
+    <figure class="phone">
+      <img src="/assets/img/shots/ko/explain.webp" alt="단어와 문법을 풀어 주는 해설 화면" width="640" height="1391" loading="lazy">
+    </figure>
     <div>
-      <h2>오늘부터 내 대본으로 시작하세요.</h2>
-      <p>좋아하는 콘텐츠가 가장 오래 기억되는 교재가 됩니다.</p>
+      <h2>모르는 문장은<br>그 자리에서 풀어 줍니다.</h2>
+      <p>단어의 뜻, 문법, 그 말이 쓰이는 상황까지. 해설에서 고른 단어는 단어장에 모입니다.</p>
+      <p class="note">Apple Intelligence를 지원하는 iPhone에서는 키 없이 됩니다. <a href="/api/">AI 설정 보기</a></p>
     </div>
-    <a class="button" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
+  </div>
+</section>
+
+<section class="feature flip">
+  <div class="site-shell feature-grid">
+    <figure class="phone">
+      <img src="/assets/img/shots/ko/practice.webp" alt="따라 말하기 연습 화면" width="640" height="1391" loading="lazy">
+    </figure>
+    <div>
+      <h2>소리 내어 말해 보고,<br>바로 확인합니다.</h2>
+      <p>따라 말하면 얼마나 맞았는지 보입니다. 받아쓰기, 떠올리기, 빈칸 연습도 같은 자리에서 합니다.</p>
+      <p class="note">대본과 학습 기록은 내 iPhone에만 저장됩니다.</p>
+    </div>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="site-shell closing-inner">
+    <h2>오늘 한 줄이면 충분해요.</h2>
+    <a class="button button-light" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
   </div>
 </section>

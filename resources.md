@@ -3,6 +3,7 @@ layout: default
 title: 여행 필수 대본
 description: 한국 여행자와 해외여행을 준비하는 한국인을 위한 86개 현장 표현을 무료 Excel 대본으로 받으세요.
 permalink: /resources/
+locale: ko_KR
 page_id: resources
 ---
 
@@ -19,8 +20,8 @@ page_id: resources
   </div>
   <div class="resource-steps" aria-label="사용 방법">
     <div class="resource-step"><b>1</b><div><strong>내게 맞는 대본 다운로드</strong><span>학습 언어와 번역 언어를 확인하세요.</span></div></div>
-    <div class="resource-step"><b>2</b><div><strong>iScript에서 파일 열기</strong><span>라이브러리에서 + Add Script를 누르세요.</span></div></div>
-    <div class="resource-step"><b>3</b><div><strong>상황별 문장 반복 학습</strong><span>AI 설명과 복습 기능으로 내 문장으로 만드세요.</span></div></div>
+    <div class="resource-step"><b>2</b><div><strong>iScript에서 파일 열기</strong><span>서재에서 +를 누르고 “파일에서 가져오기”를 고르세요.</span></div></div>
+    <div class="resource-step"><b>3</b><div><strong>상황별 문장 반복 학습</strong><span>해설, 연습, 복습으로 내 문장으로 만드세요.</span></div></div>
   </div>
 </section>
 
@@ -115,5 +116,5 @@ page_id: resources
     <thead><tr><th>A열 · 학습 언어</th><th>B열 · 번역 언어</th></tr></thead>
     <tbody><tr><td>Could you take a photo for me?</td><td>사진을 찍어 주실 수 있나요?</td></tr><tr><td>Where is the restroom?</td><td>화장실은 어디예요?</td></tr></tbody>
   </table>
-  <p class="format-note">파일 형식은 .xlsx를 사용하세요. 첫 번째 행에는 각 언어 이름을 적으면 됩니다.</p>
+  <p class="format-note">엑셀은 .xlsx로 저장하고, 첫 번째 행에는 각 언어 이름을 적으면 됩니다. 엑셀이 아니어도 됩니다. 복사한 글을 붙여 넣거나 CSV, 텍스트, 자막(srt) 파일도 가져올 수 있습니다.</p>
 </section>

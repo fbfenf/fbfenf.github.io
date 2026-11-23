@@ -3,6 +3,7 @@ layout: default
 title: Essential Travel Phrase Packs
 description: Download 86 practical Korean travel phrases for visitors and essential English, Japanese, and Chinese phrases for Korean travelers.
 permalink: /resources-en/
+locale: en_US
 page_id: resources
 ---
 
@@ -19,8 +20,8 @@ page_id: resources
   </div>
   <div class="resource-steps" aria-label="How to use the files">
     <div class="resource-step"><b>1</b><div><strong>Download your phrase pack</strong><span>Check the learning and translation direction.</span></div></div>
-    <div class="resource-step"><b>2</b><div><strong>Open it in iScript</strong><span>Go to Library and tap + Add Script.</span></div></div>
-    <div class="resource-step"><b>3</b><div><strong>Practice by situation</strong><span>Use AI explanations and review to make each phrase yours.</span></div></div>
+    <div class="resource-step"><b>2</b><div><strong>Open it in iScript</strong><span>In the Library, tap + and choose “Import from a file”.</span></div></div>
+    <div class="resource-step"><b>3</b><div><strong>Practice by situation</strong><span>Use explanations, practice and review to make each phrase yours.</span></div></div>
   </div>
 </section>
 
@@ -115,5 +116,5 @@ page_id: resources
     <thead><tr><th>Column A · Learning language</th><th>Column B · Translation</th></tr></thead>
     <tbody><tr><td>사진을 찍어 주실 수 있나요?</td><td>Could you take a photo for me?</td></tr><tr><td>화장실은 어디예요?</td><td>Where is the restroom?</td></tr></tbody>
   </table>
-  <p class="format-note">Use the .xlsx format and place the two language names in the first row.</p>
+  <p class="format-note">Save Excel files as .xlsx and put the two language names in the first row. It doesn't have to be Excel: you can also paste text you copied, or import CSV, plain text and subtitle (srt) files.</p>
 </section>

@@ -1,75 +1,83 @@
 ---
 layout: default
-title: iScript — Aprenda com o conteúdo que você ama
-description: Transforme seus próprios roteiros em prática de frases, explicações com IA e revisões SRS no momento certo no iPhone e iPad.
+title: iScript — Aprenda idiomas com os roteiros de que você gosta
+description: Ouça, repita e reveja cada frase pouco antes de esquecê-la. Um app gratuito de iPhone e iPad para aprender inglês, japonês, chinês, português e coreano com roteiros.
 permalink: /index-pt-br/
+locale: pt_BR
 page_id: home
 ---
 
 <section class="hero">
   <div class="site-shell hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Seu parceiro de aprendizado de idiomas com IA</p>
-      <h1>Quando uma frase decorada<br><em>passa a ser sua.</em></h1>
-      <p class="hero-description">Envie um roteiro de que você gosta e avance naturalmente da prática de frases para explicações com IA e revisões SRS no momento certo.</p>
+      <h1>As frases que você aprende<br>se tornam o que você diz.</h1>
+      <p class="lead">Ouça um roteiro de que você gosta, repita em voz alta e reveja cada frase pouco antes de esquecê-la. O iScript é um app de iPhone para aprender idiomas com roteiros.</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar grátis na App Store</a>
-        <a class="button button-secondary" href="/resources-pt-br/">Ver roteiros de exemplo</a>
+        <a class="button" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar na App Store</a>
+        <a class="text-link" href="/resources-pt-br/">Ver roteiros de exemplo</a>
       </div>
-      <p class="hero-meta"><span>Download grátis</span><span>iPhone e iPad</span><span>Interface em coreano e inglês</span></p>
+      <ul class="facts">
+        <li>Gratuito</li>
+        <li>Sem conta</li>
+        <li>iPhone · iPad</li>
+        <li>Inglês · Japonês · Chinês · Português · Coreano</li>
+      </ul>
     </div>
+    <figure class="phone">
+      <img src="/assets/img/shots/pt-br/study.webp" alt="Tela de estudo do iScript, com uma frase aberta por vez" width="640" height="1391">
+    </figure>
+  </div>
+</section>
 
-    <div class="product-stage" aria-label="Prévia do aplicativo iScript">
-      <figure class="screen-shot screen-upload"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/18/2e/c2182e90-278b-46ab-b209-5bdc42ec3073/KakaoTalk_20260213_151543446_11.png/800x1200bb.jpg" alt="Tela de envio de roteiros do iScript" width="554" height="1200"></figure>
-      <figure class="screen-shot screen-learn"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="Tela de estudo de frases do iScript" width="554" height="1200"></figure>
-      <figure class="screen-shot screen-progress"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/cb/f4/5dcbf471-7d5f-85cf-7d6d-ae225ecf8778/KakaoTalk_20260213_152729533_01.png/800x1200bb.jpg" alt="Tela de progresso de aprendizado do iScript" width="554" height="1200"></figure>
+<section class="steps" aria-label="Como funciona">
+  <div class="site-shell steps-grid">
+    <div class="step">
+      <span class="num">01</span>
+      <h3>Importe</h3>
+      <p>Falas de uma série, legendas de uma aula, frases que você escreveu. Cole o texto ou importe um arquivo.</p>
+    </div>
+    <div class="step">
+      <span class="num">02</span>
+      <h3>Ouça e fale</h3>
+      <p>Uma frase por vez: ouça, repita, escreva o que ouviu e lembre com o texto oculto.</p>
+    </div>
+    <div class="step">
+      <span class="num">03</span>
+      <h3>Reveja</h3>
+      <p>Uma frase que você já aprendeu volta mais ou menos quando você a esqueceria. Bastam alguns minutos por dia.</p>
     </div>
   </div>
 </section>
 
-<section class="proof-strip" aria-label="Principais benefícios">
-  <div class="site-shell proof-grid">
-    <div class="proof-item"><strong>Use seu próprio material</strong><span>Envie textos e planilhas</span></div>
-    <div class="proof-item"><strong>Entenda com profundidade</strong><span>Contexto e nuances com IA</span></div>
-    <div class="proof-item"><strong>Lembre por mais tempo</strong><span>Revisões com repetição espaçada</span></div>
-    <div class="proof-item"><strong>Mantenha tudo no dispositivo</strong><span>Histórico de estudo local</span></div>
-  </div>
-</section>
-
-<section class="section section-soft">
-  <div class="site-shell">
-    <div class="section-heading">
-      <p class="eyebrow">Um fluxo de estudo simples</p>
-      <h2>Seu conteúdo vira um curso em três etapas.</h2>
-      <p>Sem configurações complicadas. Comece com um roteiro que já desperta seu interesse.</p>
-    </div>
-    <div class="flow-grid">
-      <article class="flow-step"><span class="flow-number">01</span><h3>Importe</h3><p>Envie trechos de filmes, aulas, entrevistas ou sua própria lista de vocabulário.</p></article>
-      <article class="flow-step"><span class="flow-number">02</span><h3>Entenda</h3><p>Ouça, repita e use a IA para compreender gramática, significado e nuances culturais.</p></article>
-      <article class="flow-step"><span class="flow-number">03</span><h3>Fixe</h3><p>O SRS traz cada frase de volta no momento em que sua memória mais precisa.</p></article>
+<section class="feature">
+  <div class="site-shell feature-grid">
+    <figure class="phone">
+      <img src="/assets/img/shots/pt-br/explain.webp" alt="Explicação de uma frase, com as palavras e a gramática" width="640" height="1391" loading="lazy">
+    </figure>
+    <div>
+      <h2>A frase que você não entende<br>é explicada ali mesmo.</h2>
+      <p>O significado das palavras, a gramática e as situações em que a frase é usada. As palavras que você escolhe em uma explicação ficam salvas no vocabulário.</p>
+      <p class="note">Em um iPhone compatível com a Apple Intelligence, não é preciso chave. <a href="/api-pt-br/">Configuração de IA</a></p>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="site-shell feature-split">
-    <div class="feature-image"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/50/15/49501522-6ca5-9541-4f67-b709dc3156f0/KakaoTalk_20260213_153211221.png/800x1200bb.jpg" alt="iScript explicando palavras e nuances culturais" width="554" height="1200" loading="lazy"></div>
-    <div class="feature-copy">
-      <p class="eyebrow">Vá mais fundo, com clareza</p>
-      <h2>O momento em que uma frase realmente faz sentido.</h2>
-      <p>Conecte som, estrutura e contexto de uso em vez de decorar uma tradução isolada.</p>
-      <div class="feature-list">
-        <div class="feature-row"><b>01</b><div><strong>Texto para fala natural</strong><span>Ouça e repita para desenvolver pronúncia e ritmo.</span></div></div>
-        <div class="feature-row"><b>02</b><div><strong>Gramática e nuances com IA</strong><span>Entenda palavras-chave, estrutura e contexto cultural em conjunto.</span></div></div>
-        <div class="feature-row"><b>03</b><div><strong>Favoritos e progresso</strong><span>Salve expressões úteis e acompanhe a evolução do seu aprendizado.</span></div></div>
-      </div>
+<section class="feature flip">
+  <div class="site-shell feature-grid">
+    <figure class="phone">
+      <img src="/assets/img/shots/pt-br/practice.webp" alt="Prática de fala no iScript" width="640" height="1391" loading="lazy">
+    </figure>
+    <div>
+      <h2>Fale em voz alta<br>e confira na hora.</h2>
+      <p>Repita uma frase e o app mostra o quanto você acertou. As práticas de ditado, de lembrar a frase e de preencher lacunas ficam no mesmo lugar.</p>
+      <p class="note">Seus roteiros e seu histórico de estudo ficam salvos apenas no seu iPhone.</p>
     </div>
   </div>
 </section>
 
-<section class="cta-section">
-  <div class="site-shell cta-panel">
-    <div><h2>Comece hoje com seu próprio roteiro.</h2><p>O conteúdo de que você gosta pode se tornar o material que você mais lembra.</p></div>
-    <a class="button" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar na App Store</a>
+<section class="closing">
+  <div class="site-shell closing-inner">
+    <h2>Uma frase hoje já basta.</h2>
+    <a class="button button-light" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar na App Store</a>
   </div>
 </section>

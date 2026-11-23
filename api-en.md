@@ -1,64 +1,58 @@
 ---
 layout: default
-title: API Key Guide
-description: Learn how to create and safely connect the Gemini API key used by iScript AI features.
+title: AI setup
+description: iScript's AI runs on Apple Intelligence. On an iPhone that supports it there is nothing to set up; on other devices a Gemini key gives you sentence explanations.
 permalink: /api-en/
+locale: en_US
 page_id: api
 ---
 
-> **To use iScript's powerful AI features (Pronunciation, Analysis, etc.), you need a free AI API Key.**  
-> Anyone with a Google account can get one easily and quickly for **free**.
+> On an iPhone that supports Apple Intelligence there is nothing to set up, and no key is needed.
 
----
+## What works with Apple Intelligence
 
-## 🤔 What is an API Key? (Don't worry!)
+On an iPhone that supports Apple Intelligence, with iOS 27 or later and Apple Intelligence turned on in iPhone Settings, all of this works:
 
-Think of it as **"your personal ticket"** to use AI services.
+- Sentence explanations (words, grammar, when people say it)
+- Similar example sentences, and formal and casual versions
+- Asking a question about a sentence
+- A conversation with AI set in your script, with corrections at the end
+- Filling in translations for a script you import
 
-- **It's not personal info**: It has nothing to do with your name, phone number, or address.
-- **It's safe**: iScript doesn't have a server. Your key is **stored only on your device** and is never shared outside.
+How much you can use in a day is set by Apple. When you reach the limit, the app tells you when you can use it again.
 
----
+## On a device without Apple Intelligence
 
-## 🚀 Get it in 3 minutes (Follow along!)
+Listening, practice, review and the word list all work as they are. Some built-in scripts come with explanations that need no AI.
 
-### Step 1: Visit Google AI Studio
-Click the button below to go to Google's API key management page.
+If you want explanations for sentences you import yourself, you can connect a Gemini key. It is optional.
 
-👉 [**Go to Google AI Studio**](https://aistudio.google.com/app/apikey)
+| | Apple Intelligence | Gemini key |
+| :-- | :-- | :-- |
+| Sentence explanations | Yes | Yes |
+| Listening with a Gemini voice | - | Yes |
+| Examples, formal and casual, questions | Yes | No |
+| Talk with AI | Yes | No |
 
-> **Note**: You may need to sign in with your Google account.
+## Getting a Gemini key (optional)
 
-### Step 2: Create API Key
-1. Click the blue **Create API key** button on the screen.
-2. Select **Create API key in new project** from the popup menu.
-   *(Or select an existing project if you have one)*
+1. Open [Google AI Studio](https://aistudio.google.com/app/apikey) and sign in with your Google account.
+2. Tap **Create API key**.
+3. Copy the key.
+4. In iScript, go to **Settings** → **Gemini key**, paste it and save.
 
-### Step 3: Copy Key
-1. Your API key will be generated shortly.
-2. Click the **Copy** button (document icon) next to the generated key.
-   *(The key starts with `AIza...`)*
+The key is kept only in this iPhone's Keychain. It is not included in backup files or support emails and never reaches the developer. Removing the key stops anything being sent to Google.
 
-### Step 4: Paste in iScript App
-1. Open the **iScript App**.
-2. Go to the **Settings** menu.
-3. Tap **API Key** and paste your copied key.
-4. **Save** and you're done! 🎉
+## Questions
 
----
+### Is a Gemini key free?
 
-## 💡 FAQ
+Google AI Studio has a free tier. Limits and prices are set by Google, so check what Google says when you create the key.
 
-### Q: Is this really free?
-**Yes, it is free.** Personal users can use a sufficient amount for free through Google AI Studio's Free Tier.
+### I entered a key and still get no explanation.
 
-### Q: Do I need to register a credit card?
-No, **no credit card is required** for the Free Tier.
+Check that no space was copied before or after the key; if that doesn't help, create a new key. When the Gemini key row in Settings says "Connected", it is working.
 
-### Q: My API key is not working.
-- Check if any spaces were included when copying.
-- Try regenerating the key and entering it again.
+### Where are my sentences sent?
 
----
-
-[**Back to Home**](/index-en/)
+With Apple Intelligence, to Apple's server model; with a Gemini key, to Google. The details are in the [privacy policy](/privacy-en/).

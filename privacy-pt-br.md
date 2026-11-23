@@ -1,123 +1,63 @@
 ---
 layout: default
-title: Política de Privacidade
-description: Saiba como o iScript trata dados armazenados localmente, serviços externos e informações pessoais.
+title: Política de privacidade
+description: O iScript funciona sem conta, e seus roteiros e seu histórico de estudo ficam salvos apenas no seu dispositivo. Esta página explica o que sai do seu dispositivo e quando.
 permalink: /privacy-pt-br/
+locale: pt_BR
 page_id: privacy
 ---
 
-> **O iScript Lab valoriza sua privacidade e cumpre as leis e os regulamentos aplicáveis.**
+> O iScript funciona sem conta, e seu desenvolvedor não mantém nenhum servidor. Seus roteiros e seu histórico de estudo ficam salvos apenas no seu dispositivo.
 
----
+Data de vigência: 24 de novembro de 2026 (para o iScript 2.0)
 
-## 1. Informações pessoais coletadas
+Esta página explica com quais informações o app lida e em que situações algo sai do seu dispositivo.
 
-O aplicativo iScript não transmite nem coleta em servidores próprios informações pessoais como nome, e-mail ou dados de contato.
+## 1. O que o desenvolvedor coleta
 
-No entanto, as seguintes informações de identificação do dispositivo podem ser coletadas para a prestação de serviços de publicidade pelo Google AdMob:
-- **Identificador de publicidade (IDFA)**: usado para fornecer anúncios personalizados.
+Nada. O app iScript não pede seu nome, e-mail ou contatos, não envia registros de uso ao desenvolvedor e não usa ferramentas de análise dentro do app.
 
----
+## 2. O que fica salvo no seu dispositivo
 
-## 2. Forma de armazenamento dos dados (local-first)
+- Os roteiros que você importa, as traduções, o histórico de estudo e de revisão, o seu vocabulário, as explicações salvas e os ajustes ficam salvos apenas neste dispositivo.
+- O backup, em Ajustes, apenas cria um arquivo no local que você escolher; esse arquivo não é enviado ao desenvolvedor.
+- Apagar o app apaga também essas informações. Sem um arquivo de backup, não é possível recuperá-las.
+- Se você inserir uma chave de API do Gemini, ela fica guardada no Keychain (Chaves) do dispositivo e nunca é incluída em arquivos de backup nem em e-mails de suporte.
 
-### 2.1 Armazenamento local
-Todos os dados de aprendizado e arquivos de roteiro são armazenados apenas no **armazenamento interno do dispositivo (IndexedDB)**.
+## 3. Quando algo sai do seu dispositivo
 
-### 2.2 Recurso de backup de arquivos
-- O usuário pode salvar seus dados de aprendizado em um **arquivo JSON** usando o botão **Backup** nos ajustes do aplicativo.
-- A função **Compartilhar** permite salvar os arquivos de backup em locais escolhidos pelo usuário, como iCloud Drive ou a pasta Downloads.
-- **Restauração de arquivos**: o usuário pode selecionar um arquivo de backup salvo anteriormente para restaurar os dados.
+- **IA da Apple (Private Cloud Compute)**: quando você usa as explicações de frases, os exemplos, as perguntas, a prática de conversa ou o preenchimento de traduções, a frase e o que você digitou são enviados ao modelo de servidor da Apple. A Apple declara que esses dados são usados apenas para atender à solicitação, não são armazenados e não ficam acessíveis à Apple. O desenvolvedor não os recebe.
+- **Google Gemini (opcional)**: somente se você inserir a sua própria chave de API do Gemini em Ajustes, as frases são enviadas à API do Gemini, do Google, para explicações e voz. Esse tratamento é regido pela sua Conta do Google e pelos termos do Google. Ao apagar a chave, as frases deixam de ser enviadas.
+- **Reconhecimento de fala**: na prática de fala, o que o microfone grava fica no dispositivo por um momento e é apagado quando você fecha a prática. A conversão da fala em texto é feita no dispositivo; em idiomas que o dispositivo não consegue processar, o áudio é enviado ao serviço de reconhecimento de fala da Apple. O microfone e o reconhecimento de fala só são usados se você permitir.
+- **Anúncios (Google AdMob)**: o app mostra um anúncio em banner na parte de baixo da tela e, de vez em quando, um anúncio em tela cheia ao fim de uma sessão de estudo. Para exibir anúncios, o Google pode coletar um identificador do dispositivo (o identificador de publicidade, se você permitir o rastreamento), uma localização aproximada obtida a partir do seu endereço IP, informações sobre os anúncios que você vê e sobre como você usa o app, e informações de desempenho e de falhas. Consulte a [Política de Privacidade do Google](https://policies.google.com/privacy).
+- **E-mail de suporte**: “Entrar em contato”, em Ajustes, abre o seu app de e-mail e inclui a versão do app, o modelo do dispositivo e a versão do iOS, para ajudar a resolver o problema. Você pode apagar essas informações antes de enviar.
 
-### 2.3 Exclusão de dados
-Ao excluir o aplicativo, todos os dados de aprendizado armazenados no dispositivo também são excluídos. Não é possível recuperar os dados sem um arquivo de backup.
+## 4. Anúncios personalizados e rastreamento
 
----
+- Depois da sua primeira sessão de estudo, o app pergunta se você permite o rastreamento. O app funciona da mesma forma se você recusar, e nesse caso o identificador de publicidade não é usado. Você pode mudar isso a qualquer momento em Ajustes do iPhone → Privacidade e Segurança → Rastreamento.
+- Onde o consentimento é exigido, como no Espaço Econômico Europeu, o formulário de consentimento do Google aparece antes de qualquer anúncio ser solicitado, e você pode mudar a sua escolha em Ajustes do app → Opções de privacidade de anúncios.
+- Quem pagou pelo app ou pelo Pro antes de o app se tornar gratuito não vê anúncios. Essa verificação é feita no dispositivo, com base no seu histórico de compras da App Store.
 
-## 3. Uso de APIs externas
+## 5. Notificações
 
-### 3.1 Serviço de análise com IA
-Os textos de estudo podem ser transmitidos a uma **API externa de IA** para oferecer os recursos de análise com IA e texto para fala (TTS).
+Os lembretes de revisão são criados no dispositivo e não passam por nenhum servidor. Você pode desativá-los em Ajustes.
 
-- É utilizada a **chave de API pessoal do usuário (BYOK)**.
-- Os desenvolvedores não podem visualizar nem armazenar esses dados.
-- Dados transmitidos: texto das frases de estudo.
+## 6. Retenção e exclusão
 
-### 3.2 Google AdMob
-- **Exibição de anúncios**: são exibidos anúncios em banner, fixos na parte inferior, e anúncios intersticiais ao iniciar roteiros ou acessar a tela de análises.
-- **Uso do identificador de publicidade (IDFA)**: usado para fornecer anúncios personalizados.
-- **Controle do usuário**: os anúncios personalizados podem ser limitados nos ajustes do dispositivo, em Ajustes → Privacidade → Rastreamento.
+O desenvolvedor não guarda nenhum dado sobre você; por isso, não há nada cuja exclusão possa ser solicitada. As informações no seu dispositivo são removidas quando você apaga um roteiro no app ou apaga o app. Os dados que o Google coleta para anúncios são regidos pelas políticas do Google.
 
----
+## 7. Crianças
 
-## 4. Finalidades da coleta e do uso de informações pessoais
+O iScript não é direcionado a crianças, e não coletamos conscientemente informações pessoais de crianças menores de 14 anos.
 
-- **Publicidade no aplicativo**, por meio do Google AdMob, e análise de desempenho.
-- **Recursos de aprendizado de idiomas com IA**, por meio de uma API externa de IA.
-- **Operação e melhoria do aplicativo**.
+## 8. Este site
 
----
+Este site (iscript.dev) usa o Google Analytics para estatísticas de visitas e carrega o script de publicidade e as fontes da web do Google. Com isso, cookies, o seu endereço IP e informações sobre as páginas que você vê podem ser enviados ao Google e a esses serviços. O que você estuda no app não é vinculado a este site.
 
-## 5. Compartilhamento de informações pessoais com terceiros
+## 9. Alterações
 
-Em princípio, o aplicativo não fornece as informações pessoais dos usuários a terceiros.
+Quando esta política mudar, a nova versão será publicada nesta página, com uma nova data de vigência.
 
-No entanto, informações de identificação podem ser fornecidas às empresas abaixo para a prestação de serviços de publicidade:
+## 10. Contato
 
-| Destinatário | Finalidade | Informação fornecida |
-|-------------|------------|----------------------|
-| Google AdMob | Anúncios personalizados | Identificador de publicidade (IDFA) |
-
----
-
-## 6. Período de retenção e uso das informações pessoais
-
-- **Dados de aprendizado**: permanecem no dispositivo até que o usuário exclua os dados ou remova o aplicativo.
-- **Identificador de publicidade**: sujeito à política de privacidade do Google AdMob.
-
----
-
-## 7. Operadores externos de tratamento de dados
-
-Para prestar seus serviços, o aplicativo utiliza os seguintes fornecedores externos:
-
-| Fornecedor | Serviço prestado |
-|------------|------------------|
-| Google LLC | Publicidade (AdMob) |
-| Provedor externo de serviços de IA | Análise com IA e TTS usando a chave de API do usuário |
-
----
-
-## 8. Direitos do usuário
-
-Os usuários podem exercer os seguintes direitos:
-
-- **Exclusão de dados**: roteiros e históricos de aprendizado podem ser excluídos a qualquer momento no aplicativo.
-- **Backup e restauração**: os dados de aprendizado podem ser salvos e restaurados por meio de arquivos JSON.
-- **Controle de anúncios**: os anúncios personalizados podem ser limitados nos ajustes do dispositivo.
-
----
-
-## 9. Proteção das informações pessoais de crianças
-
-O aplicativo não coleta intencionalmente informações pessoais de crianças menores de 14 anos.
-
----
-
-## 10. Alterações desta Política de Privacidade
-
-Esta política pode ser revisada em razão de mudanças na legislação ou no serviço. Os usuários serão informados por avisos no aplicativo.
-
----
-
-## 11. Informações de contato
-
-Para dúvidas sobre o tratamento de informações pessoais, entre em contato:
-
-- **E-mail**: hello@iscript.dev
-- [Página de suporte ao cliente](https://iscript.dev/support-pt-br/)
-
----
-
-**Última atualização**: 5 de fevereiro de 2026
-**Data de vigência**: 5 de fevereiro de 2026
+hello@iscript.dev

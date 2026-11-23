@@ -1,243 +1,38 @@
 ---
 layout: default
-title: Suporte ao cliente
-description: Encontre respostas, soluções para problemas e formas de entrar em contato com a equipe do iScript.
+title: Suporte
+description: Respostas às dúvidas mais comuns sobre o iScript, como resolver problemas e para onde escrever.
 permalink: /support-pt-br/
+locale: pt_BR
 page_id: support
+faq:
+  - q: "O iScript é gratuito? Dá para remover os anúncios?"
+    a: "Todos os recursos são gratuitos. O app é mantido por anúncios, e não há nada à venda para removê-los. Quem pagou pelo app ou pelo Pro antes de ele se tornar gratuito continua sem ver anúncios."
+  - q: "A explicação com IA não aparece."
+    a: "As explicações são geradas pela Apple Intelligence. Verifique, nesta ordem:\n\n1. O seu iPhone é compatível com a Apple Intelligence e tem o iOS 27 ou posterior\n2. A Apple Intelligence está ativada nos Ajustes do iPhone\n3. Há conexão com a internet\n4. Se você já usou todo o limite do dia, o app informa quando poderá usar de novo\n\nEm um dispositivo que não pode usar a Apple Intelligence, conectar uma [chave do Gemini](/api-pt-br/) permite ver as explicações de frases."
+  - q: "O que funciona em um iPhone sem a Apple Intelligence?"
+    a: "Ouvir, as quatro formas de praticar (Falar, Ditado, Lembrar, Lacunas), a revisão e o vocabulário funcionam normalmente. Alguns roteiros incluídos já vêm com explicações que não precisam de IA. Com uma chave do Gemini, você também tem explicações para os roteiros que importa. Os exemplos, as perguntas e o recurso Conversar com a IA precisam da Apple Intelligence."
+  - q: "Preciso de uma chave do Gemini? Tem algum custo?"
+    a: "Não é necessária. É uma opção para quem tem um dispositivo que não pode usar a Apple Intelligence e quer explicações de frases. A chave é obtida no Google AI Studio, e eventuais cobranças seguem os termos do Google. A página [Configuração de IA](/api-pt-br/) mostra como fazer."
+  - q: "O que posso importar?"
+    a: "Cole um texto copiado ou importe um arquivo: Excel (xlsx), CSV, texto e legendas (srt). Textos e legendas são divididos em frases, e as traduções que faltarem podem ser preenchidas na importação. Também há [roteiros de exemplo](/resources-pt-br/) para experimentar na hora."
+  - q: "Posso começar sem ter um roteiro meu?"
+    a: "Sim. O app vem com dez roteiros incluídos (viagem, café, trabalho e mais). Escolha um pelo + da Biblioteca e comece a estudar."
+  - q: "Onde ficam as gravações da prática de fala?"
+    a: "A gravação fica neste iPhone por um momento e é apagada quando você fecha a prática. Quem converte a fala em texto é o iPhone; em idiomas que o iPhone não tem, o áudio é enviado ao serviço de reconhecimento de fala da Apple. Nada chega ao desenvolvedor."
+  - q: "Como funciona o vocabulário? Posso usar o Anki?"
+    a: "Toque na estrela ao lado de uma palavra em uma explicação e ela fica salva na aba Vocabulário. As palavras salvas podem ser revisadas à parte, e “Exportar para o Anki”, no vocabulário, cria um arquivo que o Anki consegue abrir."
+  - q: "Como faço backup ou passo para outro dispositivo?"
+    a: "Use “Criar arquivo de backup”, em Ajustes, e guarde o arquivo em um lugar como o iCloud Drive. No novo dispositivo, escolha esse arquivo com “Restaurar de um backup”. Não há sincronização automática entre dispositivos."
+  - q: "Meu histórico de estudo sumiu."
+    a: "O iScript não tem servidor e salva tudo no dispositivo; por isso, apagar o app apaga também os roteiros e o histórico. Se você criou um arquivo de backup antes, “Restaurar de um backup”, em Ajustes, traz tudo de volta. Sem um arquivo de backup, não é possível recuperar."
+  - q: "Não sai nenhum som."
+    a: "O iScript toca o som mesmo com o modo silencioso ativado. Verifique o volume e se o iPhone não está conectado a fones Bluetooth que estão em outro lugar. Se continuar sem som, feche o app completamente e abra de novo."
+  - q: "Funciona no iPad? E sem internet?"
+    a: "Funciona no iPhone e no iPad. Ouvir (com a voz do dispositivo), praticar e revisar funcionam sem internet. As explicações com IA e o recurso Conversar com a IA precisam de internet."
+after_faq: "## Contato\n\n**hello@iscript.dev**\n\n“Entrar em contato”, nos Ajustes do app, inclui a versão do app e as informações do seu dispositivo, o que nos ajuda a responder mais rápido. Se você mesmo escrever o e-mail, inclua:\n\n- O seu dispositivo e a versão do iOS\n- A versão do app (no fim da tela Ajustes)\n- Em que tela você estava, o que tocou e o que aconteceu, com uma captura de tela, se possível\n\nRespondemos em até 24 horas nos dias úteis e em até 48 horas nos fins de semana e feriados.\n\n## Páginas relacionadas\n\n- [A rotina de 15 minutos](/guide-pt-br/)\n- [Configuração de IA](/api-pt-br/)\n- [Roteiros de exemplo](/resources-pt-br/)\n- [Política de privacidade](/privacy-pt-br/)\n\n<p class=\"updated\">iScript Lab · Atualizado em 24 de novembro de 2026 (para o iScript 2.0)</p>\n"
 ---
 
-> **Tem alguma dúvida ao usar o iScript?**
-> Consulte as informações abaixo ou entre em contato por e-mail.
+> Procure primeiro a sua dúvida abaixo. Se não encontrar, escreva para nós.
 
----
-
-## 📧 Entre em contato
-
-### Suporte por e-mail
-
-**📮 hello@iscript.dev**
-
-Para receber uma resposta mais rápida, inclua:
-
-- 📱 Dispositivo usado (modelo do iPhone e versão do iOS)
-- 📦 Versão do aplicativo (consulte em Ajustes)
-- 🔍 Descrição do problema e capturas de tela
-
-### Prazo de resposta
-
-- **Dias úteis**: resposta em até 24 horas
-- **Fins de semana e feriados**: resposta em até 48 horas
-
----
-
-## 📚 Ajuda e guias
-
-### Guias do usuário
-- 📖 [Guia do iScript](https://iscript.dev/index-pt-br/)
-- 📺 [Tutorial de 3 minutos](https://youtu.be/xUybFtc4g14)
-- 📺 [Como criar roteiros](https://youtu.be/3XBsYnaatcw)
-
-### Privacidade e termos
-- 🔒 [Política de Privacidade](https://iscript.dev/privacy-pt-br/)
-
----
-
-## 🔧 Solução de problemas
-
-### 1. Problemas de backup e restauração
-
-#### O botão de backup não funciona
-
-**Solução:**
-
-1. Abra Ajustes do iOS → iScript e confira as permissões.
-2. Feche completamente o aplicativo e abra-o novamente.
-3. Se o problema continuar, reinicie o dispositivo.
-
-#### A restauração fica carregando sem parar
-
-**Solução:**
-
-- ✅ Atualize para a versão mais recente (1.1.5 ou posterior).
-- O seletor de arquivos foi aprimorado para funcionar imediatamente.
-
-#### Não encontro o arquivo de backup
-
-**Solução:**
-
-1. Abra o aplicativo **Arquivos**.
-2. Confira o iCloud Drive ou os itens recentes.
-3. Pesquise por “iScript_backup”.
-
----
-
-### 2. Recursos de IA
-
-#### A análise com IA não funciona
-
-**Confira:**
-
-1. A chave de API foi inserida corretamente?
-   - Ajustes → Verificar chave de API
-2. O dispositivo está conectado à internet?
-3. A chave de API é válida?
-   - Consulte o [Guia da chave de API](/api-pt-br/).
-
-#### O TTS (pronúncia) não funciona
-
-**Solução:**
-
-1. Desative o modo silencioso.
-2. Confira o volume.
-3. Confira a conexão com a internet.
-4. Reinicie o aplicativo.
-
----
-
-### 3. Anúncios
-
-#### Há anúncios demais
-
-**Momentos atuais de exibição:**
-- Anúncios em banner: fixos na parte inferior quando o aplicativo é aberto.
-- Anúncios intersticiais: ao iniciar um roteiro e ao acessar a tela de análises.
-
-> Os anúncios ajudam a manter a versão gratuita. O iScript Pro oferece estudo sem anúncios.
-
-#### Posso remover os anúncios?
-
-**Resposta:**
-- Sim. O iScript Pro, disponível como compra dentro do aplicativo, remove os anúncios.
-
----
-
-### 4. Envio de roteiros
-
-#### O arquivo do Excel não é importado
-
-**Confira:**
-
-1. O formato é .xlsx ou .xls?
-2. A estrutura está correta (Coluna 1: original; Coluna 2: tradução)?
-3. Você marcou a caixa de concordância sobre direitos autorais?
-
-#### As frases aparecem incorretamente após o envio
-
-**Solução:**
-
-1. Confira novamente o arquivo do Excel.
-2. Procure células vazias.
-3. Procure células mescladas.
-
----
-
-### 5. Dados de aprendizado
-
-#### Meu histórico de aprendizado desapareceu
-
-**Causa:**
-- Os dados locais são excluídos quando o aplicativo é removido.
-- Não é possível recuperar os dados sem um arquivo de backup.
-
-**Prevenção:**
-- Crie um arquivo de backup uma vez por semana.
-- Salve o arquivo no iCloud Drive.
-
-#### A revisão SRS não funciona corretamente
-
-**Confira:**
-
-1. A data e a hora do dispositivo estão definidas como automáticas?
-2. Você marcou as frases como “Aprendidas”?
-3. Confira o calendário de revisão em Análises.
-
----
-
-## 💡 Dicas e recomendações
-
-### Para aproveitar melhor o aprendizado
-
-#### 💾 Faça backups regulares
-
-- Ajustes → Backup de arquivos → Fazer backup
-- Recomendamos salvar no iCloud Drive.
-
-#### 🔑 Configure a chave de API
-
-- Use a análise com IA e os recursos de TTS.
-- [Consulte o guia gratuito da chave](/api-pt-br/).
-
-#### 👁️ Use o modo de foco com desfoque
-
-- Tente interpretar antes de ver a tradução.
-- Isso fortalece a recordação ativa.
-
-#### 🔥 Pratique diariamente
-
-- Mantenha sua sequência de dias de estudo.
-- A consistência é essencial.
-
----
-
-## 🐛 Relatar um erro
-
-Encontrou um erro? Envie um e-mail com estas informações:
-
-1. **Descrição do problema**: o que aconteceu?
-2. **Etapas para reproduzir**: como podemos reproduzir o problema?
-3. **Resultado esperado**: como deveria funcionar?
-4. **Capturas de tela**: anexe-as, se possível.
-5. **Informações do dispositivo**:
-   - Modelo do dispositivo (por exemplo, iPhone 14 Pro)
-   - Versão do iOS (por exemplo, iOS 17.2)
-   - Versão do aplicativo (consulte em Ajustes)
-
----
-
-## 🎉 Sugerir um recurso
-
-Quer sugerir um novo recurso?
-
-Envie um e-mail para **hello@iscript.dev** com:
-- Uma descrição do recurso
-- Por que ele é necessário
-- Como você o utilizaria
-
-Seu feedback ajuda a melhorar o iScript. 🚀
-
----
-
-## 📱 Informações do aplicativo
-
-- **Plataforma**: iOS (iPhone e iPad)
-- **Versão atual**: 1.2.0
-- **Requisito mínimo**: iOS 15.0 ou posterior
-- **Idiomas do aplicativo**: coreano e inglês
-- **Preço**: download gratuito, com compras dentro do aplicativo
-
----
-
-## 🔗 Links úteis
-
-- 📖 [Guia do usuário](https://iscript.dev/index-pt-br/)
-- 🎓 [Guia de shadowing de 15 minutos](/guide-pt-br/)
-- 🔒 [Política de Privacidade](https://iscript.dev/privacy-pt-br/)
-- 🔑 [Guia da chave de API](/api-pt-br/)
-
----
-
-## 🌐 Política operacional
-
-### Soberania dos dados
-Todos os dados são armazenados localmente no dispositivo do usuário, e o iScript respeita a **soberania dos dados**.
-
-### Proteção da privacidade
-- Não coletamos informações pessoais como nome ou e-mail.
-- Apenas o identificador de publicidade (IDFA) pode ser fornecido ao Google AdMob.
-- Consulte a [Política de Privacidade](https://iscript.dev/privacy-pt-br/) para obter mais informações.
-
----
-
-**Operado por**: iScript Lab
-**E-mail**: hello@iscript.dev
-**Última atualização**: 24 de setembro de 2026
+## Perguntas frequentes

@@ -1,64 +1,58 @@
 ---
 layout: default
-title: Guia da chave de API
-description: Saiba como criar e conectar com segurança a chave da API Gemini usada pelos recursos de IA do iScript.
+title: Configuração de IA
+description: A IA do iScript funciona com a Apple Intelligence. Em um iPhone compatível, não há nada para configurar; em outros dispositivos, uma chave do Gemini permite usar as explicações de frases.
 permalink: /api-pt-br/
+locale: pt_BR
 page_id: api
 ---
 
-> **Para usar os recursos de IA do iScript, como pronúncia e análise, você precisa do iScript Pro e de uma chave pessoal da API Gemini.**
-> Qualquer pessoa com uma Conta do Google pode criar uma chave de API com facilidade.
+> Em um iPhone compatível com a Apple Intelligence, não há nada para configurar e não é preciso chave.
 
----
+## O que funciona com a Apple Intelligence
 
-## 🤔 O que é uma chave de API?
+Em um iPhone compatível com a Apple Intelligence, com o iOS 27 ou posterior e a Apple Intelligence ativada nos Ajustes do iPhone, tudo isto funciona:
 
-Pense nela como **seu ingresso pessoal** para usar os serviços de IA.
+- Explicações de frases (palavras, gramática, situações de uso)
+- Exemplos semelhantes e versões formal e informal
+- Perguntas sobre uma frase
+- Conversa com a IA na situação do seu roteiro, com correções no final
+- Preenchimento das traduções de um roteiro que você importa
 
-- **Não é uma informação pessoal**: ela não está relacionada ao seu nome, telefone ou endereço.
-- **Fica protegida**: o iScript não possui servidor próprio. Sua chave é armazenada apenas no seu dispositivo e não é compartilhada pelo iScript.
+O quanto você pode usar por dia é definido pela Apple. Quando o limite é atingido, o app informa quando você poderá usar de novo.
 
----
+## Em um dispositivo sem a Apple Intelligence
 
-## 🚀 Crie sua chave em poucos minutos
+Ouvir, praticar, revisar e o vocabulário funcionam normalmente. Alguns roteiros incluídos já vêm com explicações que não precisam de IA.
 
-### Etapa 1: acesse o Google AI Studio
-Use o botão abaixo para abrir a página de gerenciamento de chaves de API do Google.
+Se quiser explicações para as frases que você mesmo importa, você pode conectar uma chave do Gemini. É opcional.
 
-👉 [**Abrir o Google AI Studio**](https://aistudio.google.com/app/apikey)
+| | Apple Intelligence | Chave do Gemini |
+| :-- | :-- | :-- |
+| Explicações de frases | Sim | Sim |
+| Ouvir com uma voz do Gemini | - | Sim |
+| Exemplos, formal e informal, perguntas | Sim | Não |
+| Conversar com a IA | Sim | Não |
 
-> **Observação**: pode ser necessário entrar na sua Conta do Google.
+## Como obter uma chave do Gemini (opcional)
 
-### Etapa 2: crie a chave de API
-1. Clique no botão azul **Create API key**.
-2. No menu exibido, selecione **Create API key in new project**.
-   *(Você também pode selecionar um projeto existente.)*
+1. Abra o [Google AI Studio](https://aistudio.google.com/app/apikey) e entre com a sua Conta do Google.
+2. Toque em **Create API key**.
+3. Copie a chave.
+4. No iScript, vá em **Ajustes** → **Chave do Gemini**, cole a chave e salve.
 
-### Etapa 3: copie a chave
-1. Sua chave será gerada em instantes.
-2. Clique no botão **Copy**, ao lado da chave.
-   *(A chave começa com `AIza...`.)*
+A chave fica guardada apenas no Keychain (Chaves) deste iPhone. Ela não é incluída em arquivos de backup nem em e-mails de suporte e nunca chega ao desenvolvedor. Ao apagar a chave, nada mais é enviado ao Google.
 
-### Etapa 4: cole a chave no iScript
-1. Abra o aplicativo **iScript**.
-2. Acesse **Ajustes**.
-3. Toque em **API Key** e cole a chave copiada.
-4. Salve para concluir. 🎉
+## Perguntas frequentes
 
----
+### A chave do Gemini é gratuita?
 
-## 💡 Perguntas frequentes
+O Google AI Studio tem um nível gratuito. Os limites e os preços são definidos pelo Google; confira as informações do Google ao criar a chave.
 
-### Isso é realmente gratuito?
-O Google AI Studio oferece um nível gratuito para a chave de API, sujeito aos limites e às condições do Google. O iScript Pro é uma compra separada dentro do aplicativo.
+### Coloquei a chave, mas a explicação não aparece.
 
-### Preciso cadastrar um cartão de crédito?
-Normalmente não é necessário cadastrar um cartão para usar o nível gratuito do Google AI Studio. Confira as condições exibidas pelo Google ao criar sua chave.
+Verifique se não foi copiado um espaço antes ou depois da chave; se não resolver, crie uma chave nova. Quando a linha Chave do Gemini, em Ajustes, mostra “Conectada”, está funcionando.
 
-### Minha chave de API não funciona. O que devo fazer?
-- Verifique se nenhum espaço foi incluído ao copiar a chave.
-- Tente gerar uma nova chave e inseri-la novamente.
+### Para onde as minhas frases são enviadas?
 
----
-
-[**Voltar ao início**](/index-pt-br/)
+Com a Apple Intelligence, para o modelo de servidor da Apple; com uma chave do Gemini, para o Google. Os detalhes estão na [política de privacidade](/privacy-pt-br/).

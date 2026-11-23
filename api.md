@@ -1,64 +1,58 @@
 ---
 layout: default
-title: API Key 발급 가이드
-description: iScript의 AI 분석 기능에 필요한 Gemini API Key를 안전하게 발급하고 연결하는 방법입니다.
+title: AI 설정
+description: iScript의 AI는 Apple Intelligence로 동작합니다. 지원하는 iPhone에서는 설정할 것이 없고, 그 밖의 기기에서는 Gemini 키로 문장 해설을 쓸 수 있습니다.
 permalink: /api/
+locale: ko_KR
 page_id: api
 ---
 
-> **iScript의 강력한 AI 기능(발음 듣기, 문장 분석 등)을 사용하려면 무료 AI API Key가 필요합니다.**  
-> Google 계정만 있다면 누구나 **무료**로 쉽고 빠르게 발급받을 수 있습니다.
+> Apple Intelligence를 지원하는 iPhone에서는 설정할 것이 없습니다. 키도 필요하지 않습니다.
 
----
+## Apple Intelligence로 되는 것
 
-## 🤔 API Key란 무엇인가요? (안심하세요!)
+Apple Intelligence를 지원하는 iPhone과 iOS 27 이상에서, iPhone 설정의 Apple Intelligence가 켜져 있으면 아래가 모두 됩니다.
 
-**"AI 서비스를 이용하기 위한 나만의 입장권"**이라고 생각하시면 쉽습니다.
+- 문장 해설 (단어, 문법, 쓰이는 상황)
+- 비슷한 예문 만들기, 존댓말·반말로 바꿔 보기
+- 문장에 대해 질문하기
+- 대본의 상황으로 AI와 대화하고 교정 받기
+- 가져온 대본의 번역 채우기
 
-- **개인정보가 아닙니다**: 이름, 전화번호, 주소 같은 개인정보와는 전혀 관련이 없습니다.
-- **안전합니다**: iScript 앱은 서버를 운영하지 않으며, 입력하신 키는 **오직 형님의 기기에만 안전하게 저장**되어 외부로 유출되지 않습니다.
+하루에 쓸 수 있는 양은 Apple이 정합니다. 다 쓰면 앱이 다시 쓸 수 있는 시각을 알려 줍니다.
 
----
+## Apple Intelligence를 쓸 수 없는 기기에서는
 
-## 🚀 3분 만에 발급받기 (따라해보세요!)
+듣기, 연습, 복습, 단어장은 그대로 됩니다. 내장 대본에는 해설이 미리 들어 있는 것이 있어 AI 없이도 볼 수 있습니다.
 
-### 1단계: Google AI Studio 접속
-아래 버튼을 눌러 Google의 API 키 관리 페이지로 이동합니다.
+가져온 대본의 문장 해설을 보고 싶다면 Gemini 키를 연결할 수 있습니다. 선택 사항입니다.
 
-👉 [**Google AI Studio 바로가기**](https://aistudio.google.com/app/apikey)
+| | Apple Intelligence | Gemini 키 |
+| :-- | :-- | :-- |
+| 문장 해설 | 됨 | 됨 |
+| Gemini 음성으로 듣기 | - | 됨 |
+| 예문, 말투 바꾸기, 질문 | 됨 | 안 됨 |
+| AI와 대화 | 됨 | 안 됨 |
 
-> **참고**: Google 계정 로그인이 필요할 수 있습니다.
+## Gemini 키 받기 (선택)
 
-### 2단계: API 키 만들기
-1. 화면에 보이는 파란색 **Create API key** 버튼을 클릭합니다.
-2. 팝업 메뉴에서 **Create API key in new project**를 선택합니다.
-   *(이미 프로젝트가 있다면 existing project를 선택해도 됩니다)*
+1. [Google AI Studio](https://aistudio.google.com/app/apikey)에 Google 계정으로 들어갑니다.
+2. **Create API key**를 눌러 키를 만듭니다.
+3. 만들어진 키를 복사합니다.
+4. iScript의 **설정** → **Gemini 키**에 붙여 넣고 저장합니다.
 
-### 3단계: 키 복사하기
-1. 잠시 후 API 키가 생성됩니다.
-2. 생성된 키 옆의 **Copy** 버튼(문서 아이콘)을 눌러 복사합니다.
-   *(키는 `AIza`로 시작하는 긴 문자열입니다)*
+키는 이 iPhone의 키체인에만 보관됩니다. 백업 파일이나 문의 메일에 들어가지 않고, 운영자에게도 오지 않습니다. 키를 지우면 Google로 보내는 일도 멈춥니다.
 
-### 4단계: iScript 앱에 입력
-1. **iScript 앱**을 실행합니다.
-2. **설정(Settings)** 메뉴로 이동합니다.
-3. **API Key** 항목을 누르고, 복사한 키를 붙여넣기(Paste) 합니다.
-4. **저장**하면 끝! 🎉
+## 자주 묻는 질문
 
----
+### Gemini 키는 무료인가요?
 
-## 💡 자주 묻는 질문 (FAQ)
+Google AI Studio에는 무료로 쓸 수 있는 등급이 있습니다. 한도와 요금은 Google의 정책을 따르니, 키를 만들 때 Google의 안내를 확인해 주세요.
 
-### Q: 이거 정말 무료인가요?
-**네, 무료입니다.** 개인 사용자는 Google AI Studio의 무료 등급(Free Tier)을 통해 충분한 양을 무료로 사용할 수 있습니다.
+### 키를 넣었는데 해설이 나오지 않아요.
 
-### Q: 결제 카드를 등록해야 하나요?
-아니요, 무료 등급 이용 시 **카드 등록이 필요 없습니다.**
+복사할 때 앞뒤에 빈칸이 들어가지 않았는지 확인하고, 안 되면 키를 새로 만들어 넣어 보세요. 설정의 Gemini 키에 “연결됨”이 보이면 정상입니다.
 
-### Q: API 키가 작동하지 않아요.
-- 복사할 때 공백이 포함되지 않았는지 확인해보세요.
-- 키를 재발급 받아서 다시 입력해보세요.
+### 문장이 어디로 전송되나요?
 
----
-
-[**🏠 홈으로 돌아가기**](/)
+Apple Intelligence를 쓰면 Apple의 서버 모델로, Gemini 키를 쓰면 Google로 그 문장이 전송됩니다. 자세한 내용은 [개인정보처리방침](/privacy/)에 있습니다.

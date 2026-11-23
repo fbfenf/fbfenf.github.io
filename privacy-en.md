@@ -1,127 +1,63 @@
 ---
 layout: default
-title: Privacy Policy
-description: Learn how iScript handles local-first data, external services, and personal information.
+title: Privacy policy
+description: iScript works without an account, and your scripts and study records are stored only on your device. This page explains what leaves your device, and when.
 permalink: /privacy-en/
+locale: en_US
 page_id: privacy
 ---
 
-> **iScript Lab values your privacy and complies with relevant laws and regulations.**
+> iScript works without an account, and its developer runs no server. Your scripts and study records are stored only on your device.
 
----
+Effective: 24 November 2026 (for iScript 2.0)
 
-## 1. Personal Information Collected
+This page explains what the app handles and when anything leaves your device.
 
-The iScript app does not transmit or collect any personal information (name, email, contact information, etc.) to its own servers.
+## 1. What the developer collects
 
-However, the following device identification information may be collected for advertising services (Google AdMob):
-- **Advertising Identifier (IDFA)**: Used to provide personalized ads.
+Nothing. The iScript app does not ask for your name, email or contacts, does not send usage records to the developer, and uses no analytics tools inside the app.
 
----
+## 2. What is stored on your device
 
-## 2. Data Storage Method (Local-First)
+- The scripts you import, translations, study and review records, your word list, saved explanations and settings are stored only on this device.
+- Backup in Settings only creates a file in a place you choose; the file is not sent to the developer.
+- Deleting the app deletes this information. Without a backup file it cannot be recovered.
+- If you enter a Gemini API key, it is kept in the device Keychain and is never included in backup files or support emails.
 
-### 2.1 Local Storage
-All learning data and script files are stored only in the **device's internal storage (IndexedDB)**.
+## 3. When something leaves your device
 
-### 2.2 File Backup Feature
-- Users can save learning data as a **JSON file** using the **'Backup' button** in app settings.
-- **Share function** allows saving backup files to desired locations like iCloud Drive, Downloads folder, etc.
-- **File Restore**: Use FilePicker to select previously saved backup files to restore data.
+- **Apple's AI (Private Cloud Compute)**: when you use sentence explanations, example sentences, questions, conversation practice or translation filling, the sentence and what you typed are sent to Apple's server model. Apple states that this data is used only to fulfil the request, is not stored, and is not accessible to Apple. The developer does not receive it.
+- **Google Gemini (optional)**: only if you enter your own Gemini API key in Settings, sentences are sent to Google's Gemini API for explanations and voice. That processing is governed by your Google account and Google's terms. Removing the key stops it.
+- **Speech recognition**: in speaking practice, what the microphone records is kept on the device for a moment and deleted when you close practice. Turning speech into text happens on the device; for languages the device cannot handle, the audio is sent to Apple's speech recognition service. The microphone and speech recognition are used only if you allow them.
+- **Ads (Google AdMob)**: the app shows a banner ad at the bottom and, now and then, a full-screen ad after a study session ends. To show ads, Google may collect a device identifier (the advertising identifier if you allow tracking), an approximate location derived from your IP address, information about the ads you see and how you use the app, and performance and crash information. See [Google's Privacy Policy](https://policies.google.com/privacy).
+- **Support email**: "Contact support" in Settings opens your mail app and adds the app version, device model and iOS version to help solve the problem. You can delete these before sending.
 
-### 2.3 Data Deletion
-Deleting the
+## 4. Personalised ads and tracking
 
- app will also delete all learning data stored on the device. Data recovery is impossible without backup files.
+- After your first study session the app asks whether to allow tracking. The app works the same if you decline, and the advertising identifier is then not used. You can change this any time in iPhone Settings → Privacy & Security → Tracking.
+- Where consent is required, for example in the European Economic Area, Google's consent form appears before any ad is requested, and you can change your choice in the app's Settings → Ad privacy choices.
+- People who paid for the app or for Pro before the app became free see no ads. This is checked on the device from your App Store purchase history.
 
----
+## 5. Notifications
 
-## 3. External API Usage
+Review reminders are created on the device and involve no server. You can turn them off in Settings.
 
-### 3.1 AI Analysis Service
-Text data may be transmitted to **external AI API** for AI analysis and Text-to-Speech (TTS) features.
+## 6. Retention and deletion
 
-- User's **personal API Key (BYOK)** is used.
-- Developers cannot view or store this data.
-- Data transmitted: Learning sentence text
+The developer holds no data about you, so there is nothing to request deletion of. Information on your device is removed when you delete a script in the app or delete the app. Data Google collects for ads is governed by Google's policies.
 
-### 3.2 Google AdMob
-- **Ad Display**: Banner ads (fixed at bottom) and interstitial ads (when starting scripts, moving to Analytics screen) are displayed.
-- **Advertising Identifier (IDFA)** usage: Used to provide personalized ads.
-- **User Control**: Personalized ads can be limited in device settings (Settings → Privacy → Tracking).
+## 7. Children
 
----
+iScript is not directed at children, and we do not knowingly collect personal information from children under 14.
 
-## 4. Purpose of Collecting and Using Personal Information
+## 8. This website
 
-- **In-app advertising** (Google AdMob) and performance analysis
-- **AI-based language learning features** (External AI API)
-- **App operation and service improvement**
+This website (iscript.dev) uses Google Analytics for visit statistics and loads Google's advertising script and web fonts. In doing so, cookies, your IP address and information about the pages you view may be sent to Google and those services. What you study in the app is not linked to this website.
 
----
+## 9. Changes
 
-## 5. Provision of Personal Information to Third Parties
+When this policy changes, the new version is posted on this page with a new effective date.
 
-This app does not provide users' personal information to external parties in principle.
+## 10. Contact
 
-However, identification information may be provided to the following companies for advertising services:
-
-| Recipient | Purpose | Information Provided |
-|-----------|---------|---------------------|
-| Google AdMob | Personalized ads | Advertising Identifier (IDFA) |
-
----
-
-## 6. Retention and Use Period of Personal Information
-
-- **Learning Data**: Retained on device until user deletes the app or data.
-- **Advertising Identifier**: Subject to Google AdMob's privacy policy.
-
----
-
-## 7. Outsourcing of Personal Information Processing
-
-This app outsources personal information processing to the following for service provision:
-
-| Contractor | Outsourced Work |
-|------------|-----------------|
-| Google LLC | Advertising (AdMob) |
-| External AI Service Provider | AI Analysis and TTS (User API Key) |
-
----
-
-## 8. User Rights
-
-Users can exercise the following rights:
-
-- **Data Deletion**: Scripts and learning records can be deleted anytime in the app.
-- **Backup and Restore**: Learning data can be backed up and restored as JSON files.
-- **Ad Control**: Personalized ads can be limited in device settings.
-
----
-
-## 9. Protection of Children's Personal Information
-
-This app does not intentionally collect personal information from children under 14.
-
----
-
-## 10. Changes to Privacy Policy
-
-This policy may be revised according to laws or service changes, and users will be notified through in-app announcements.
-
----
-
-## 11. Contact Information
-
-For questions regarding privacy processing, please contact:
-
-- **Email**: hello@iscript.dev
-- [Customer Support Page](https://iscript.dev/support-en)
-
----
-
-**Last Updated**: February 5, 2026  
-**Effective Date**: February 5, 2026
-
-
+hello@iscript.dev

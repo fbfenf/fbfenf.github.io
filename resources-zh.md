@@ -3,6 +3,7 @@ layout: default
 title: 旅行必备表达脚本
 description: 免费下载包含86句实用表达的Excel脚本，适合来韩旅行的外国游客和准备出境游的韩国学习者。
 permalink: /resources-zh/
+locale: zh_CN
 page_id: resources
 ---
 
@@ -19,8 +20,8 @@ page_id: resources
   </div>
   <div class="resource-steps" aria-label="使用方法">
     <div class="resource-step"><b>1</b><div><strong>下载适合自己的脚本</strong><span>确认学习语言和翻译语言的顺序。</span></div></div>
-    <div class="resource-step"><b>2</b><div><strong>在 iScript 中打开文件</strong><span>进入资料库，点击“+ Add Script”。</span></div></div>
-    <div class="resource-step"><b>3</b><div><strong>按场景反复练习</strong><span>利用AI讲解和复习功能掌握每个句子。</span></div></div>
+    <div class="resource-step"><b>2</b><div><strong>在 iScript 中打开文件</strong><span>在“资料库”中轻点 +，然后选择“从文件导入”。</span></div></div>
+    <div class="resource-step"><b>3</b><div><strong>按场景反复练习</strong><span>通过讲解、练习和复习，把每个句子变成自己的话。</span></div></div>
   </div>
 </section>
 
@@ -115,5 +116,5 @@ page_id: resources
     <thead><tr><th>A列 · 学习语言</th><th>B列 · 翻译</th></tr></thead>
     <tbody><tr><td>사진을 찍어 주실 수 있나요?</td><td>可以帮我拍张照片吗？</td></tr><tr><td>화장실은 어디예요?</td><td>洗手间在哪里？</td></tr></tbody>
   </table>
-  <p class="format-note">请使用.xlsx格式，并在第一行填写两种语言的名称。</p>
+  <p class="format-note">Excel 文件请保存为 .xlsx 格式，并在第一行填写两种语言的名称。不一定要用 Excel：也可以粘贴拷贝的文字，或导入 CSV、文本和字幕（srt）文件。</p>
 </section>
