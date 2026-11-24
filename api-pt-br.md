@@ -22,10 +22,10 @@ page_id: api
 | | IA do iPhone | Chave do Gemini |
 | :-- | :-- | :-- |
 | Para configurar | Nada | Obter uma chave e inserir |
-| Explicações de frases | Sim | Sim |
-| Ouvir com uma voz do Gemini | - | Sim |
-| Exemplos, formal e informal, perguntas | Sim | Não |
-| Conversar com a IA | Sim | Não |
+| Explicações de frases | ○ | ○ |
+| Ouvir com uma voz do Gemini | - | ○ |
+| Exemplos, formal e informal, perguntas | ○ | × |
+| Conversar com a IA | ○ | × |
 
 ### IA do iPhone
 

@@ -22,10 +22,10 @@ page_id: api
 | | The iPhone's AI | Gemini key |
 | :-- | :-- | :-- |
 | To set up | Nothing | Get a key and enter it |
-| Sentence explanations | Yes | Yes |
-| Listening with a Gemini voice | - | Yes |
-| Examples, formal and casual, questions | Yes | No |
-| Talk with AI | Yes | No |
+| Sentence explanations | ○ | ○ |
+| Listening with a Gemini voice | - | ○ |
+| Examples, formal and casual, questions | ○ | × |
+| Talk with AI | ○ | × |
 
 ### The iPhone's AI
 
