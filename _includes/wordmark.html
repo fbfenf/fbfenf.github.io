@@ -1,10 +1,10 @@
 {%- comment -%}
-  The iScript wordmark of the iScript Lab brand guide: an "i" whose dot is the one gold
-  mark on the page, followed by "Script" in Sora 500. The box leaves room for the
-  descender of the "p".
+  The iScript wordmark of the iScript Lab brand (the light version is the standard one): an
+  "i" whose dot is gold, followed by "Script". The letters are outlines, so no font has to
+  load. Pass lab=true for the lockup with the small "LAB" (the footer).
 {%- endcomment -%}
-<svg class="wordmark" viewBox="0 0 384 132" role="img" aria-label="iScript" focusable="false">
-  <circle cx="26" cy="19" r="9" fill="#A88452"/>
-  <rect x="18" y="39" width="16" height="61" rx="2" fill="currentColor"/>
-  <text x="48" y="100" font-family="Sora, sans-serif" font-weight="500" font-size="120" letter-spacing="-4" textLength="330" lengthAdjust="spacing" fill="currentColor">Script</text>
-</svg>
+{%- if include.lab -%}
+<img class="wordmark wordmark-lab" src="{{ '/assets/img/logo-lab.svg' | relative_url }}?v={{ site.asset_version }}" alt="iScript Lab" width="1642" height="477">
+{%- else -%}
+<img class="wordmark" src="{{ '/assets/img/logo.svg' | relative_url }}?v={{ site.asset_version }}" alt="iScript" width="1395" height="477">
+{%- endif -%}

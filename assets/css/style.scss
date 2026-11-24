@@ -87,9 +87,9 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 
 .brand { display: inline-flex; align-items: center; color: var(--ink); text-decoration: none; }
 
-// The box of the wordmark is taller than its letters (room for the "p"), so it is nudged
-// down to sit on the line of the menu.
-.wordmark { display: block; width: auto; height: 27px; overflow: visible; transform: translateY(2px); }
+// The wordmark is a picture of outlined letters. Its box has room above the dot and below
+// the "p", so it is a little taller than the letters look.
+.wordmark { display: block; width: auto; height: 34px; }
 
 .site-nav { display: flex; align-items: center; justify-content: flex-end; gap: 4px; }
 
@@ -553,8 +553,7 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .footer-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; }
 
 .footer-brand { display: inline-flex; align-items: baseline; gap: 10px; color: var(--ink); text-decoration: none; }
-.footer-brand .wordmark { height: 19px; transform: none; }
-.footer-brand .lab { color: var(--gold-deep); font-family: Sora, sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.6em; }
+.footer-brand .wordmark { height: 26px; }
 
 .footer-links { display: flex; flex-wrap: wrap; gap: 8px 24px; }
 .footer-links a { color: var(--soft); text-decoration: none; }
@@ -638,7 +637,7 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
   body { font-size: 16px; }
   .header-actions { display: none; }
   .header-inner { grid-template-columns: 1fr auto; }
-  .wordmark { height: 25px; }
+  .wordmark { height: 31px; }
 
   .hero { padding-top: 44px; }
   // On a phone the Latin headline wraps where it fits, not at its fixed break.

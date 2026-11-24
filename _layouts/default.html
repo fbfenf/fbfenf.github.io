@@ -114,7 +114,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#F7F5F0">
   <meta name="apple-itunes-app" content="app-id=6758364468">
-  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}?v={{ site.asset_version }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}?v={{ site.asset_version }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap">
@@ -229,8 +230,7 @@
   <footer class="site-footer">
     <div class="site-shell footer-inner">
       <a class="footer-brand" href="{{ home_url | relative_url }}" aria-label="iScript Lab">
-        {% include wordmark.html %}
-        <span class="lab" aria-hidden="true">LAB</span>
+        {% include wordmark.html lab=true %}
       </a>
       <nav class="footer-links" aria-label="{{ nav_label }}">
         <a href="{{ '/guide' | append: sfx | append: '/' | relative_url }}">{{ nav_guide }}</a>
