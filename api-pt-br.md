@@ -35,7 +35,10 @@ O quanto você pode usar por dia é definido pela Apple. Quando o limite é atin
 
 ### Chave do Gemini
 
-Para outros iPhones, quando você quiser explicações para as frases que você mesmo importa. É opcional.
+É opcional. Ao conectar uma chave, duas coisas mudam.
+
+- As frases são lidas com uma voz do Gemini, mais natural que a voz do aparelho.
+- Quando a IA do iPhone não pode ser usada, o Gemini cria as explicações das frases: em um iPhone sem suporte ou depois que o limite do dia é atingido.
 
 ## Como obter uma chave do Gemini (opcional)
 

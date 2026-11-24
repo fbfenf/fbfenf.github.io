@@ -35,7 +35,10 @@ How much you can use in a day is set by Apple. When you reach the limit, the app
 
 ### A Gemini key
 
-For other iPhones, when you want explanations for sentences you import yourself. It is optional.
+It is optional. Connecting one changes two things.
+
+- Sentences are read in a Gemini voice, which sounds more natural than the device voice.
+- When the iPhone's AI can't be used, Gemini writes the sentence explanations: on an iPhone that doesn't support it, or after the day's limit is used up.
 
 ## Getting a Gemini key (optional)
 

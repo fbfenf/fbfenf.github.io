@@ -35,7 +35,10 @@ Apple Intelligence를 지원하는 iPhone(iOS 27 이상)에서, iPhone 설정의
 
 ### Gemini 키
 
-그 밖의 iPhone에서 가져온 대본의 문장 해설을 보고 싶을 때 연결합니다. 선택 사항입니다.
+선택 사항입니다. 연결하면 두 가지가 달라집니다.
+
+- 문장을 기기 음성보다 자연스러운 Gemini 음성으로 읽습니다.
+- iPhone의 AI를 쓸 수 없을 때 문장 해설을 Gemini가 만듭니다. 지원하지 않는 iPhone이거나, 하루 사용량을 다 썼을 때입니다.
 
 ## Gemini 키 받기 (선택)
 
