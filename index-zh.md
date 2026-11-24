@@ -13,7 +13,7 @@ page_id: home
       <h1>背过的句子，<br>变成自己的话。</h1>
       <p class="lead">听喜欢的脚本，跟着说出来，在快要忘记时再看一遍。iScript 是一款用脚本学外语的 iPhone App。</p>
       <div class="hero-actions">
-        <a class="button" href="https://apps.apple.com/cn/app/iscript/id6758364468" target="_blank" rel="noopener">在 App Store 下载</a>
+        <a class="button" href="https://apps.apple.com/cn/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">在 App Store 下载</a>
         <a class="text-link" href="/resources-zh/">查看示例脚本</a>
       </div>
       <ul class="facts">
@@ -78,6 +78,6 @@ page_id: home
 <section class="closing">
   <div class="site-shell closing-inner">
     <h2>今天一句就够了。</h2>
-    <a class="button button-light" href="https://apps.apple.com/cn/app/iscript/id6758364468" target="_blank" rel="noopener">在 App Store 下载</a>
+    <a class="button button-light" href="https://apps.apple.com/cn/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">在 App Store 下载</a>
   </div>
 </section>

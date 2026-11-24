@@ -13,7 +13,7 @@ page_id: home
       <h1>외운 문장이,<br>내 말이 되는 순간.</h1>
       <p class="lead">좋아하는 대본으로 듣고, 따라 말하고, 잊을 때쯤 다시 봅니다. 대본으로 외국어를 공부하는 iPhone 앱입니다.</p>
       <div class="hero-actions">
-        <a class="button" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
+        <a class="button" href="https://apps.apple.com/kr/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">App Store에서 받기</a>
         <a class="text-link" href="/resources/">샘플 대본 보기</a>
       </div>
       <ul class="facts">
@@ -78,6 +78,6 @@ page_id: home
 <section class="closing">
   <div class="site-shell closing-inner">
     <h2>오늘 한 줄이면 충분해요.</h2>
-    <a class="button button-light" href="https://apps.apple.com/kr/app/iscript/id6758364468" target="_blank" rel="noopener">App Store에서 받기</a>
+    <a class="button button-light" href="https://apps.apple.com/kr/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">App Store에서 받기</a>
   </div>
 </section>

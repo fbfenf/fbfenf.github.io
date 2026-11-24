@@ -13,7 +13,7 @@ page_id: home
       <h1>As frases que você aprende<br>se tornam o que você diz.</h1>
       <p class="lead">Ouça um roteiro de que você gosta, repita em voz alta e reveja cada frase pouco antes de esquecê-la. O iScript é um app de iPhone para aprender idiomas com roteiros.</p>
       <div class="hero-actions">
-        <a class="button" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar na App Store</a>
+        <a class="button" href="https://apps.apple.com/br/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">Baixar na App Store</a>
         <a class="text-link" href="/resources-pt-br/">Ver roteiros de exemplo</a>
       </div>
       <ul class="facts">
@@ -78,6 +78,6 @@ page_id: home
 <section class="closing">
   <div class="site-shell closing-inner">
     <h2>Uma frase hoje já basta.</h2>
-    <a class="button button-light" href="https://apps.apple.com/br/app/iscript/id6758364468" target="_blank" rel="noopener">Baixar na App Store</a>
+    <a class="button button-light" href="https://apps.apple.com/br/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">Baixar na App Store</a>
   </div>
 </section>

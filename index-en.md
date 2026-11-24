@@ -13,7 +13,7 @@ page_id: home
       <h1>The lines you learn<br>become the things you say.</h1>
       <p class="lead">Listen to a script you love, say it out loud, and meet each sentence again just before you forget it. iScript is an iPhone app for learning a language from scripts.</p>
       <div class="hero-actions">
-        <a class="button" href="https://apps.apple.com/us/app/iscript/id6758364468" target="_blank" rel="noopener">Download on the App Store</a>
+        <a class="button" href="https://apps.apple.com/us/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">Download on the App Store</a>
         <a class="text-link" href="/resources-en/">See sample scripts</a>
       </div>
       <ul class="facts">
@@ -78,6 +78,6 @@ page_id: home
 <section class="closing">
   <div class="site-shell closing-inner">
     <h2>One line today is enough.</h2>
-    <a class="button button-light" href="https://apps.apple.com/us/app/iscript/id6758364468" target="_blank" rel="noopener">Download on the App Store</a>
+    <a class="button button-light" href="https://apps.apple.com/us/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">Download on the App Store</a>
   </div>
 </section>

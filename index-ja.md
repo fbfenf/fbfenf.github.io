@@ -13,7 +13,7 @@ page_id: home
       <h1>覚えた一文が、<br>自分の言葉になる。</h1>
       <p class="lead">好きなスクリプトを聞いて、声に出して、忘れかけた頃にその文ともう一度出会います。iScriptは、スクリプトで外国語を学ぶiPhoneアプリです。</p>
       <div class="hero-actions">
-        <a class="button" href="https://apps.apple.com/jp/app/iscript/id6758364468" target="_blank" rel="noopener">App Storeからダウンロード</a>
+        <a class="button" href="https://apps.apple.com/jp/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">App Storeからダウンロード</a>
         <a class="text-link" href="/resources-ja/">サンプルスクリプトを見る</a>
       </div>
       <ul class="facts">
@@ -78,6 +78,6 @@ page_id: home
 <section class="closing">
   <div class="site-shell closing-inner">
     <h2>今日は一文で十分です。</h2>
-    <a class="button button-light" href="https://apps.apple.com/jp/app/iscript/id6758364468" target="_blank" rel="noopener">App Storeからダウンロード</a>
+    <a class="button button-light" href="https://apps.apple.com/jp/app/iscript/id6758364468?pt=128486718&amp;ct=home&amp;mt=8" target="_blank" rel="noopener">App Storeからダウンロード</a>
   </div>
 </section>
