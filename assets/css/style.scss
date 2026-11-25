@@ -105,7 +105,7 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .site-nav a:focus-visible,
 .site-nav a.is-active { color: var(--ink); }
 
-.mobile-language-links,
+.mobile-language,
 .mobile-store-link { display: none; }
 
 .header-actions { display: flex; align-items: center; gap: 12px; }
@@ -113,11 +113,17 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 .language-switcher { position: relative; font-size: 15px; }
 
 .language-switcher summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 10px 4px;
   color: var(--soft);
   list-style: none;
   cursor: pointer;
 }
+
+.language-arrow { transition: transform 160ms ease; }
+.language-switcher[open] .language-arrow { transform: rotate(180deg); }
 
 .language-switcher summary:hover { color: var(--ink); }
 .language-switcher summary::-webkit-details-marker { display: none; }
@@ -143,6 +149,8 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
 
 .language-menu a:hover,
 .language-menu a:focus-visible { background: var(--ivory); }
+
+.language-menu a.is-current { font-weight: 600; }
 
 // Buttons
 
@@ -582,6 +590,10 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
     left: -20px;
     right: -20px;
     display: none;
+    // One column as wide as the menu. The row layout above packs its items to the right,
+    // and in a grid that would squeeze the column to its widest item.
+    grid-template-columns: minmax(0, 1fr);
+    justify-content: stretch;
     align-items: stretch;
     padding: 8px 20px 20px;
     border-bottom: 1px solid var(--line);
@@ -591,13 +603,29 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
   .site-nav.is-open { display: grid; }
   .site-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
 
-  .site-nav .mobile-language-links { display: flex; gap: 4px; padding-top: 12px; }
-  .site-nav .mobile-language-links a { flex: 1; padding: 8px 0; border-bottom: 0; font-size: 14px; text-align: center; }
+  .site-nav .mobile-language { display: block; padding-top: 18px; }
+  .mobile-language-label { margin: 0 0 10px; color: var(--soft); font-size: 13px; }
+  .site-nav .mobile-language-links { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .site-nav .mobile-language-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink);
+    font-size: 15px;
+  }
+
+  .site-nav .mobile-language-links a.is-current { border-color: var(--ink); font-weight: 600; }
 
   .site-nav .mobile-store-link {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 8px;
+    min-height: 48px;
+    margin-top: 20px;
     border: 0;
     border-radius: 999px;
     color: var(--ivory);
@@ -631,6 +659,11 @@ button, summary, a { -webkit-tap-highlight-color: transparent; }
   .resource-section-heading { display: block; }
   .resource-section-heading p { margin-top: 10px; text-align: left; }
   .resource-safety { grid-template-columns: 1fr; }
+}
+
+// Between these widths the language picker is still in the header, so the menu does not repeat it.
+@media (min-width: 601px) and (max-width: 860px) {
+  .site-nav .mobile-language { display: none; }
 }
 
 @media (max-width: 600px) {

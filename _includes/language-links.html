@@ -1,0 +1,21 @@
+{%- comment -%}
+  The links to this page in the five languages, each under its own name. The language being
+  read is marked. Uses lang_key from the layout.
+{%- endcomment -%}
+{%- assign language_keys = "ko|en|ja|zh|pt-BR" | split: "|" -%}
+{%- assign language_names = "한국어|English|日本語|中文|Português (Brasil)" | split: "|" -%}
+{%- assign language_suffixes = "ko|-en|-ja|-zh|-pt-br" | split: "|" -%}
+{%- for key in language_keys -%}
+  {%- assign suffix = language_suffixes[forloop.index0] -%}
+  {%- if key == "ko" -%}{%- assign suffix = "" -%}{%- endif -%}
+  {%- if page.page_id == 'home' or page.page_id == nil -%}
+    {%- if key == "ko" -%}
+      {%- assign language_href = "/" -%}
+    {%- else -%}
+      {%- assign language_href = "/index" | append: suffix | append: "/" -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- assign language_href = "/" | append: page.page_id | append: suffix | append: "/" -%}
+  {%- endif %}
+<a href="{{ language_href | relative_url }}" lang="{{ key }}"{% if key == lang_key %} class="is-current" aria-current="true"{% endif %}>{{ language_names[forloop.index0] }}</a>
+{%- endfor %}

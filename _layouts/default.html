@@ -162,41 +162,24 @@
         <a href="{{ '/api' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'api' %} class="is-active" aria-current="page"{% endif %}>{{ nav_api }}</a>
         <a href="{{ '/resources' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'resources' %} class="is-active" aria-current="page"{% endif %}>{{ nav_resources }}</a>
         <a href="{{ '/support' | append: sfx | append: '/' | relative_url }}"{% if page.page_id == 'support' %} class="is-active" aria-current="page"{% endif %}>{{ nav_support }}</a>
-        <div class="mobile-language-links" aria-label="{{ language_menu_label }}">
-          {% if page.page_id == 'home' or page.page_id == nil %}
-            <a href="{{ '/' | relative_url }}" lang="ko">KO</a>
-            <a href="{{ '/index-en/' | relative_url }}" lang="en">EN</a>
-            <a href="{{ '/index-ja/' | relative_url }}" lang="ja">JA</a>
-            <a href="{{ '/index-zh/' | relative_url }}" lang="zh">ZH</a>
-            <a href="{{ '/index-pt-br/' | relative_url }}" lang="pt-BR">PT-BR</a>
-          {% else %}
-            <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">KO</a>
-            <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">EN</a>
-            <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">JA</a>
-            <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">ZH</a>
-            <a href="{{ '/' | append: page.page_id | append: '-pt-br/' | relative_url }}" lang="pt-BR">PT-BR</a>
-          {% endif %}
+        <div class="mobile-language">
+          <p class="mobile-language-label" id="mobile-language-label">{{ language_menu_label }}</p>
+          <div class="mobile-language-links" role="group" aria-labelledby="mobile-language-label">
+            {% include language-links.html %}
+          </div>
         </div>
         <a class="mobile-store-link" href="{{ store_url }}" target="_blank" rel="noopener">{{ store_label }}</a>
       </nav>
 
       <div class="header-actions">
         <details class="language-switcher">
-          <summary>{{ language_name }}</summary>
+          <summary aria-label="{{ language_menu_label }}: {{ language_name }}">
+            <svg class="language-globe" viewBox="0 0 20 20" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="10" cy="10" r="7.5"/><path d="M2.5 10h15M10 2.5c2.2 2.1 3.3 4.6 3.3 7.5s-1.1 5.4-3.3 7.5c-2.2-2.1-3.3-4.6-3.3-7.5S7.8 4.6 10 2.5z"/></svg>
+            <span>{{ language_name }}</span>
+            <svg class="language-arrow" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+          </summary>
           <div class="language-menu">
-            {% if page.page_id == 'home' or page.page_id == nil %}
-              <a href="{{ '/' | relative_url }}" lang="ko">한국어</a>
-              <a href="{{ '/index-en/' | relative_url }}" lang="en">English</a>
-              <a href="{{ '/index-ja/' | relative_url }}" lang="ja">日本語</a>
-              <a href="{{ '/index-zh/' | relative_url }}" lang="zh">中文</a>
-              <a href="{{ '/index-pt-br/' | relative_url }}" lang="pt-BR">Português (Brasil)</a>
-            {% else %}
-              <a href="{{ '/' | append: page.page_id | append: '/' | relative_url }}" lang="ko">한국어</a>
-              <a href="{{ '/' | append: page.page_id | append: '-en/' | relative_url }}" lang="en">English</a>
-              <a href="{{ '/' | append: page.page_id | append: '-ja/' | relative_url }}" lang="ja">日本語</a>
-              <a href="{{ '/' | append: page.page_id | append: '-zh/' | relative_url }}" lang="zh">中文</a>
-              <a href="{{ '/' | append: page.page_id | append: '-pt-br/' | relative_url }}" lang="pt-BR">Português (Brasil)</a>
-            {% endif %}
+            {% include language-links.html %}
           </div>
         </details>
         <a class="button header-cta" href="{{ store_url }}" target="_blank" rel="noopener" aria-label="{{ store_label }}">{{ store_short }}</a>
